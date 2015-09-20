@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<array name="entries">
+		<item>@drawable/fb</item>		
+		<item>@drawable/twitter</item> 		
+		<item>@drawable/instagram</item>		
+		<item>@drawable/pinterest</item>
+		<item>@drawable/linkedin</item>		
+		<item>@drawable/tumblr</item>
+		<item>@drawable/flickr</item>		
+		<item>@drawable/gplus</item> 		
+		<item>@drawable/wechat</item>		
+		<item>@drawable/whatsapp</item>
+		<item>@drawable/vk</item>		
+		<item>@drawable/myspace</item>
+		<item>@drawable/cafemom</item>		
+		<item>@drawable/skp3</item> 				
+							
+	</array>	
+	<array name="names">
+	    <item>Facebook</item>
+	    <item>Twitter</item>
+	    <item>Instagram</item>
+	    <item>Pinterest</item>
+	    <item>Linkedin</item>
+	    <item>Tumblr</item>
+	    <item>Flickr</item>
+	    <item>Google+</item>
+	    <item>WeChat</item>
+	    <item>Whatsapp</item>
+	    <item>VK</item>
+	    <item>Myspace</item>
+	    <item>Cafemom</item>
+	    <item>Skype</item>
+	    
+	</array>
+</resources>

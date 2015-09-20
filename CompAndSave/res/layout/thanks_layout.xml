@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00868B"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/thanks_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="0.4"
+        android:gravity="center"
+        android:text="@string/thank_layout_textView1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/txt_color"
+        android:textSize="@dimen/thanks_layout_text1" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/thanks_message"
+        android:layout_marginTop="42dp"
+        android:gravity="center"
+        android:text="@string/thank_layout_textView2"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/txt_color" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="66dp"
+        android:layout_weight="0.1"
+        android:background="#F41448"
+        android:gravity="center"
+        android:text="@string/thanks_layout_btn1_msg"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="18dp"
+        android:layout_weight="1"
+        android:background="#C09954"
+        android:text="@string/thanks_layout_btn2_msg"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

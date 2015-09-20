@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#EFECE5">
+    
+    <RelativeLayout 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/relativeLayout1" 
+    android:background="@drawable/wood_bck"
+    android:layout_weight="0.0">
+        <ImageView
+        android:id="@+id/read_screen_logo_1" 
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content" 
+        android:layout_alignParentTop="true" 
+        android:layout_alignParentLeft="true" 
+        android:src="@drawable/home_icon">
+        </ImageView>
+        
+        <TextView 
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content" 
+        android:id="@+id/read_screen_logo_top_center" 
+        android:gravity="center" 
+         android:layout_alignBaseline="@+id/read_screen_logo_1" 
+         android:layout_alignParentTop="true" 
+         android:text="HOME" 
+         android:textColor="#FFFFFF" 
+         android:textSize="30dip" android:layout_centerInParent="true">
+        </TextView>
+        
+        <ImageView
+        android:id="@+id/read_screen_logo_2" 
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content" 
+        android:layout_alignParentTop="true" 
+        android:layout_alignParentRight="true" 
+        android:src="@drawable/store">
+        </ImageView>
+   
+    </RelativeLayout>
+    
+    	<TableLayout 
+    	android:layout_width="fill_parent" 
+    	android:id="@+id/tableLayout1"
+    	android:layout_height="fill_parent">
+    
+        	<TableRow 
+        	android:id="@+id/tableRow1" 
+        	android:layout_width="fill_parent" 
+        	android:layout_height="fill_parent"
+        	android:layout_weight="0.0">
+        	   
+        	   <ImageView
+                android:id="@+id/read_screen_shelf_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:src="@drawable/self_view_2" 
+                android:paddingTop="25dip" 
+                android:paddingLeft="20dip">
+              </ImageView>
+            
+            <ImageView
+                android:id="@+id/read_screen_store"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content" 
+                android:src="@drawable/store_2" 
+                android:layout_gravity="right" 
+                android:paddingTop="25dip" 
+                android:paddingLeft="45dip">
+            </ImageView>
+        	
+        	</TableRow>
+             	
+        	<TableRow 
+        	android:id="@+id/tableRow2" 
+        	android:layout_weight="0.0"
+        	android:layout_width="fill_parent" 
+        	android:layout_height="fill_parent">
+        	
+        	 <ImageView
+                android:id="@+id/read_screen_list_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:paddingTop="25dip" 
+                android:paddingLeft="20dip" 
+                android:src="@drawable/list_view_2">
+              </ImageView>
+            
+            <ImageView
+                android:id="@+id/read_screen_catalogs"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content" 
+                android:layout_gravity="right" android:paddingTop="25dip" android:paddingLeft="45dip" android:src="@drawable/my_catalog_2">
+            </ImageView>
+        	
+        	</TableRow>
+        	
+        	<TableRow 
+        	android:id="@+id/tableRow2" 
+        	android:layout_weight="0.0"
+        	android:layout_width="fill_parent" 
+        	android:layout_height="fill_parent">
+        	
+        	   <ImageView
+                android:id="@+id/read_screen_sd_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:paddingTop="25dip"
+                 android:paddingLeft="20dip" 
+                 android:src="@drawable/sd_card_2">
+              </ImageView>
+            
+            <ImageView
+                android:id="@+id/read_screen_last_view"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content" 
+                android:layout_gravity="right" 
+                android:paddingTop="25dip" 
+                android:paddingLeft="45dip" 
+                android:src="@drawable/last_read_2">
+            </ImageView>
+        	
+        	</TableRow>
+        	
+        	<TextView 
+        	android:text="  " 
+        	android:id="@+id/textView1" 
+        	android:layout_weight="1.0"
+        	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content">
+        	</TextView>
+        	
+        	<ImageView 
+        	android:id="@+id/imageView1" 
+        	android:src="@drawable/wood_bck" 
+        	android:scaleType="fitEnd" 
+        	android:layout_weight="0.0"
+        	android:layout_height="wrap_content" 
+        	android:layout_width="wrap_content">
+        	</ImageView>
+        	
+        	
+    	</TableLayout>
+    	
+</LinearLayout>

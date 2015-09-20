@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <color name="starting_version_bkgrd">#1a1a48</color>
+      <color name="splash_version_bkgrd">#1a1a48</color>
+      <color name="menu_color">#FFFF0F</color>
+      <color name="menu_glow">#F00</color>
+      <color name="logo_color">#FFFF0F</color>
+      <color name="background_color">#CCCCCC</color>  
+      <color name="Light_Brown">#D4CCC5</color>
+      <color name="Sage_Green">#D8E0CE</color>
+</resources>

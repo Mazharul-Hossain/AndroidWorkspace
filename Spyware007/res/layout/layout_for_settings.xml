@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#EFECE5">
+    
+    <TableLayout 
+    	android:layout_width="wrap_content"
+     	android:layout_height="match_parent" 
+     	android:id="@+id/tableLayout2">
+     
+     <TableRow 
+    	 android:layout_width="wrap_content"
+     	 android:id="@+id/tableRow1"
+     		 android:layout_weight="0.0"
+     	  android:layout_height="match_parent">
+     
+     
+		    <RelativeLayout 
+		    android:layout_width="match_parent" 
+		    android:layout_height="wrap_content" 
+		    android:id="@+id/relativeLayout1" 
+		    android:background="@drawable/wood_bck">
+		        <ImageView
+		        android:id="@+id/read_screen_logo_1" 
+		        android:layout_height="wrap_content" 
+		        android:layout_width="wrap_content" 
+		        android:layout_alignParentTop="true" 
+		        android:layout_alignParentLeft="true" 
+		        android:src="@drawable/home_icon">
+		        </ImageView>
+		        
+		        <TextView 
+		        android:layout_height="wrap_content" 
+		        android:layout_width="wrap_content" 
+		        android:id="@+id/read_screen_logo_top_center" 
+		        android:gravity="center" 
+		         android:layout_alignBaseline="@+id/read_screen_logo_1" 
+		         android:layout_alignParentTop="true" 
+		         android:text="HOME" 
+		         android:textColor="#FFFFFF" 
+		         android:textSize="30dip"
+		          android:layout_centerInParent="true">
+		        </TextView>
+		        
+		        <ImageView
+		        android:id="@+id/read_screen_logo_2" 
+		        android:layout_height="wrap_content" 
+		        android:layout_width="wrap_content" 
+		        android:layout_alignParentTop="true" 
+		        android:layout_alignParentRight="true" 
+		        android:src="@drawable/store">
+		        </ImageView>
+
+		   
+		    </RelativeLayout>
+		        
+	    </TableRow>
+	    
+     
+     
+		   <LinearLayout
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_below="@+id/read_screen_logo_top_center"
+		            android:layout_toRightOf="@+id/read_screen_logo_1"
+		            android:orientation="vertical" >
+
+		       <TextView
+		           android:id="@+id/textView2"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:layout_weight="0.0"
+		            android:textSize="25sp"
+		           android:text="Update Interval" />
+
+		       
+					      
+				        <TableRow 
+			    		 android:layout_width="wrap_content"
+			     		 android:id="@+id/tableRow1"
+			     		 android:layout_weight="0.0"
+			     		  android:layout_height="match_parent">
+					    
+						        <TextView
+						             android:id="@+id/textView1"
+						             android:layout_width="wrap_content"
+						             android:layout_height="wrap_content"
+						           	 android:layout_weight="0.0"
+						             android:text="Instant Update" />
+						        
+						        <CheckBox
+						            android:id="@+id/checkBox1"
+						            android:layout_width="wrap_content"
+						            android:layout_height="wrap_content"
+						            android:layout_weight="1.0"
+						            android:text="CheckBox" />
+
+				        </TableRow>
+					    		
+	        
+	   </LinearLayout>
+	          
+		        
+	         <TableRow 
+    		 android:layout_width="wrap_content"
+     		 android:id="@+id/tableRow1"
+     		 android:layout_weight="0.0"
+     		  android:layout_height="match_parent">
+		        	<ImageView 
+		        	android:id="@+id/imageView1" 
+		        	android:src="@drawable/wood_bck" 
+		        	android:scaleType="fitEnd" 
+		        	android:layout_height="wrap_content" 
+		        	android:layout_width="wrap_content">
+		        	</ImageView>
+	        	
+	        </TableRow>
+
+	         
+	    	
+    	</TableLayout>
+</LinearLayout>

@@ -1,0 +1,180 @@
+package com.googledrive.googledriveapp;
+// For Google Drive / Play Services
+// Version 1.1 - Added new comments & removed dead code
+// Stephen Wylie - 10/20/2012
+import android.accounts.Account;
+import android.accounts.AccountManager;
+import android.app.Activity;
+
+import com.google.android.gms.auth.GoogleAuthException;
+import com.google.android.gms.auth.GoogleAuthUtil;
+import com.google.android.gms.auth.UserRecoverableAuthException;
+import com.google.android.gms.common.AccountPicker;
+import com.google.api.client.auth.oauth2.BearerToken;
+import com.google.api.client.auth.oauth2.Credential;
+import com.google.api.client.extensions.android2.AndroidHttp;
+import com.google.api.client.googleapis.extensions.android2.auth.GoogleAccountManager;
+import com.google.api.client.http.HttpRequestFactory;
+import com.google.api.client.http.HttpTransport;
+import com.google.api.client.http.json.JsonHttpRequest;
+import com.google.api.client.http.json.JsonHttpRequestInitializer;
+import com.google.api.client.json.jackson.JacksonFactory;
+import com.google.api.services.drive.Drive;
+import com.google.api.services.drive.Drive.Files;
+import com.google.api.services.drive.DriveRequest;
+import com.google.api.services.drive.DriveScopes;
+import com.google.api.services.drive.model.File;
+import com.google.api.services.drive.model.FileList;
+
+public class MainActivity extends Activity {
+
+    private Button btn_drive;
+    private Context ctx = this;
+    private Activity a = this;
+
+    public void onCreate(Bundle savedInstanceState) {
+
+        /*
+         * Etc... (Other application logic belonging in onCreate)
+         */
+            btn_drive.setOnClickListener(new OnClickListener() {
+            public void onClick(View v) {
+                chooseAccount();
+            }
+            });
+    }
+
+    public void chooseAccount() {
+        Intent intent = AccountPicker.newChooseAccountIntent(null, null, new String[]{"com.google"}, false, null, null, null, null);
+        startActivityForResult(intent, CHOOSE_ACCOUNT);
+    }
+
+    // Fetch the access token asynchronously.
+    void getAndUseAuthTokenInAsyncTask(Account account) {
+        AsyncTask<Account, String, String> task = new AsyncTask<Account, String, String>() {
+            ProgressDialog progressDlg;
+            AsyncTask<Account, String, String> me = this;
+
+            @Override
+            protected void onPreExecute() {
+                progressDlg = new ProgressDialog(ctx, ProgressDialog.STYLE_SPINNER);
+                progressDlg.setMax(100);
+                progressDlg.setTitle("Validating...");
+                progressDlg.setMessage("Verifying the login data you entered...\n\nThis action will time out after 10 seconds.");
+                progressDlg.setCancelable(false);
+                progressDlg.setIndeterminate(false);
+                progressDlg.setOnCancelListener(new android.content.DialogInterface.OnCancelListener() {
+                    public void onCancel(DialogInterface d) {
+                        progressDlg.dismiss();
+                        me.cancel(true);
+                    }
+                });
+                progressDlg.show();
+            }
+
+            @Override
+            protected String doInBackground(Account... params) {
+                return getAccessToken(params[0]);
+            }
+
+            @Override
+            protected void onPostExecute(String s) {
+                if (s == null) {
+                    // Wait for the extra intent
+                } else {
+                    MyApp.accountName = s;
+                    getDriveFiles();
+                }
+                progressDlg.dismiss();
+            }
+        };
+        task.execute(account);
+    }
+
+    /**
+     * Fetches the token from a particular Google account chosen by the user.  DO NOT RUN THIS DIRECTLY.  It must be run asynchronously inside an AsyncTask.
+     * @param activity
+     * @param account
+     * @return
+     */
+    private String getAccessToken(Account account) {
+        try {
+            return GoogleAuthUtil.getToken(ctx, account.name, "oauth2:" + DriveScopes.DRIVE_READONLY);  // IMPORTANT: DriveScopes must be changed depending on what level of access you want
+        } catch (UserRecoverableAuthException e) {
+            // Start the Approval Screen intent, if not run from an Activity, add the Intent.FLAG_ACTIVITY_NEW_TASK flag.
+            a.startActivityForResult(e.getIntent(), REQUEST_TOKEN);
+            e.printStackTrace();
+            return null;
+        } catch (GoogleAuthException e) {
+            e.printStackTrace();
+            return null;
+        } catch (IOException e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
+    private Drive getDriveService() {
+        HttpTransport ht = AndroidHttp.newCompatibleTransport();             // Makes a transport compatible with both Android 2.2- and 2.3+
+        JacksonFactory jf = new JacksonFactory();                            // You need a JSON parser to help you out with the API response
+        Credential credential = new Credential(BearerToken.authorizationHeaderAccessMethod()).setAccessToken(MyApp.accountName);
+        HttpRequestFactory rf = ht.createRequestFactory(credential);
+        Drive.Builder b = new Drive.Builder(ht, jf, null);
+        b.setJsonHttpRequestInitializer(new JsonHttpRequestInitializer() {
+
+            @Override
+            public void initialize(JsonHttpRequest request) throws IOException {
+                DriveRequest driveRequest = (DriveRequest) request;
+                driveRequest.setPrettyPrint(true);
+                driveRequest.setOauthToken(MyApp.accountName);
+            }
+        });
+        return b.build();
+    }
+
+    /**
+     * Obtains a list of all files on the signed-in user's Google Drive account.
+     */
+    private void getDriveFiles() {
+        Drive service = getDriveService();
+        Log.d("SiteTrack", "FUNCTION getDriveFiles()");
+        Files.List request;
+        try {
+            request = service.files().list(); // .setQ("mimeType=\"text/plain\"");
+        } catch (IOException e) {
+            e.printStackTrace();
+            return;
+        }
+        do {
+            FileList files;
+            try {
+                Log.d("SiteTrack", request.toString());
+                files = request.execute();
+            } catch (IOException e) {
+                e.printStackTrace();
+                Log.d("SiteTrack", "Exception");
+                return;
+            }
+            List<File> fileList = files.getItems();
+            Log.d("SiteTrack", "Files found: " + files.getItems().size());
+            for (File f : fileList) {
+                String fileId = f.getId();
+                String title = f.getTitle();
+                Log.d("SiteTrack", "File " + fileId + ": " + title);
+            }
+            request.setPageToken(files.getNextPageToken());
+        } while (request.getPageToken() != null && request.getPageToken().length() >= 0);
+    }
+
+    protected void onActivityResult(final int requestCode, final int resultCode, final Intent data) {
+        if (requestCode == CHOOSE_ACCOUNT && resultCode == RESULT_OK) {
+            MyApp.accountName = data.getStringExtra(AccountManager.KEY_ACCOUNT_NAME);
+            GoogleAccountManager gam = new GoogleAccountManager(this);
+            getAndUseAuthTokenInAsyncTask(gam.getAccountByName(MyApp.accountName));
+            Log.d("SiteTrack", "CHOOSE_ACCOUNT");
+        } else if (requestCode == REQUEST_TOKEN && resultCode == RESULT_OK) {
+            MyApp.accountName = data.getStringExtra(AccountManager.KEY_ACCOUNT_NAME);
+            Log.d("SiteTrack", "REQUEST_TOKEN");
+        }
+    }   
+}

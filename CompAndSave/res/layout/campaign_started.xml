@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#257D87"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/camp_strt_textview1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:shadowColor="#000"
+            android:text="@string/campaign_string_text1"
+            android:textColor="@color/txt_color"
+            android:textSize="@dimen/campaign_textview_sz" />
+
+        <ImageView
+            android:id="@+id/camp_strt_imageview1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/camp_strt_textview1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="26dp"
+            android:layout_weight="4"
+            android:contentDescription="@string/hello_world"
+            android:scaleType="fitCenter"
+            android:src="@drawable/hp" />
+
+        <Button
+            android:id="@+id/camp_strt_btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/camp_strt_imageview1"
+            android:layout_alignRight="@+id/camp_strt_imageview1"
+            android:layout_below="@+id/camp_strt_imageview1"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:background="#BF9A54"
+            android:text="Go To Giveaway Page"
+            android:textColor="@color/txt_color"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/camp_strt_btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/camp_strt_btn1"
+            android:layout_alignRight="@+id/camp_strt_btn1"
+            android:layout_below="@+id/camp_strt_btn1"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="#BF9A54"
+            android:text="Edit Gift Choices"
+            android:textColor="@color/txt_color"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</ScrollView>

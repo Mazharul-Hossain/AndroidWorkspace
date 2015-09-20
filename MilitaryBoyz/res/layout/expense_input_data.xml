@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/expense_PMP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Publicity Media Promotions"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/expense_venue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Venue"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+        android:id="@+id/expense_talent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Talent"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+        android:id="@+id/expense_security"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Security"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+        android:id="@+id/expense_Cat_food"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Catering/Food"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+        android:id="@+id/expense_rental"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Equip. Rental"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+        android:id="@+id/expense_trans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transportation"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+        android:id="@+id/expense_decoration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Decorations"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+        android:id="@+id/expense_MISC_Service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Misc. Services"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <TextView
+        android:id="@+id/expense_supplies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Supplies"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <Button
+        android:id="@+id/back_to_main_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Back To Main Menu" />
+    
+</LinearLayout>

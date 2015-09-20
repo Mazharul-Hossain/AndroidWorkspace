@@ -1,0 +1,974 @@
+[0.0, 0.0, 0.0, 0.0, 0.0, 3.0]
+AffineTransform[[0.0, 0.0, 0.0], [0.0, 0.0, 3.0]]
+trans(5.0,7.0) = (0.0,3.0)
+trans(0.4992f,0)=AffineTransform[[0.0, 0.0, 0.0], [0.0, 0.0, 3.0]]
+trans(5.0,7.0) = (0.0,3.0)
+
+10-30 15:51:47.471: ERROR/TEST(1830): [0.0, 0.0, 0.0, 0.0, 0.0, 3.0]
+10-30 15:51:47.481: ERROR/TEST(1830): Matrix{[0.0, 0.0, 0.0][0.0, 0.0, 3.0][0.0, 0.0, 1.0]}
+10-30 15:51:47.501: ERROR/TEST(1830): trans(5.0,7.0) = (0.0,3.0)
+10-30 15:51:47.511: ERROR/TEST(1830): preTrans(0.4992f,0)=Matrix{[0.0, 0.0, 0.0][0.0, 0.0, 3.0][0.0, 0.0, 1.0]}
+10-30 15:51:47.522: ERROR/TEST(1830): trans(5.0,7.0) = (0.0,3.0)
+
+
+[0.0, 0.0, 0.0, 0.0, 3.0, 0.0]
+AffineTransform[[0.0, 0.0, 3.0], [0.0, 0.0, 0.0]]
+trans(5.0,7.0) = (3.0,0.0)
+trans(0.4992f,0)=AffineTransform[[0.0, 0.0, 3.0], [0.0, 0.0, 0.0]]
+trans(5.0,7.0) = (3.0,0.0)
+
+10-30 15:50:49.871: ERROR/TEST(1793): [0.0, 0.0, 0.0, 0.0, 3.0, 0.0]
+10-30 15:50:49.881: ERROR/TEST(1793): Matrix{[0.0, 0.0, 3.0][0.0, 0.0, 0.0][0.0, 0.0, 1.0]}
+10-30 15:50:49.901: ERROR/TEST(1793): trans(5.0,7.0) = (3.0,0.0)
+10-30 15:50:49.911: ERROR/TEST(1793): preTrans(0.4992f,0)=Matrix{[0.0, 0.0, 3.0][0.0, 0.0, 0.0][0.0, 0.0, 1.0]}
+10-30 15:50:49.921: ERROR/TEST(1793): trans(5.0,7.0) = (3.0,0.0)
+
+[0.0, 0.0, 0.0, 3.0, 0.0, 0.0]
+AffineTransform[[0.0, 0.0, 0.0], [0.0, 3.0, 0.0]]
+trans(5.0,7.0) = (0.0,21.0)
+trans(0.4992f,0)=AffineTransform[[0.0, 0.0, 0.0], [0.0, 3.0, 0.0]]
+trans(5.0,7.0) = (0.0,21.0)
+
+10-30 15:49:09.911: ERROR/TEST(1756): [0.0, 0.0, 0.0, 3.0, 0.0, 0.0]
+10-30 15:49:09.931: ERROR/TEST(1756): Matrix{[0.0, 0.0, 0.0][0.0, 3.0, 0.0][0.0, 0.0, 1.0]}
+10-30 15:49:09.941: ERROR/TEST(1756): trans(5.0,7.0) = (0.0,21.0)
+10-30 15:49:09.953: ERROR/TEST(1756): preTrans(0.4992f,0)=Matrix{[0.0, 0.0, 0.0][0.0, 3.0, 0.0][0.0, 0.0, 1.0]}
+10-30 15:49:09.982: ERROR/TEST(1756): trans(5.0,7.0) = (0.0,21.0)
+
+
+[0.0, 0.0, 3.0, 0.0, 0.0, 0.0]
+AffineTransform[[0.0, 3.0, 0.0], [0.0, 0.0, 0.0]]
+trans(5.0,7.0) = (21.0,0.0)
+trans(0.4992f,0)=AffineTransform[[0.0, 3.0, 0.0], [0.0, 0.0, 0.0]]
+trans(5.0,7.0) = (21.0,0.0)
+
+10-30 15:44:14.991: ERROR/TEST(1642): [0.0, 0.0, 3.0, 0.0, 0.0, 0.0]
+10-30 15:44:15.012: ERROR/TEST(1642): Matrix{[0.0, 3.0, 0.0][0.0, 0.0, 0.0][0.0, 0.0, 1.0]}
+10-30 15:44:15.021: ERROR/TEST(1642): trans(5.0,7.0) = (21.0,0.0)
+10-30 15:44:15.031: ERROR/TEST(1642): preTrans(0.4992f,0)=Matrix{[0.0, 3.0, 0.0][0.0, 0.0, 0.0][0.0, 0.0, 1.0]}
+10-30 15:44:15.041: ERROR/TEST(1642): trans(5.0,7.0) = (21.0,0.0)
+
+
+[0.0, 3.0, 0.0, 0.0, 0.0, 0.0]
+AffineTransform[[0.0, 0.0, 0.0], [3.0, 0.0, 0.0]]
+trans(5.0,7.0) = (0.0,15.0)
+trans(0.4992f,0)=AffineTransform[[0.0, 0.0, 0.0], [3.0, 0.0, 1.497599959373474]]
+trans(5.0,7.0) = (0.0,16.497600555419922)
+
+10-30 15:45:32.471: ERROR/TEST(1680): [0.0, 3.0, 0.0, 0.0, 0.0, 0.0]
+10-30 15:45:32.493: ERROR/TEST(1680): Matrix{[0.0, 0.0, 0.0][3.0, 0.0, 0.0][0.0, 0.0, 1.0]}
+10-30 15:45:32.511: ERROR/TEST(1680): trans(5.0,7.0) = (0.0,15.0)
+10-30 15:45:32.521: ERROR/TEST(1680): preTrans(0.4992f,0)=Matrix{[0.0, 0.0, 0.0][3.0, 0.0, 1.4976][0.0, 0.0, 1.0]}
+10-30 15:45:32.531: ERROR/TEST(1680): trans(5.0,7.0) = (0.0,16.4976)
+
+
+[3.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+AffineTransform[[3.0, 0.0, 0.0], [0.0, 0.0, 0.0]]
+trans(5.0,7.0) = (15.0,0.0)
+trans(0.4992f,0)=AffineTransform[[3.0, 0.0, 1.497599959373474], [0.0, 0.0, 0.0]]
+trans(5.0,7.0) = (16.497600555419922,0.0)
+
+10-30 15:46:45.621: ERROR/TEST(1719): [3.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+10-30 15:46:45.641: ERROR/TEST(1719): Matrix{[3.0, 0.0, 0.0][0.0, 0.0, 0.0][0.0, 0.0, 1.0]}
+10-30 15:46:45.651: ERROR/TEST(1719): trans(5.0,7.0) = (15.0,0.0)
+10-30 15:46:45.671: ERROR/TEST(1719): preTrans(0.4992f,0)=Matrix{[3.0, 0.0, 1.4976][0.0, 0.0, 0.0][0.0, 0.0, 1.0]}
+10-30 15:46:45.681: ERROR/TEST(1719): trans(5.0,7.0) = (16.4976,0.0)
+
+
+[7.98, 0.0, 2.7293, 7.98, 320.88, 613.8803]
+AffineTransform[[7.980000019073486, 2.729300022125244, 320.8800048828125], [0.0, 7.980000019073486, 613.8803100585938]]
+trans(5.0,7.0) = (379.8851013183594,669.7402954101562)
+trans(0.4992f,0)=AffineTransform[[7.980000019073486, 2.729300022125244, 324.8636207842675], [0.0, 7.980000019073486, 613.8803100585938]]
+trans(5.0,7.0) = (383.86871337890625,669.7402954101562)
+--> and
+[7.98, 0.0, 2.7293, 7.98, 320.88, 613.8803]
+Matrix{[7.98, 0.0, 320.88][2.7293, 7.98, 613.8803][0.0, 0.0, 1.0]}
+trans(5.0,7.0) = (360.78,683.3868)
+
+preTrans(0.4992f,0)=Matrix{[7.98, 0.0, 324.86362][2.7293, 7.98, 615.2428][0.0, 0.0, 1.0]}
+trans(5.0,7.0) = (364.7636,684.74927)
+
+postTrans(0.4992f,0)=Matrix{[7.98, 0.0, 321.3792][2.7293, 7.98, 613.8803][0.0, 0.0, 1.0]}
+trans(5.0,7.0) = (361.2792,683.3868)
+---
+
+[7.98, 0.0, 2.7293, 7.98, 320.88, 613.8803]
+AffineTransform[[7.980000019073486, 2.729300022125244, 320.8800048828125], [0.0, 7.980000019073486, 613.8803100585938]]
+trans(0.4992f,0)=AffineTransform[[7.980000019073486, 2.729300022125244, 324.8636207842675], [0.0, 7.980000019073486, 613.8803100585938]]
+
+[7.98, 0.0, 2.7293, 7.98, 320.88, 613.8803]
+Matrix{[7.98, 0.0, 320.88][2.7293, 7.98, 613.8803][0.0, 0.0, 1.0]}
+postTrans(0.4992f,0)=Matrix{[7.98, 0.0, 321.3792][2.7293, 7.98, 613.8803][0.0, 0.0, 1.0]}
+
+
+float6={7.98f,0.0f,2.7293f,7.98f,320.88f,613.8803f}
+Matrix{[7.98, 0.0, 320.88][2.7293, 7.98, 613.8803][0.0, 0.0, 1.0]}
+
+----
+
+cur=AffineTransform[[7.980000019073486, 2.729300022125244, 320.8800048828125], [0.0, 7.980000019073486, 613.8803100585938]]
+advanceX = 0.4992000088095665
+y=0.0
+cur´=AffineTransform[[7.980000019073486, 2.729300022125244, 324.86362096263434], [0.0, 7.980000019073486, 613.8803100585938]]
+-
+cur  = Matrix{[7.98, 0.0, 320.88][2.7293, 7.98, 613.8803][0.0, 0.0, 1.0]}
+advanceX = 0.49920002
+y=0
+cur´ = Matrix{[7.98, 0.0, 324.86362][2.7293, 7.98, 615.2428][0.0, 0.0, 1.0]}
+#################
+cur = AffineTransform[[7.980000019073486, 2.729300022125244, 320.8800048828125], [0.0, 7.980000019073486, 613.8803100585938]]
+scale=AffineTransform[[1.0, 0.0, 0.0], [0.0, 1.0, 0.0]]
+at=AffineTransform[[7.980000019073486, 2.729300022125244, 320.8800048828125], [0.0, 7.980000019073486, 613.8803100585938]]
+
+
+cur=AffineTransform[[7.980000019073486, 2.729300022125244, 320.8800048828125], [0.0, 7.980000019073486, 613.8803100585938]]
+advanceX = 0.4992000088095665
+y=0.0
+cur´=AffineTransform[[7.980000019073486, 2.729300022125244, 324.86362096263434], [0.0, 7.980000019073486, 613.8803100585938]]
+-loop
+at=AffineTransform[[7.980000019073486, 2.729300022125244, 324.86362096263434], [0.0, 7.980000019073486, 613.8803100585938]]
+advanceX = 0.274200014770031
+y=0.0
+cur´´=AffineTransform[[7.980000019073486, 2.729300022125244, 327.05173708572914], [0.0, 7.980000019073486, 613.8803100585938]]
+
+
+--> AND
+
+Matrix{[14.22, 0.0, 450.24][0.0, 14.22, 139.8203][0.0, 0.0, 1.0]}
+advanceX = 0.4772
+y=0.0
+Matrix{[14.22, 0.0, 457.0258][0.0, 14.22, 139.8203][0.0, 0.0, 1.0]}
+
+"tm" SetTransform()
+cur = Matrix{[14.22, 0.0, 463.79736][0.0, 14.22, 139.8203][0.0, 0.0, 1.0]}
+matrix = [7.98, 0.0, 2.7293, 7.98, 320.88, 613.8803]
+cur´ = Matrix{[7.98, 0.0, 320.88][2.7293, 7.98, 613.8803][0.0, 0.0, 1.0]}
+
+doText()
+cur = Matrix{[7.98, 0.0, 320.88][2.7293, 7.98, 613.8803][0.0, 0.0, 1.0]}
+scale = Matrix{[1.0, 0.0, 0.0][0.0, 1.0, 0.0][0.0, 0.0, 1.0]}
+at´ = Matrix{[7.98, 0.0, 320.88][2.7293, 7.98, 613.8803][0.0, 0.0, 1.0]}
+
+cur  = Matrix{[7.98, 0.0, 320.88][2.7293, 7.98, 613.8803][0.0, 0.0, 1.0]}
+advanceX = 0.49920002
+y=0
+cur´ = Matrix{[7.98, 0.0, 324.86362][2.7293, 7.98, 615.2428][0.0, 0.0, 1.0]}
+                                                *613.8803*
+cur´´= Matrix{[7.98, 0.0, 327.05173][2.7293, 7.98, 615.99115][0.0, 0.0, 1.0]}
+
+
+
+BT: begin text
+cm: set transform
+ET: end of text
+f:  fill the path (close/not close identical)
+G:  stroke color gray 
+g:  fill color gray
+gs: pop named graphic state 
+q:  push
+Q:  pop
+re: path add rectangle
+Tf: text font
+Tm: set text matrix
+Tj: show text
+
+10-28 07:00:02.741: INFO/ActivityManager(578): Starting activity: Intent { comp={net.sf.andpdf.pdfviewer/net.sf.andpdf.pdfviewer.PdfViewerActivity} (has extras) }
+10-28 07:00:02.901: INFO/PDFVIEWER(1115): Intent { comp={net.sf.andpdf.pdfviewer/net.sf.andpdf.pdfviewer.PdfViewerActivity} (has extras) }
+10-28 07:00:02.931: INFO/PDFVIEWER(1115): ST='file '/sdcard/download/Bedienungsanleitung_T-Mobile_G1_A.pdf' has 8684875 bytes'
+10-28 07:00:03.101: DEBUG/dalvikvm(1115): GC freed 1560 objects / 97320 bytes in 156ms
+10-28 07:00:03.551: INFO/dalvikvm-heap(1115): Grow heap (frag case) to 11.521MB for 8684891-byte allocation
+10-28 07:00:03.701: DEBUG/dalvikvm(1115): GC freed 67 objects / 35256 bytes in 144ms
+10-28 07:00:10.401: DEBUG/dalvikvm(1115): GC freed 57526 objects / 2079216 bytes in 309ms
+10-28 07:00:12.761: WARN/ActivityManager(578): Launch timeout has expired, giving up wake lock!
+10-28 07:00:12.811: WARN/ActivityManager(578): Activity idle timeout for HistoryRecord{4369cc18 {net.sf.andpdf.pdfviewer/net.sf.andpdf.pdfviewer.PdfViewerActivity}}
+10-28 07:00:16.381: DEBUG/dalvikvm(1115): GC freed 57506 objects / 2056160 bytes in 325ms
+10-28 07:00:18.071: DEBUG/dalvikvm(618): GC freed 116 objects / 5192 bytes in 249ms
+10-28 07:00:22.151: DEBUG/dalvikvm(1115): GC freed 57665 objects / 2068448 bytes in 324ms
+10-28 07:00:22.961: INFO/PDFVIEWER(1115): ST='Anzahl Seiten:157'
+10-28 07:00:23.701: DEBUG/dalvikvm(1115): GC freed 10500 objects / 388136 bytes in 215ms
+10-28 07:00:23.931: DEBUG/dalvikvm(1115): GC freed 220 objects / 51656 bytes in 164ms
+10-28 07:00:23.941: INFO/ActivityManager(578): Displayed activity net.sf.andpdf.pdfviewer/.PdfViewerActivity: 21197 ms
+10-28 07:00:23.963: INFO/dalvikvm-heap(1115): Grow heap (frag case) to 11.811MB for 28090-byte allocation
+10-28 07:00:24.171: DEBUG/dalvikvm(1115): GC freed 0 objects / 0 bytes in 206ms
+10-28 07:00:24.211: WARN/IInputConnectionWrapper(1115): finishComposingText on inactive InputConnection
+10-28 07:00:24.261: INFO/System.out(1115): Command [1]: BT (stack size is 0:[])
+10-28 07:00:24.321: INFO/System.out(1115): Command [2]: Tf (stack size is 2:[TT2,1.0])
+10-28 07:00:24.551: INFO/System.out(1115): Command [3]: Tm (stack size is 6:[14.219999999999999,0.0,0.0,14.219999999999999,450.24,139.82030000000003])
+10-28 07:00:24.561: INFO/System.out(1115): Command [4]: g (stack size is 1:[0.0])
+10-28 07:00:24.591: INFO/System.out(1115): Command [5]: gs (stack size is 1:[GS1])
+10-28 07:00:24.631: INFO/System.out(1115): Command [6]: Tc (stack size is 1:[0.0022000000000000006])
+10-28 07:00:24.642: INFO/System.out(1115): Command [7]: Tw (stack size is 1:[0.0])
+10-28 07:00:24.672: INFO/System.out(1115): Command [8]: Tj (stack size is 1:[35])
+10-28 07:00:24.751: INFO/System.out(1115): Command [9]: ET (stack size is 0:[])
+10-28 07:00:24.785: INFO/System.out(1115): Command [10]: k (stack size is 4:[0.05900000000000001,1.0,0.0,0.0])
+10-28 07:00:24.801: INFO/System.out(1115): Command [11]: re (stack size is 4:[123.72,682.64,345.06,-43.379999999999995])
+10-28 07:00:24.831: INFO/System.out(1115): Command [12]: f (stack size is 0:[])
+10-28 07:00:24.831: INFO/System.out(1115): Command [13]: BT (stack size is 0:[])
+10-28 07:00:24.841: INFO/System.out(1115): Command [14]: Tm (stack size is 6:[14.219999999999999,0.0,0.0,14.219999999999999,129.36,659.9003])
+10-28 07:00:24.851: INFO/System.out(1115): Command [15]: g (stack size is 1:[1.0])
+10-28 07:00:24.851: INFO/System.out(1115): Command [16]: Tc (stack size is 1:[0.0])
+10-28 07:00:24.861: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:24.901: INFO/System.out(1115): Command [17]: TJ (stack size is 1:[[Kapitel,-195.3,4,-196.3,Telefonieren]])
+10-28 07:00:25.001: INFO/System.out(1115): Command [18]: Tm (stack size is 6:[7.98,0.0,0.0,7.98,180.36,623.0003])
+10-28 07:00:25.001: INFO/System.out(1115): Command [19]: g (stack size is 1:[0.0])
+10-28 07:00:25.021: INFO/System.out(1115): Command [20]: Tc (stack size is 1:[0.0012000000000000003])
+10-28 07:00:25.051: INFO/System.out(1115): Command [21]: Tw (stack size is 1:[9.000000000000003E-4])
+10-28 07:00:25.101: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:25.151: INFO/System.out(1115): Command [22]: TJ (stack size is 1:[[U,4.7,m,1.9, die T,98.7,e,1.0,l,6.1,e,-6.6,f,22.1,o,-1.1,nfunkt,7.6,i,-1.4,onen ,7.5,I,-5.7,h,6.9,r,10.0,e,0.9,s T,61.1,-,2.5,Mobi,6.1,le G1 ,7.5,zu ,7.5,nutzen, ,7.5,m,-5.7,u,-0.6000000000000001,ss ,7.5,eine SIM-K,13.7,a,3.1,r,-35.1,t,15.1,e eingel,6.1,eg,-6.4,t,7.6, und ein ]])
+10-28 07:00:25.312: INFO/System.out(1115): Command [23]: TD (stack size is 2:[0.0,-1.1429])
+10-28 07:00:25.320: INFO/System.out(1115): Command [24]: Tc (stack size is 1:[0.0016000000000000003])
+10-28 07:00:25.353: INFO/System.out(1115): Command [25]: Tw (stack size is 1:[-0.007000000000000002])
+10-28 07:00:25.401: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:25.421: INFO/System.out(1115): Command [26]: TJ (stack size is 1:[[K,29.1,o,-0.7000000000000001,nt,15.5,o b,-4.2,e,1.4,i,6.5, ,-7.5,Go,6.8,ogle einger,-4.6,ic,9.7,h,7.3,t,15.5,et sein, siehe ,-7.5,K,21.6,a,3.5,p,-4.7,i,6.5,t,15.5,e,1.4,l ]])
+10-28 07:00:25.501: INFO/System.out(1115): Command [27]: Tm (stack size is 6:[7.98,0.0,2.7293000000000003,7.98,320.88,613.8803])
+10-28 07:00:25.511: INFO/System.out(1115): Command [28]: Tc (stack size is 1:[0.0012000000000000003])
+10-28 07:00:25.541: INFO/System.out(1115): Command [29]: Tw (stack size is 1:[0.0])
+10-28 07:00:25.541: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:25.541: INFO/System.out(1115): Command [30]: TJ (stack size is 1:[[Erstinbe,8.5,triebnahme,8.5,., ]])
+10-28 07:00:25.631: INFO/System.out(1115): Command [31]: Tm (stack size is 6:[7.98,0.0,0.0,7.98,382.26,613.8803])
+10-28 07:00:25.671: INFO/System.out(1115): Command [32]: Tc (stack size is 1:[3.000000000000001E-4])
+10-28 07:00:25.681: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:25.712: INFO/System.out(1115): Command [33]: TJ (stack size is 1:[[Seit,14.2,e,-187.9,1,-6.3,3.]])
+10-28 07:00:25.755: INFO/System.out(1115): Command [34]: Tm (stack size is 6:[14.219999999999999,0.0,0.0,14.219999999999999,180.36,589.2803000000001])
+10-28 07:00:25.761: INFO/System.out(1115): Command [35]: k (stack size is 4:[0.05900000000000001,1.0,0.0,0.0])
+10-28 07:00:25.801: INFO/System.out(1115): Command [36]: Tc (stack size is 1:[-1.0000000000000003E-4])
+10-28 07:00:25.811: INFO/System.out(1115): Command [37]: Tw (stack size is 1:[8.000000000000003E-4])
+10-28 07:00:25.842: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:25.861: INFO/System.out(1115): Command [38]: TJ (stack size is 1:[[4.1,-500.2,?,-2.3,ber,-6.6,s,-0.8,ic,7.2,ht ?ber das T,96.9,e,0.2,lef,16.2,o,-4.6,n.]])
+10-28 07:00:25.931: INFO/System.out(1115): Command [39]: Tm (stack size is 6:[7.98,0.0,0.0,7.98,180.36,573.5603])
+10-28 07:00:25.941: INFO/System.out(1115): Command [40]: g (stack size is 1:[0.0])
+10-28 07:00:25.991: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:26.051: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:26.121: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:26.181: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:26.260: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:26.310: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:26.381: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:26.421: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:26.441: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:26.481: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:26.531: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:26.584: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:26.641: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:26.698: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:26.721: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:26.791: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:26.831: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:26.870: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:26.931: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:26.971: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:27.031: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:27.084: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:27.131: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:27.193: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:27.261: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:27.311: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:27.361: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:27.411: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:27.461: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:27.511: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:27.551: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:27.621: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:27.661: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:27.701: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:27.763: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:27.830: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:27.851: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:27.901: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:27.951: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:28.011: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:28.061: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:28.132: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:28.181: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:28.521: DEBUG/dalvikvm(1115): GC freed 37310 objects / 2003328 bytes in 310ms
+10-28 07:00:28.661: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:28.711: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:28.731: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:28.771: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:28.811: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:28.851: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:28.901: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:28.951: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=8) *************************
+10-28 07:00:30.531: DEBUG/dalvikvm(1115): GC freed 38506 objects / 2103576 bytes in 278ms
+10-28 07:00:31.251: INFO/System.out(1115): **** WARNING! parseObject unknown token! (t.type=-1) *************************
+10-28 07:00:31.291: INFO/PDFVIEWER(1115): ST='Bedienungsanleitung_T-Mobile_G1_A.pdf - 46/157: 419.0x596.0'
+10-28 07:00:31.338: INFO/PDFVIEWER(1115): Bedienungsanleitung_T-Mobile_G1_A.pdf - 46/157: 419.0x596.0
+10-28 07:00:31.621: DEBUG/dalvikvm(1115): GC freed 18132 objects / 948056 bytes in 236ms
+10-28 07:00:31.701: INFO/APV.PDFRenderer(1115): CMD[1]: PDFFillPaintCmd: com.sun.pdfview.PDFFillPaintCmd@43ff8f80
+10-28 07:00:31.711: INFO/APV.PDFRenderer(1115): CMD[2]: PDFShapeCmd: ShapeCommand at: 450.81677, 139.61894
+10-28 07:00:31.711: INFO/APV.PDFRenderer(1115): Size: 5.406372 x 9.866516
+10-28 07:00:31.711: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:31.721: INFO/APV.PDFRenderer(1115): CMD[3]: PDFShapeCmd: ShapeCommand at: 457.713, 139.61894
+10-28 07:00:31.721: INFO/APV.PDFRenderer(1115): Size: 5.324188 x 9.679047
+10-28 07:00:31.721: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:31.751: INFO/APV.PDFRenderer(1115): CMD[4]: PDFFillPaintCmd: com.sun.pdfview.PDFFillPaintCmd@44032e70
+10-28 07:00:31.761: INFO/APV.PDFRenderer(1115): CMD[5]: PDFShapeCmd: ShapeCommand at: 123.72, 639.26
+10-28 07:00:31.761: INFO/APV.PDFRenderer(1115): Size: 345.06 x 43.380005
+10-28 07:00:31.761: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:31.761: INFO/APV.PDFRenderer(1115): CMD[6]: PDFFillPaintCmd: com.sun.pdfview.PDFFillPaintCmd@441302c8
+10-28 07:00:31.761: INFO/APV.PDFRenderer(1115): CMD[7]: PDFShapeCmd: ShapeCommand at: 130.38019, 659.9003
+10-28 07:00:31.761: INFO/APV.PDFRenderer(1115): Size: 6.4542847 x 9.477661
+10-28 07:00:31.761: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:31.792: INFO/APV.PDFRenderer(1115): CMD[8]: PDFShapeCmd: ShapeCommand at: 137.48714, 659.699
+10-28 07:00:31.792: INFO/APV.PDFRenderer(1115): Size: 5.353485 x 6.9433594
+10-28 07:00:31.792: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:31.792: INFO/APV.PDFRenderer(1115): CMD[9]: PDFShapeCmd: ShapeCommand at: 144.0896, 657.4354
+10-28 07:00:31.792: INFO/APV.PDFRenderer(1115): Size: 5.348648 x 9.206909
+10-28 07:00:31.792: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:31.814: INFO/APV.PDFRenderer(1115): CMD[10]: PDFShapeCmd: ShapeCommand at: 150.9729, 659.9003
+10-28 07:00:31.814: INFO/APV.PDFRenderer(1115): Size: 0.7781677 x 9.477661
+10-28 07:00:31.814: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:31.841: INFO/APV.PDFRenderer(1115): CMD[11]: PDFShapeCmd: ShapeCommand at: 152.77936, 659.72675
+10-28 07:00:31.841: INFO/APV.PDFRenderer(1115): Size: 2.9309387 x 8.797241
+10-28 07:00:31.841: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:31.851: INFO/APV.PDFRenderer(1115): CMD[12]: PDFShapeCmd: ShapeCommand at: 156.59175, 659.699
+10-28 07:00:31.851: INFO/APV.PDFRenderer(1115): Size: 5.19635 x 6.9433594
+10-28 07:00:31.851: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:31.876: INFO/APV.PDFRenderer(1115): CMD[13]: PDFShapeCmd: ShapeCommand at: 163.31586, 659.9003
+10-28 07:00:31.876: INFO/APV.PDFRenderer(1115): Size: 0.7781677 x 9.477661
+10-28 07:00:31.876: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:31.881: INFO/APV.PDFRenderer(1115): CMD[14]: PDFShapeCmd: ShapeCommand at: 168.44153, 659.9003
+10-28 07:00:31.881: INFO/APV.PDFRenderer(1115): Size: 5.4758606 x 9.477661
+10-28 07:00:31.881: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:31.881: INFO/APV.PDFRenderer(1115): CMD[15]: PDFShapeCmd: ShapeCommand at: 177.64673, 659.9003
+10-28 07:00:31.881: INFO/APV.PDFRenderer(1115): Size: 6.3606873 x 9.477661
+10-28 07:00:31.881: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:31.941: INFO/APV.PDFRenderer(1115): CMD[16]: PDFShapeCmd: ShapeCommand at: 184.79852, 659.699
+10-28 07:00:31.941: INFO/APV.PDFRenderer(1115): Size: 5.19635 x 6.9433594
+10-28 07:00:31.941: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:31.941: INFO/APV.PDFRenderer(1115): CMD[17]: PDFShapeCmd: ShapeCommand at: 191.52263, 659.9003
+10-28 07:00:31.941: INFO/APV.PDFRenderer(1115): Size: 0.7781677 x 9.477661
+10-28 07:00:31.941: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:31.971: INFO/APV.PDFRenderer(1115): CMD[18]: PDFShapeCmd: ShapeCommand at: 193.84244, 659.699
+10-28 07:00:31.971: INFO/APV.PDFRenderer(1115): Size: 5.19635 x 6.9433594
+10-28 07:00:31.971: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:31.981: INFO/APV.PDFRenderer(1115): CMD[19]: PDFShapeCmd: ShapeCommand at: 199.78784, 659.9003
+10-28 07:00:31.981: INFO/APV.PDFRenderer(1115): Size: 3.0076141 x 9.692932
+10-28 07:00:31.981: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.021: INFO/APV.PDFRenderer(1115): CMD[20]: PDFShapeCmd: ShapeCommand at: 203.42732, 659.699
+10-28 07:00:32.021: INFO/APV.PDFRenderer(1115): Size: 5.4868164 x 6.9433594
+10-28 07:00:32.021: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.021: INFO/APV.PDFRenderer(1115): CMD[21]: PDFShapeCmd: ShapeCommand at: 210.42029, 659.9003
+10-28 07:00:32.021: INFO/APV.PDFRenderer(1115): Size: 4.738678 x 6.7420044
+10-28 07:00:32.021: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.021: INFO/APV.PDFRenderer(1115): CMD[22]: PDFShapeCmd: ShapeCommand at: 217.04753, 659.9003
+10-28 07:00:32.021: INFO/APV.PDFRenderer(1115): Size: 0.7781677 x 9.477661
+10-28 07:00:32.021: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.061: INFO/APV.PDFRenderer(1115): CMD[23]: PDFShapeCmd: ShapeCommand at: 219.36734, 659.699
+10-28 07:00:32.061: INFO/APV.PDFRenderer(1115): Size: 5.19635 x 6.9433594
+10-28 07:00:32.061: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.061: INFO/APV.PDFRenderer(1115): CMD[24]: PDFShapeCmd: ShapeCommand at: 226.06311, 659.9003
+10-28 07:00:32.061: INFO/APV.PDFRenderer(1115): Size: 2.9026184 x 6.7905884
+10-28 07:00:32.061: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.061: INFO/APV.PDFRenderer(1115): CMD[25]: PDFShapeCmd: ShapeCommand at: 229.53464, 659.699
+10-28 07:00:32.061: INFO/APV.PDFRenderer(1115): Size: 5.19635 x 6.9433594
+10-28 07:00:32.061: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.071: INFO/APV.PDFRenderer(1115): CMD[26]: PDFShapeCmd: ShapeCommand at: 236.22958, 659.9003
+10-28 07:00:32.071: INFO/APV.PDFRenderer(1115): Size: 4.738678 x 6.7420044
+10-28 07:00:32.071: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.071: INFO/APV.PDFRenderer(1115): CMD[27]: PDFFillPaintCmd: com.sun.pdfview.PDFFillPaintCmd@43ff6bf0
+10-28 07:00:32.071: INFO/APV.PDFRenderer(1115): CMD[28]: PDFShapeCmd: ShapeCommand at: 180.8701, 622.8717
+10-28 07:00:32.071: INFO/APV.PDFRenderer(1115): Size: 3.5044708 x 5.4473267
+10-28 07:00:32.071: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.081: INFO/APV.PDFRenderer(1115): CMD[29]: PDFShapeCmd: ShapeCommand at: 185.39026, 623.0003
+10-28 07:00:32.081: INFO/APV.PDFRenderer(1115): Size: 4.478485 x 3.7835083
+10-28 07:00:32.081: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.081: INFO/APV.PDFRenderer(1115): CMD[30]: PDFShapeCmd: ShapeCommand at: 0.0, 0.0
+10-28 07:00:32.081: INFO/APV.PDFRenderer(1115): Size: 0.0 x 0.0
+10-28 07:00:32.081: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.131: INFO/APV.PDFRenderer(1115): CMD[31]: PDFShapeCmd: ShapeCommand at: 192.24199, 622.8873
+10-28 07:00:32.131: INFO/APV.PDFRenderer(1115): Size: 3.0086365 x 5.4317017
+10-28 07:00:32.131: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.131: INFO/APV.PDFRenderer(1115): CMD[32]: PDFShapeCmd: ShapeCommand at: 196.3439, 623.0003
+10-28 07:00:32.131: INFO/APV.PDFRenderer(1115): Size: 0.43669128 x 5.3187256
+10-28 07:00:32.131: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.141: INFO/APV.PDFRenderer(1115): CMD[33]: PDFShapeCmd: ShapeCommand at: 197.6553, 622.8873
+10-28 07:00:32.141: INFO/APV.PDFRenderer(1115): Size: 2.9161072 x 3.8964844
+10-28 07:00:32.141: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.141: INFO/APV.PDFRenderer(1115): CMD[34]: PDFShapeCmd: ShapeCommand at: 0.0, 0.0
+10-28 07:00:32.141: INFO/APV.PDFRenderer(1115): Size: 0.0 x 0.0
+10-28 07:00:32.141: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.151: INFO/APV.PDFRenderer(1115): CMD[35]: PDFShapeCmd: ShapeCommand at: 202.58183, 623.0003
+10-28 07:00:32.151: INFO/APV.PDFRenderer(1115): Size: 3.5695038 x 5.3187256
+10-28 07:00:32.151: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.151: INFO/APV.PDFRenderer(1115): CMD[36]: PDFShapeCmd: ShapeCommand at: 205.81725, 622.8873
+10-28 07:00:32.151: INFO/APV.PDFRenderer(1115): Size: 2.9161072 x 3.8964844
+10-28 07:00:32.151: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.161: INFO/APV.PDFRenderer(1115): CMD[37]: PDFShapeCmd: ShapeCommand at: 209.5923, 623.0003
+10-28 07:00:32.161: INFO/APV.PDFRenderer(1115): Size: 0.43669128 x 5.3187256
+10-28 07:00:32.161: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.201: INFO/APV.PDFRenderer(1115): CMD[38]: PDFShapeCmd: ShapeCommand at: 210.85503, 622.8873
+10-28 07:00:32.201: INFO/APV.PDFRenderer(1115): Size: 2.9161072 x 3.8964844
+10-28 07:00:32.201: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.210: INFO/APV.PDFRenderer(1115): CMD[39]: PDFShapeCmd: ShapeCommand at: 214.25374, 623.0003
+10-28 07:00:32.210: INFO/APV.PDFRenderer(1115): Size: 1.6878204 x 5.439514
+10-28 07:00:32.210: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.241: INFO/APV.PDFRenderer(1115): CMD[40]: PDFShapeCmd: ShapeCommand at: 216.12936, 622.8873
+10-28 07:00:32.241: INFO/APV.PDFRenderer(1115): Size: 3.0791016 x 3.8964844
+10-28 07:00:32.241: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.251: INFO/APV.PDFRenderer(1115): CMD[41]: PDFShapeCmd: ShapeCommand at: 220.07204, 623.0003
+10-28 07:00:32.251: INFO/APV.PDFRenderer(1115): Size: 2.659256 x 3.7835083
+10-28 07:00:32.251: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.251: INFO/APV.PDFRenderer(1115): CMD[42]: PDFShapeCmd: ShapeCommand at: 223.3637, 623.0003
+10-28 07:00:32.251: INFO/APV.PDFRenderer(1115): Size: 1.6878204 x 5.439514
+10-28 07:00:32.251: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.271: INFO/APV.PDFRenderer(1115): CMD[43]: PDFShapeCmd: ShapeCommand at: 225.61392, 622.8873
+10-28 07:00:32.271: INFO/APV.PDFRenderer(1115): Size: 2.659256 x 3.7834473
+10-28 07:00:32.271: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.281: INFO/APV.PDFRenderer(1115): CMD[44]: PDFShapeCmd: ShapeCommand at: 229.34958, 623.0003
+10-28 07:00:32.281: INFO/APV.PDFRenderer(1115): Size: 2.659256 x 3.7835083
+10-28 07:00:32.281: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.311: INFO/APV.PDFRenderer(1115): CMD[45]: PDFShapeCmd: ShapeCommand at: 233.0628, 623.0003
+10-28 07:00:32.311: INFO/APV.PDFRenderer(1115): Size: 2.812149 x 5.3187256
+10-28 07:00:32.311: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.352: INFO/APV.PDFRenderer(1115): CMD[46]: PDFShapeCmd: ShapeCommand at: 236.03273, 622.9029
+10-28 07:00:32.352: INFO/APV.PDFRenderer(1115): Size: 1.6447754 x 4.9368286
+10-28 07:00:32.352: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.361: INFO/APV.PDFRenderer(1115): CMD[47]: PDFShapeCmd: ShapeCommand at: 238.35939, 623.0003
+10-28 07:00:32.361: INFO/APV.PDFRenderer(1115): Size: 0.43669128 x 5.3187256
+10-28 07:00:32.361: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.394: INFO/APV.PDFRenderer(1115): CMD[48]: PDFShapeCmd: ShapeCommand at: 239.68231, 622.8873
+10-28 07:00:32.394: INFO/APV.PDFRenderer(1115): Size: 3.0791016 x 3.8964844
+10-28 07:00:32.394: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.411: INFO/APV.PDFRenderer(1115): CMD[49]: PDFShapeCmd: ShapeCommand at: 243.61621, 623.0003
+10-28 07:00:32.411: INFO/APV.PDFRenderer(1115): Size: 2.659256 x 3.7835083
+10-28 07:00:32.411: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.441: INFO/APV.PDFRenderer(1115): CMD[50]: PDFShapeCmd: ShapeCommand at: 247.10655, 622.8873
+10-28 07:00:32.441: INFO/APV.PDFRenderer(1115): Size: 2.9161072 x 3.8964844
+10-28 07:00:32.441: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.441: INFO/APV.PDFRenderer(1115): CMD[51]: PDFShapeCmd: ShapeCommand at: 250.87323, 623.0003
+10-28 07:00:32.441: INFO/APV.PDFRenderer(1115): Size: 2.659256 x 3.7835083
+10-28 07:00:32.441: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.451: INFO/APV.PDFRenderer(1115): CMD[52]: PDFShapeCmd: ShapeCommand at: 0.0, 0.0
+10-28 07:00:32.451: INFO/APV.PDFRenderer(1115): Size: 0.0 x 0.0
+10-28 07:00:32.451: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.451: INFO/APV.PDFRenderer(1115): CMD[53]: PDFShapeCmd: ShapeCommand at: 256.12305, 623.0003
+10-28 07:00:32.451: INFO/APV.PDFRenderer(1115): Size: 0.47625732 x 5.3187256
+10-28 07:00:32.451: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.472: INFO/APV.PDFRenderer(1115): CMD[54]: PDFShapeCmd: ShapeCommand at: 257.76553, 623.0003
+10-28 07:00:32.472: INFO/APV.PDFRenderer(1115): Size: 2.6592407 x 5.3187256
+10-28 07:00:32.472: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.504: INFO/APV.PDFRenderer(1115): CMD[55]: PDFShapeCmd: ShapeCommand at: 261.42325, 623.0003
+10-28 07:00:32.504: INFO/APV.PDFRenderer(1115): Size: 1.6289063 x 3.810791
+10-28 07:00:32.504: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.520: INFO/APV.PDFRenderer(1115): CMD[56]: PDFShapeCmd: ShapeCommand at: 263.30118, 622.8873
+10-28 07:00:32.520: INFO/APV.PDFRenderer(1115): Size: 2.9161072 x 3.8964844
+10-28 07:00:32.520: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.551: INFO/APV.PDFRenderer(1115): CMD[57]: PDFShapeCmd: ShapeCommand at: 266.792, 622.8873
+10-28 07:00:32.551: INFO/APV.PDFRenderer(1115): Size: 2.5268555 x 3.8964844
+10-28 07:00:32.551: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.551: INFO/APV.PDFRenderer(1115): CMD[58]: PDFShapeCmd: ShapeCommand at: 0.0, 0.0
+10-28 07:00:32.551: INFO/APV.PDFRenderer(1115): Size: 0.0 x 0.0
+10-28 07:00:32.551: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.551: INFO/APV.PDFRenderer(1115): CMD[59]: PDFShapeCmd: ShapeCommand at: 271.28644, 623.0003
+10-28 07:00:32.551: INFO/APV.PDFRenderer(1115): Size: 3.569519 x 5.3187256
+10-28 07:00:32.551: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.561: INFO/APV.PDFRenderer(1115): CMD[60]: PDFShapeCmd: ShapeCommand at: 274.54166, 624.7693
+10-28 07:00:32.561: INFO/APV.PDFRenderer(1115): Size: 1.5096436 x 0.4130249
+10-28 07:00:32.561: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.571: INFO/APV.PDFRenderer(1115): CMD[61]: PDFShapeCmd: ShapeCommand at: 276.64496, 623.0003
+10-28 07:00:32.571: INFO/APV.PDFRenderer(1115): Size: 4.368469 x 5.3187256
+10-28 07:00:32.571: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.571: INFO/APV.PDFRenderer(1115): CMD[62]: PDFShapeCmd: ShapeCommand at: 281.90765, 622.8873
+10-28 07:00:32.571: INFO/APV.PDFRenderer(1115): Size: 3.0791016 x 3.8964844
+10-28 07:00:32.571: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.581: INFO/APV.PDFRenderer(1115): CMD[63]: PDFShapeCmd: ShapeCommand at: 285.84207, 622.8873
+10-28 07:00:32.581: INFO/APV.PDFRenderer(1115): Size: 3.0047607 x 5.4317017
+10-28 07:00:32.581: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.621: INFO/APV.PDFRenderer(1115): CMD[64]: PDFShapeCmd: ShapeCommand at: 289.72186, 623.0003
+10-28 07:00:32.621: INFO/APV.PDFRenderer(1115): Size: 0.43670654 x 5.3187256
+10-28 07:00:32.621: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.631: INFO/APV.PDFRenderer(1115): CMD[65]: PDFShapeCmd: ShapeCommand at: 291.2229, 623.0003
+10-28 07:00:32.631: INFO/APV.PDFRenderer(1115): Size: 0.43670654 x 5.3187256
+10-28 07:00:32.631: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.671: INFO/APV.PDFRenderer(1115): CMD[66]: PDFShapeCmd: ShapeCommand at: 292.5343, 622.8873
+10-28 07:00:32.671: INFO/APV.PDFRenderer(1115): Size: 2.9161072 x 3.8964844
+10-28 07:00:32.671: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.681: INFO/APV.PDFRenderer(1115): CMD[67]: PDFShapeCmd: ShapeCommand at: 0.0, 0.0
+10-28 07:00:32.681: INFO/APV.PDFRenderer(1115): Size: 0.0 x 0.0
+10-28 07:00:32.681: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.701: INFO/APV.PDFRenderer(1115): CMD[68]: PDFShapeCmd: ShapeCommand at: 297.65936, 622.8717
+10-28 07:00:32.701: INFO/APV.PDFRenderer(1115): Size: 4.0618286 x 5.5719604
+10-28 07:00:32.701: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.731: INFO/APV.PDFRenderer(1115): CMD[69]: PDFShapeCmd: ShapeCommand at: 303.0989, 623.0003
+10-28 07:00:32.731: INFO/APV.PDFRenderer(1115): Size: 1.2868958 x 5.3187256
+10-28 07:00:32.731: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.731: INFO/APV.PDFRenderer(1115): CMD[70]: PDFShapeCmd: ShapeCommand at: 0.0, 0.0
+10-28 07:00:32.731: INFO/APV.PDFRenderer(1115): Size: 0.0 x 0.0
+10-28 07:00:32.731: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.741: INFO/APV.PDFRenderer(1115): CMD[71]: PDFShapeCmd: ShapeCommand at: 307.69785, 623.0003
+10-28 07:00:32.741: INFO/APV.PDFRenderer(1115): Size: 2.7202759 x 3.6704712
+10-28 07:00:32.741: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.771: INFO/APV.PDFRenderer(1115): CMD[72]: PDFShapeCmd: ShapeCommand at: 311.04294, 622.8873
+10-28 07:00:32.771: INFO/APV.PDFRenderer(1115): Size: 2.6592712 x 3.7834473
+10-28 07:00:32.771: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.781: INFO/APV.PDFRenderer(1115): CMD[73]: PDFShapeCmd: ShapeCommand at: 0.0, 0.0
+10-28 07:00:32.781: INFO/APV.PDFRenderer(1115): Size: 0.0 x 0.0
+10-28 07:00:32.781: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.813: INFO/APV.PDFRenderer(1115): CMD[74]: PDFShapeCmd: ShapeCommand at: 316.27567, 623.0003
+10-28 07:00:32.813: INFO/APV.PDFRenderer(1115): Size: 2.6592407 x 3.7835083
+10-28 07:00:32.813: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.831: INFO/APV.PDFRenderer(1115): CMD[75]: PDFShapeCmd: ShapeCommand at: 319.9646, 622.8873
+10-28 07:00:32.831: INFO/APV.PDFRenderer(1115): Size: 2.6592712 x 3.7834473
+10-28 07:00:32.831: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.861: INFO/APV.PDFRenderer(1115): CMD[76]: PDFShapeCmd: ShapeCommand at: 323.19025, 622.9029
+10-28 07:00:32.861: INFO/APV.PDFRenderer(1115): Size: 1.6448059 x 4.9368286
+10-28 07:00:32.861: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.871: INFO/APV.PDFRenderer(1115): CMD[77]: PDFShapeCmd: ShapeCommand at: 325.21875, 623.0003
+10-28 07:00:32.871: INFO/APV.PDFRenderer(1115): Size: 2.7202759 x 3.6704712
+10-28 07:00:32.871: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.871: INFO/APV.PDFRenderer(1115): CMD[78]: PDFShapeCmd: ShapeCommand at: 328.36526, 622.8873
+10-28 07:00:32.871: INFO/APV.PDFRenderer(1115): Size: 2.9161072 x 3.8964844
+10-28 07:00:32.871: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.901: INFO/APV.PDFRenderer(1115): CMD[79]: PDFShapeCmd: ShapeCommand at: 332.13193, 623.0003
+10-28 07:00:32.901: INFO/APV.PDFRenderer(1115): Size: 2.6592407 x 3.7835083
+10-28 07:00:32.901: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.901: INFO/APV.PDFRenderer(1115): CMD[80]: PDFShapeCmd: ShapeCommand at: 335.7896, 621.96387
+10-28 07:00:32.901: INFO/APV.PDFRenderer(1115): Size: 0.5877991 x 1.8352051
+10-28 07:00:32.901: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.911: INFO/APV.PDFRenderer(1115): CMD[81]: PDFShapeCmd: ShapeCommand at: 0.0, 0.0
+10-28 07:00:32.911: INFO/APV.PDFRenderer(1115): Size: 0.0 x 0.0
+10-28 07:00:32.911: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.921: INFO/APV.PDFRenderer(1115): CMD[82]: PDFShapeCmd: ShapeCommand at: 338.94696, 623.0003
+10-28 07:00:32.921: INFO/APV.PDFRenderer(1115): Size: 4.478485 x 3.7835083
+10-28 07:00:32.921: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.931: INFO/APV.PDFRenderer(1115): CMD[83]: PDFShapeCmd: ShapeCommand at: 344.5007, 622.8873
+10-28 07:00:32.931: INFO/APV.PDFRenderer(1115): Size: 2.6592712 x 3.7834473
+10-28 07:00:32.931: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.971: INFO/APV.PDFRenderer(1115): CMD[84]: PDFShapeCmd: ShapeCommand at: 347.9725, 622.8873
+10-28 07:00:32.971: INFO/APV.PDFRenderer(1115): Size: 2.5268555 x 3.8964844
+10-28 07:00:32.971: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:32.981: INFO/APV.PDFRenderer(1115): CMD[85]: PDFShapeCmd: ShapeCommand at: 351.03842, 622.8873
+10-28 07:00:32.981: INFO/APV.PDFRenderer(1115): Size: 2.5268555 x 3.8964844
+10-28 07:00:32.981: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.011: INFO/APV.PDFRenderer(1115): CMD[86]: PDFShapeCmd: ShapeCommand at: 0.0, 0.0
+10-28 07:00:33.011: INFO/APV.PDFRenderer(1115): Size: 0.0 x 0.0
+10-28 07:00:33.011: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.011: INFO/APV.PDFRenderer(1115): CMD[87]: PDFShapeCmd: ShapeCommand at: 355.6481, 622.8873
+10-28 07:00:33.011: INFO/APV.PDFRenderer(1115): Size: 2.9161072 x 3.8964844
+10-28 07:00:33.011: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.051: INFO/APV.PDFRenderer(1115): CMD[88]: PDFShapeCmd: ShapeCommand at: 359.43112, 623.0003
+10-28 07:00:33.051: INFO/APV.PDFRenderer(1115): Size: 0.43670654 x 5.3187256
+10-28 07:00:33.051: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.061: INFO/APV.PDFRenderer(1115): CMD[89]: PDFShapeCmd: ShapeCommand at: 360.96448, 623.0003
+10-28 07:00:33.061: INFO/APV.PDFRenderer(1115): Size: 2.6592407 x 3.7835083
+10-28 07:00:33.061: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.107: INFO/APV.PDFRenderer(1115): CMD[90]: PDFShapeCmd: ShapeCommand at: 364.45483, 622.8873
+10-28 07:00:33.107: INFO/APV.PDFRenderer(1115): Size: 2.9161072 x 3.8964844
+10-28 07:00:33.107: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.121: INFO/APV.PDFRenderer(1115): CMD[91]: PDFShapeCmd: ShapeCommand at: 0.0, 0.0
+10-28 07:00:33.121: INFO/APV.PDFRenderer(1115): Size: 0.0 x 0.0
+10-28 07:00:33.121: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.151: INFO/APV.PDFRenderer(1115): CMD[92]: PDFShapeCmd: ShapeCommand at: 369.50974, 622.8717
+10-28 07:00:33.151: INFO/APV.PDFRenderer(1115): Size: 3.5003662 x 5.5719604
+10-28 07:00:33.151: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.161: INFO/APV.PDFRenderer(1115): CMD[93]: PDFShapeCmd: ShapeCommand at: 373.85834, 623.0003
+10-28 07:00:33.161: INFO/APV.PDFRenderer(1115): Size: 0.47625732 x 5.3187256
+10-28 07:00:33.161: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.201: INFO/APV.PDFRenderer(1115): CMD[94]: PDFShapeCmd: ShapeCommand at: 375.49478, 623.0003
+10-28 07:00:33.201: INFO/APV.PDFRenderer(1115): Size: 4.368469 x 5.3187256
+10-28 07:00:33.201: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.211: INFO/APV.PDFRenderer(1115): CMD[95]: PDFShapeCmd: ShapeCommand at: 380.4769, 624.7693
+10-28 07:00:33.211: INFO/APV.PDFRenderer(1115): Size: 1.5096436 x 0.4130249
+10-28 07:00:33.211: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.211: INFO/APV.PDFRenderer(1115): CMD[96]: PDFShapeCmd: ShapeCommand at: 382.59982, 623.0003
+10-28 07:00:33.211: INFO/APV.PDFRenderer(1115): Size: 3.6220398 x 5.3187256
+10-28 07:00:33.211: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.221: INFO/APV.PDFRenderer(1115): CMD[97]: PDFShapeCmd: ShapeCommand at: 386.48837, 622.8873
+10-28 07:00:33.221: INFO/APV.PDFRenderer(1115): Size: 3.0042725 x 3.8964844
+10-28 07:00:33.221: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.231: INFO/APV.PDFRenderer(1115): CMD[98]: PDFShapeCmd: ShapeCommand at: 390.1789, 623.0003
+10-28 07:00:33.231: INFO/APV.PDFRenderer(1115): Size: 1.6289063 x 3.810791
+10-28 07:00:33.231: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.261: INFO/APV.PDFRenderer(1115): CMD[99]: PDFShapeCmd: ShapeCommand at: 392.12863, 622.9029
+10-28 07:00:33.261: INFO/APV.PDFRenderer(1115): Size: 1.6448059 x 4.9368286
+10-28 07:00:33.261: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.261: INFO/APV.PDFRenderer(1115): CMD[100]: PDFShapeCmd: ShapeCommand at: 394.15717, 622.8873
+10-28 07:00:33.261: INFO/APV.PDFRenderer(1115): Size: 2.9161072 x 3.8964844
+10-28 07:00:33.261: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.271: INFO/APV.PDFRenderer(1115): CMD[101]: PDFShapeCmd: ShapeCommand at: 0.0, 0.0
+10-28 07:00:33.271: INFO/APV.PDFRenderer(1115): Size: 0.0 x 0.0
+10-28 07:00:33.271: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.271: INFO/APV.PDFRenderer(1115): CMD[102]: PDFShapeCmd: ShapeCommand at: 399.25876, 622.8873
+10-28 07:00:33.271: INFO/APV.PDFRenderer(1115): Size: 2.9161072 x 3.8964844
+10-28 07:00:33.271: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.311: INFO/APV.PDFRenderer(1115): CMD[103]: PDFShapeCmd: ShapeCommand at: 403.04178, 623.0003
+10-28 07:00:33.311: INFO/APV.PDFRenderer(1115): Size: 0.43670654 x 5.3187256
+10-28 07:00:33.311: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.346: INFO/APV.PDFRenderer(1115): CMD[104]: PDFShapeCmd: ShapeCommand at: 404.57513, 623.0003
+10-28 07:00:33.346: INFO/APV.PDFRenderer(1115): Size: 2.6592407 x 3.7835083
+10-28 07:00:33.346: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.361: INFO/APV.PDFRenderer(1115): CMD[105]: PDFShapeCmd: ShapeCommand at: 408.06598, 621.61707
+10-28 07:00:33.361: INFO/APV.PDFRenderer(1115): Size: 2.9363403 x 5.166748
+10-28 07:00:33.361: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.391: INFO/APV.PDFRenderer(1115): CMD[106]: PDFShapeCmd: ShapeCommand at: 411.85757, 622.8873
+10-28 07:00:33.391: INFO/APV.PDFRenderer(1115): Size: 2.9161072 x 3.8964844
+10-28 07:00:33.391: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.401: INFO/APV.PDFRenderer(1115): CMD[107]: PDFShapeCmd: ShapeCommand at: 415.6406, 623.0003
+10-28 07:00:33.401: INFO/APV.PDFRenderer(1115): Size: 0.43670654 x 5.3187256
+10-28 07:00:33.401: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.401: INFO/APV.PDFRenderer(1115): CMD[108]: PDFShapeCmd: ShapeCommand at: 416.90332, 622.8873
+10-28 07:00:33.401: INFO/APV.PDFRenderer(1115): Size: 2.9161072 x 3.8964844
+10-28 07:00:33.401: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.441: INFO/APV.PDFRenderer(1115): CMD[109]: PDFShapeCmd: ShapeCommand at: 420.44852, 621.61707
+10-28 07:00:33.441: INFO/APV.PDFRenderer(1115): Size: 2.9363403 x 5.166748
+10-28 07:00:33.441: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.473: INFO/APV.PDFRenderer(1115): CMD[110]: PDFShapeCmd: ShapeCommand at: 424.0031, 622.9029
+10-28 07:00:33.473: INFO/APV.PDFRenderer(1115): Size: 1.6448059 x 4.9368286
+10-28 07:00:33.473: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.481: INFO/APV.PDFRenderer(1115): CMD[111]: PDFShapeCmd: ShapeCommand at: 0.0, 0.0
+10-28 07:00:33.481: INFO/APV.PDFRenderer(1115): Size: 0.0 x 0.0
+10-28 07:00:33.481: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.491: INFO/APV.PDFRenderer(1115): CMD[112]: PDFShapeCmd: ShapeCommand at: 427.84695, 622.8873
+10-28 07:00:33.491: INFO/APV.PDFRenderer(1115): Size: 2.6592712 x 3.7834473
+10-28 07:00:33.491: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.521: INFO/APV.PDFRenderer(1115): CMD[113]: PDFShapeCmd: ShapeCommand at: 431.58264, 623.0003
+10-28 07:00:33.521: INFO/APV.PDFRenderer(1115): Size: 2.6592407 x 3.7835083
+10-28 07:00:33.521: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.531: INFO/APV.PDFRenderer(1115): CMD[114]: PDFShapeCmd: ShapeCommand at: 435.0733, 622.8873
+10-28 07:00:33.531: INFO/APV.PDFRenderer(1115): Size: 3.008667 x 5.4317017
+10-28 07:00:33.531: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.531: INFO/APV.PDFRenderer(1115): CMD[115]: PDFShapeCmd: ShapeCommand at: 0.0, 0.0
+10-28 07:00:33.531: INFO/APV.PDFRenderer(1115): Size: 0.0 x 0.0
+10-28 07:00:33.531: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.541: INFO/APV.PDFRenderer(1115): CMD[116]: PDFShapeCmd: ShapeCommand at: 440.4938, 622.8873
+10-28 07:00:33.541: INFO/APV.PDFRenderer(1115): Size: 2.9161072 x 3.8964844
+10-28 07:00:33.541: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.571: INFO/APV.PDFRenderer(1115): CMD[117]: PDFShapeCmd: ShapeCommand at: 444.27682, 623.0003
+10-28 07:00:33.571: INFO/APV.PDFRenderer(1115): Size: 0.43670654 x 5.3187256
+10-28 07:00:33.571: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.571: INFO/APV.PDFRenderer(1115): CMD[118]: PDFShapeCmd: ShapeCommand at: 445.81018, 623.0003
+10-28 07:00:33.571: INFO/APV.PDFRenderer(1115): Size: 2.6592407 x 3.7835083
+10-28 07:00:33.571: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.581: INFO/APV.PDFRenderer(1115): CMD[119]: PDFShapeCmd: ShapeCommand at: 0.0, 0.0
+10-28 07:00:33.581: INFO/APV.PDFRenderer(1115): Size: 0.0 x 0.0
+10-28 07:00:33.581: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.613: INFO/APV.PDFRenderer(1115): CMD[120]: PDFShapeCmd: ShapeCommand at: 180.93251, 613.87994
+10-28 07:00:33.613: INFO/APV.PDFRenderer(1115): Size: 3.6220245 x 5.3187256
+10-28 07:00:33.613: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.651: INFO/APV.PDFRenderer(1115): CMD[121]: PDFShapeCmd: ShapeCommand at: 184.68974, 613.76697
+10-28 07:00:33.651: INFO/APV.PDFRenderer(1115): Size: 3.0791016 x 3.8964844
+10-28 07:00:33.651: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.691: INFO/APV.PDFRenderer(1115): CMD[122]: PDFShapeCmd: ShapeCommand at: 188.63242, 613.87994
+10-28 07:00:33.691: INFO/APV.PDFRenderer(1115): Size: 2.659256 x 3.7835083
+10-28 07:00:33.691: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.701: INFO/APV.PDFRenderer(1115): CMD[123]: PDFShapeCmd: ShapeCommand at: 191.83788, 613.78253
+10-28 07:00:33.701: INFO/APV.PDFRenderer(1115): Size: 1.6447754 x 4.9368286
+10-28 07:00:33.701: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.732: INFO/APV.PDFRenderer(1115): CMD[124]: PDFShapeCmd: ShapeCommand at: 193.86673, 613.76697
+10-28 07:00:33.732: INFO/APV.PDFRenderer(1115): Size: 3.0791016 x 3.8964844
+10-28 07:00:33.732: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.741: INFO/APV.PDFRenderer(1115): CMD[125]: PDFShapeCmd: ShapeCommand at: 0.0, 0.0
+10-28 07:00:33.741: INFO/APV.PDFRenderer(1115): Size: 0.0 x 0.0
+10-28 07:00:33.741: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.751: INFO/APV.PDFRenderer(1115): CMD[126]: PDFShapeCmd: ShapeCommand at: 199.30138, 613.76697
+10-28 07:00:33.751: INFO/APV.PDFRenderer(1115): Size: 3.0047455 x 5.4317017
+10-28 07:00:33.751: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.761: INFO/APV.PDFRenderer(1115): CMD[127]: PDFShapeCmd: ShapeCommand at: 202.97955, 613.76697
+10-28 07:00:33.761: INFO/APV.PDFRenderer(1115): Size: 2.9161072 x 3.8964844
+10-28 07:00:33.761: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.801: INFO/APV.PDFRenderer(1115): CMD[128]: PDFShapeCmd: ShapeCommand at: 206.75461, 613.87994
+10-28 07:00:33.801: INFO/APV.PDFRenderer(1115): Size: 0.43669128 x 5.3187256
+10-28 07:00:33.801: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.813: INFO/APV.PDFRenderer(1115): CMD[129]: PDFShapeCmd: ShapeCommand at: 0.0, 0.0
+10-28 07:00:33.813: INFO/APV.PDFRenderer(1115): Size: 0.0 x 0.0
+10-28 07:00:33.813: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.861: INFO/APV.PDFRenderer(1115): CMD[130]: PDFShapeCmd: ShapeCommand at: 209.59769, 613.75134
+10-28 07:00:33.861: INFO/APV.PDFRenderer(1115): Size: 4.061859 x 5.5719604
+10-28 07:00:33.861: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.861: INFO/APV.PDFRenderer(1115): CMD[131]: PDFShapeCmd: ShapeCommand at: 214.46313, 613.76697
+10-28 07:00:33.861: INFO/APV.PDFRenderer(1115): Size: 3.0791016 x 3.8964844
+10-28 07:00:33.861: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.871: INFO/APV.PDFRenderer(1115): CMD[132]: PDFShapeCmd: ShapeCommand at: 218.12436, 613.76697
+10-28 07:00:33.871: INFO/APV.PDFRenderer(1115): Size: 3.0791016 x 3.8964844
+10-28 07:00:33.871: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.871: INFO/APV.PDFRenderer(1115): CMD[133]: PDFShapeCmd: ShapeCommand at: 221.84, 612.4967
+10-28 07:00:33.871: INFO/APV.PDFRenderer(1115): Size: 2.936325 x 5.166748
+10-28 07:00:33.871: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.881: INFO/APV.PDFRenderer(1115): CMD[134]: PDFShapeCmd: ShapeCommand at: 225.8731, 613.87994
+10-28 07:00:33.881: INFO/APV.PDFRenderer(1115): Size: 0.43669128 x 5.3187256
+10-28 07:00:33.881: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.881: INFO/APV.PDFRenderer(1115): CMD[135]: PDFShapeCmd: ShapeCommand at: 227.18768, 613.76697
+10-28 07:00:33.881: INFO/APV.PDFRenderer(1115): Size: 2.9161072 x 3.8964844
+10-28 07:00:33.881: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.881: INFO/APV.PDFRenderer(1115): CMD[136]: PDFShapeCmd: ShapeCommand at: 0.0, 0.0
+10-28 07:00:33.881: INFO/APV.PDFRenderer(1115): Size: 0.0 x 0.0
+10-28 07:00:33.881: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.881: INFO/APV.PDFRenderer(1115): CMD[137]: PDFShapeCmd: ShapeCommand at: 232.23265, 613.76697
+10-28 07:00:33.881: INFO/APV.PDFRenderer(1115): Size: 2.9161072 x 3.8964844
+10-28 07:00:33.881: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.891: INFO/APV.PDFRenderer(1115): CMD[138]: PDFShapeCmd: ShapeCommand at: 236.01888, 613.87994
+10-28 07:00:33.891: INFO/APV.PDFRenderer(1115): Size: 0.43669128 x 5.3187256
+10-28 07:00:33.891: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.891: INFO/APV.PDFRenderer(1115): CMD[139]: PDFShapeCmd: ShapeCommand at: 237.55542, 613.87994
+10-28 07:00:33.891: INFO/APV.PDFRenderer(1115): Size: 2.659256 x 3.7835083
+10-28 07:00:33.891: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.901: INFO/APV.PDFRenderer(1115): CMD[140]: PDFShapeCmd: ShapeCommand at: 241.04945, 612.4967
+10-28 07:00:33.901: INFO/APV.PDFRenderer(1115): Size: 2.936325 x 5.166748
+10-28 07:00:33.901: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.913: INFO/APV.PDFRenderer(1115): CMD[141]: PDFShapeCmd: ShapeCommand at: 244.84424, 613.76697
+10-28 07:00:33.913: INFO/APV.PDFRenderer(1115): Size: 2.9161072 x 3.8964844
+10-28 07:00:33.913: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.921: INFO/APV.PDFRenderer(1115): CMD[142]: PDFShapeCmd: ShapeCommand at: 248.61456, 613.87994
+10-28 07:00:33.921: INFO/APV.PDFRenderer(1115): Size: 1.628891 x 3.810791
+10-28 07:00:33.921: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.953: INFO/APV.PDFRenderer(1115): CMD[143]: PDFShapeCmd: ShapeCommand at: 250.85051, 613.87994
+10-28 07:00:33.953: INFO/APV.PDFRenderer(1115): Size: 0.43669128 x 5.3187256
+10-28 07:00:33.953: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.961: INFO/APV.PDFRenderer(1115): CMD[144]: PDFShapeCmd: ShapeCommand at: 252.1652, 613.76697
+10-28 07:00:33.961: INFO/APV.PDFRenderer(1115): Size: 2.8353271 x 3.8964844
+10-28 07:00:33.961: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.961: INFO/APV.PDFRenderer(1115): CMD[145]: PDFShapeCmd: ShapeCommand at: 255.74583, 613.87994
+10-28 07:00:33.961: INFO/APV.PDFRenderer(1115): Size: 2.659256 x 5.3187256
+10-28 07:00:33.961: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:33.971: INFO/APV.PDFRenderer(1115): CMD[146]: PDFShapeCmd: ShapeCommand at: 258.89304, 613.78253
+10-28 07:00:33.971: INFO/APV.PDFRenderer(1115): Size: 1.6448059 x 4.9368286
+10-28 07:00:33.971: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.001: INFO/APV.PDFRenderer(1115): CMD[147]: PDFShapeCmd: ShapeCommand at: 260.92157, 613.76697
+10-28 07:00:34.001: INFO/APV.PDFRenderer(1115): Size: 2.9161072 x 3.8964844
+10-28 07:00:34.001: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.041: INFO/APV.PDFRenderer(1115): CMD[148]: PDFShapeCmd: ShapeCommand at: 264.1814, 613.78253
+10-28 07:00:34.041: INFO/APV.PDFRenderer(1115): Size: 1.6448059 x 4.9368286
+10-28 07:00:34.041: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.051: INFO/APV.PDFRenderer(1115): CMD[149]: PDFShapeCmd: ShapeCommand at: 0.0, 0.0
+10-28 07:00:34.051: INFO/APV.PDFRenderer(1115): Size: 0.0 x 0.0
+10-28 07:00:34.051: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.080: INFO/APV.PDFRenderer(1115): CMD[150]: PDFShapeCmd: ShapeCommand at: 267.78394, 613.76697
+10-28 07:00:34.080: INFO/APV.PDFRenderer(1115): Size: 2.5268555 x 3.8964844
+10-28 07:00:34.080: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.093: INFO/APV.PDFRenderer(1115): CMD[151]: PDFShapeCmd: ShapeCommand at: 270.89978, 613.76697
+10-28 07:00:34.093: INFO/APV.PDFRenderer(1115): Size: 2.9161072 x 3.8964844
+10-28 07:00:34.093: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.131: INFO/APV.PDFRenderer(1115): CMD[152]: PDFShapeCmd: ShapeCommand at: 274.686, 613.87994
+10-28 07:00:34.131: INFO/APV.PDFRenderer(1115): Size: 0.43670654 x 5.3187256
+10-28 07:00:34.131: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.131: INFO/APV.PDFRenderer(1115): CMD[153]: PDFShapeCmd: ShapeCommand at: 276.22256, 613.87994
+10-28 07:00:34.131: INFO/APV.PDFRenderer(1115): Size: 2.6592407 x 3.7835083
+10-28 07:00:34.131: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.141: INFO/APV.PDFRenderer(1115): CMD[154]: PDFShapeCmd: ShapeCommand at: 279.88342, 612.8435
+10-28 07:00:34.141: INFO/APV.PDFRenderer(1115): Size: 0.5877991 x 1.8352051
+10-28 07:00:34.141: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.141: INFO/APV.PDFRenderer(1115): CMD[155]: PDFShapeCmd: ShapeCommand at: 0.0, 0.0
+10-28 07:00:34.141: INFO/APV.PDFRenderer(1115): Size: 0.0 x 0.0
+10-28 07:00:34.141: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.141: INFO/APV.PDFRenderer(1115): CMD[156]: PDFShapeCmd: ShapeCommand at: 282.77518, 613.76697
+10-28 07:00:34.141: INFO/APV.PDFRenderer(1115): Size: 2.5268555 x 3.8964844
+10-28 07:00:34.141: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.181: INFO/APV.PDFRenderer(1115): CMD[157]: PDFShapeCmd: ShapeCommand at: 286.12933, 613.87994
+10-28 07:00:34.181: INFO/APV.PDFRenderer(1115): Size: 0.43670654 x 5.3187256
+10-28 07:00:34.181: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.210: INFO/APV.PDFRenderer(1115): CMD[158]: PDFShapeCmd: ShapeCommand at: 287.44394, 613.76697
+10-28 07:00:34.210: INFO/APV.PDFRenderer(1115): Size: 2.9161072 x 3.8964844
+10-28 07:00:34.210: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.221: INFO/APV.PDFRenderer(1115): CMD[159]: PDFShapeCmd: ShapeCommand at: 291.2138, 613.87994
+10-28 07:00:34.221: INFO/APV.PDFRenderer(1115): Size: 2.6592407 x 5.3187256
+10-28 07:00:34.221: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.271: INFO/APV.PDFRenderer(1115): CMD[160]: PDFShapeCmd: ShapeCommand at: 294.70734, 613.76697
+10-28 07:00:34.271: INFO/APV.PDFRenderer(1115): Size: 2.9161072 x 3.8964844
+10-28 07:00:34.271: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.281: INFO/APV.PDFRenderer(1115): CMD[161]: PDFShapeCmd: ShapeCommand at: 0.0, 0.0
+10-28 07:00:34.281: INFO/APV.PDFRenderer(1115): Size: 0.0 x 0.0
+10-28 07:00:34.281: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.311: INFO/APV.PDFRenderer(1115): CMD[162]: PDFShapeCmd: ShapeCommand at: 300.07318, 613.87994
+10-28 07:00:34.311: INFO/APV.PDFRenderer(1115): Size: 3.6220398 x 5.3187256
+10-28 07:00:34.311: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.321: INFO/APV.PDFRenderer(1115): CMD[163]: PDFShapeCmd: ShapeCommand at: 303.9019, 613.76697
+10-28 07:00:34.321: INFO/APV.PDFRenderer(1115): Size: 3.0042725 x 3.8964844
+10-28 07:00:34.321: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.351: INFO/APV.PDFRenderer(1115): CMD[164]: PDFShapeCmd: ShapeCommand at: 307.5919, 612.4967
+10-28 07:00:34.351: INFO/APV.PDFRenderer(1115): Size: 3.0015564 x 5.166748
+10-28 07:00:34.351: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.361: INFO/APV.PDFRenderer(1115): CMD[165]: PDFShapeCmd: ShapeCommand at: 311.50494, 613.87994
+10-28 07:00:34.361: INFO/APV.PDFRenderer(1115): Size: 0.43670654 x 5.3187256
+10-28 07:00:34.361: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.390: INFO/APV.PDFRenderer(1115): CMD[166]: PDFShapeCmd: ShapeCommand at: 312.47958, 613.78253
+10-28 07:00:34.390: INFO/APV.PDFRenderer(1115): Size: 1.6448059 x 4.9368286
+10-28 07:00:34.390: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.401: INFO/APV.PDFRenderer(1115): CMD[167]: PDFShapeCmd: ShapeCommand at: 314.50812, 613.76697
+10-28 07:00:34.401: INFO/APV.PDFRenderer(1115): Size: 2.9161072 x 3.8964844
+10-28 07:00:34.401: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.411: INFO/APV.PDFRenderer(1115): CMD[168]: PDFShapeCmd: ShapeCommand at: 318.28317, 613.87994
+10-28 07:00:34.411: INFO/APV.PDFRenderer(1115): Size: 0.43670654 x 5.3187256
+10-28 07:00:34.411: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.441: INFO/APV.PDFRenderer(1115): CMD[169]: PDFShapeCmd: ShapeCommand at: 0.0, 0.0
+10-28 07:00:34.441: INFO/APV.PDFRenderer(1115): Size: 0.0 x 0.0
+10-28 07:00:34.441: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.451: INFO/APV.PDFRenderer(1115): CMD[170]: PDFShapeCmd: ShapeCommand at: 321.45328, 614.07635
+10-28 07:00:34.451: INFO/APV.PDFRenderer(1115): Size: 3.096405 x 6.368408
+10-28 07:00:34.451: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.481: INFO/APV.PDFRenderer(1115): CMD[171]: PDFShapeCmd: ShapeCommand at: 325.38953, 615.42267
+10-28 07:00:34.481: INFO/APV.PDFRenderer(1115): Size: 1.6289063 x 4.340576
+10-28 07:00:34.481: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.481: INFO/APV.PDFRenderer(1115): CMD[172]: PDFShapeCmd: ShapeCommand at: 327.30054, 616.1777
+10-28 07:00:34.481: INFO/APV.PDFRenderer(1115): Size: 2.5268555 x 4.326599
+10-28 07:00:34.481: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.531: INFO/APV.PDFRenderer(1115): CMD[173]: PDFShapeCmd: ShapeCommand at: 330.1251, 617.21686
+10-28 07:00:34.531: INFO/APV.PDFRenderer(1115): Size: 1.6448059 x 5.002136
+10-28 07:00:34.531: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.531: INFO/APV.PDFRenderer(1115): CMD[174]: PDFShapeCmd: ShapeCommand at: 332.51242, 617.8588
+10-28 07:00:34.531: INFO/APV.PDFRenderer(1115): Size: 0.43670654 x 5.4680786
+10-28 07:00:34.531: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.541: INFO/APV.PDFRenderer(1115): CMD[175]: PDFShapeCmd: ShapeCommand at: 334.04578, 618.38324
+10-28 07:00:34.541: INFO/APV.PDFRenderer(1115): Size: 2.6592407 x 4.413391
+10-28 07:00:34.541: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.541: INFO/APV.PDFRenderer(1115): CMD[176]: PDFShapeCmd: ShapeCommand at: 337.75858, 619.6531
+10-28 07:00:34.541: INFO/APV.PDFRenderer(1115): Size: 3.0047607 x 5.4680176
+10-28 07:00:34.541: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.571: INFO/APV.PDFRenderer(1115): CMD[177]: PDFShapeCmd: ShapeCommand at: 341.40005, 621.0492
+10-28 07:00:34.571: INFO/APV.PDFRenderer(1115): Size: 2.9161072 x 4.314575
+10-28 07:00:34.571: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.611: INFO/APV.PDFRenderer(1115): CMD[178]: PDFShapeCmd: ShapeCommand at: 344.58884, 622.1637
+10-28 07:00:34.611: INFO/APV.PDFRenderer(1115): Size: 1.6448059 x 5.002136
+10-28 07:00:34.611: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.623: INFO/APV.PDFRenderer(1115): CMD[179]: PDFShapeCmd: ShapeCommand at: 346.96027, 622.80023
+10-28 07:00:34.623: INFO/APV.PDFRenderer(1115): Size: 1.6289063 x 4.340576
+10-28 07:00:34.623: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.653: INFO/APV.PDFRenderer(1115): CMD[180]: PDFShapeCmd: ShapeCommand at: 349.1563, 623.55133
+10-28 07:00:34.653: INFO/APV.PDFRenderer(1115): Size: 0.43670654 x 5.4680786
+10-28 07:00:34.653: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.661: INFO/APV.PDFRenderer(1115): CMD[181]: PDFShapeCmd: ShapeCommand at: 350.4677, 624.1505
+10-28 07:00:34.661: INFO/APV.PDFRenderer(1115): Size: 2.9161072 x 4.314575
+10-28 07:00:34.661: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.661: INFO/APV.PDFRenderer(1115): CMD[182]: PDFShapeCmd: ShapeCommand at: 354.23486, 625.28827
+10-28 07:00:34.661: INFO/APV.PDFRenderer(1115): Size: 3.0047607 x 5.4680176
+10-28 07:00:34.661: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.681: INFO/APV.PDFRenderer(1115): CMD[183]: PDFShapeCmd: ShapeCommand at: 358.0983, 626.6096
+10-28 07:00:34.681: INFO/APV.PDFRenderer(1115): Size: 2.6592407 x 4.413391
+10-28 07:00:34.681: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.691: INFO/APV.PDFRenderer(1115): CMD[184]: PDFShapeCmd: ShapeCommand at: 361.60062, 627.9104
+10-28 07:00:34.691: INFO/APV.PDFRenderer(1115): Size: 3.0042725 x 4.404236
+10-28 07:00:34.691: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.691: INFO/APV.PDFRenderer(1115): CMD[185]: PDFShapeCmd: ShapeCommand at: 365.31543, 629.078
+10-28 07:00:34.691: INFO/APV.PDFRenderer(1115): Size: 2.6592407 x 5.4678955
+10-28 07:00:34.691: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.711: INFO/APV.PDFRenderer(1115): CMD[186]: PDFShapeCmd: ShapeCommand at: 369.02783, 630.3477
+10-28 07:00:34.711: INFO/APV.PDFRenderer(1115): Size: 4.478485 x 5.0515137
+10-28 07:00:34.711: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.723: INFO/APV.PDFRenderer(1115): CMD[187]: PDFShapeCmd: ShapeCommand at: 374.33752, 632.3144
+10-28 07:00:34.723: INFO/APV.PDFRenderer(1115): Size: 2.9161072 x 4.314575
+10-28 07:00:34.723: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.751: INFO/APV.PDFRenderer(1115): CMD[188]: PDFShapeCmd: ShapeCommand at: 378.02844, 633.4261
+10-28 07:00:34.751: INFO/APV.PDFRenderer(1115): Size: 0.54107666 x 0.9838257
+10-28 07:00:34.751: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.751: INFO/APV.PDFRenderer(1115): CMD[189]: PDFShapeCmd: ShapeCommand at: 379.5873, 632.9228
+10-28 07:00:34.751: INFO/APV.PDFRenderer(1115): Size: 0.5877991 x 2.036255
+10-28 07:00:34.751: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.751: INFO/APV.PDFRenderer(1115): CMD[190]: PDFShapeCmd: ShapeCommand at: 0.0, 0.0
+10-28 07:00:34.751: INFO/APV.PDFRenderer(1115): Size: 0.0 x 0.0
+10-28 07:00:34.751: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.791: INFO/APV.PDFRenderer(1115): CMD[191]: PDFShapeCmd: ShapeCommand at: 382.52478, 613.7517
+10-28 07:00:34.791: INFO/APV.PDFRenderer(1115): Size: 3.5003662 x 5.5719604
+10-28 07:00:34.791: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.801: INFO/APV.PDFRenderer(1115): CMD[192]: PDFShapeCmd: ShapeCommand at: 386.60376, 613.76733
+10-28 07:00:34.801: INFO/APV.PDFRenderer(1115): Size: 2.9161072 x 3.8964844
+10-28 07:00:34.801: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.801: INFO/APV.PDFRenderer(1115): CMD[193]: PDFShapeCmd: ShapeCommand at: 390.3796, 613.8803
+10-28 07:00:34.801: INFO/APV.PDFRenderer(1115): Size: 0.43670654 x 5.3187256
+10-28 07:00:34.801: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.833: INFO/APV.PDFRenderer(1115): CMD[194]: PDFShapeCmd: ShapeCommand at: 391.39575, 613.7829
+10-28 07:00:34.833: INFO/APV.PDFRenderer(1115): Size: 1.6448059 x 4.9368286
+10-28 07:00:34.833: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.833: INFO/APV.PDFRenderer(1115): CMD[195]: PDFShapeCmd: ShapeCommand at: 393.4243, 613.76733
+10-28 07:00:34.833: INFO/APV.PDFRenderer(1115): Size: 2.9161072 x 3.8964844
+10-28 07:00:34.833: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.851: INFO/APV.PDFRenderer(1115): CMD[196]: PDFShapeCmd: ShapeCommand at: 399.03894, 613.8803
+10-28 07:00:34.851: INFO/APV.PDFRenderer(1115): Size: 1.2868958 x 5.3187256
+10-28 07:00:34.851: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.851: INFO/APV.PDFRenderer(1115): CMD[197]: PDFShapeCmd: ShapeCommand at: 402.31665, 613.76733
+10-28 07:00:34.851: INFO/APV.PDFRenderer(1115): Size: 3.033966 x 5.536865
+10-28 07:00:34.851: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.881: INFO/APV.PDFRenderer(1115): CMD[198]: PDFShapeCmd: ShapeCommand at: 406.3114, 613.8803
+10-28 07:00:34.881: INFO/APV.PDFRenderer(1115): Size: 0.54107666 x 0.7987671
+10-28 07:00:34.881: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.891: INFO/APV.PDFRenderer(1115): CMD[199]: PDFFillPaintCmd: com.sun.pdfview.PDFFillPaintCmd@44045650
+10-28 07:00:34.921: INFO/APV.PDFRenderer(1115): CMD[200]: PDFShapeCmd: ShapeCommand at: 180.94373, 589.2803
+10-28 07:00:34.921: INFO/APV.PDFRenderer(1115): Size: 5.4758606 x 9.477661
+10-28 07:00:34.921: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.921: INFO/APV.PDFRenderer(1115): CMD[201]: PDFShapeCmd: ShapeCommand at: 188.04951, 589.2803
+10-28 07:00:34.921: INFO/APV.PDFRenderer(1115): Size: 0.9641876 x 1.4234009
+10-28 07:00:34.921: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.931: INFO/APV.PDFRenderer(1115): CMD[202]: PDFShapeCmd: ShapeCommand at: 191.54005, 589.2803
+10-28 07:00:34.931: INFO/APV.PDFRenderer(1115): Size: 2.2931824 x 9.477661
+10-28 07:00:34.931: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.931: INFO/APV.PDFRenderer(1115): CMD[203]: PDFShapeCmd: ShapeCommand at: 204.73055, 589.05115
+10-28 07:00:34.931: INFO/APV.PDFRenderer(1115): Size: 6.244812 x 11.887024
+10-28 07:00:34.931: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.971: INFO/APV.PDFRenderer(1115): CMD[204]: PDFShapeCmd: ShapeCommand at: 212.86702, 589.0789
+10-28 07:00:34.971: INFO/APV.PDFRenderer(1115): Size: 5.3543243 x 9.679016
+10-28 07:00:34.971: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:34.981: INFO/APV.PDFRenderer(1115): CMD[205]: PDFShapeCmd: ShapeCommand at: 219.33746, 589.0789
+10-28 07:00:34.981: INFO/APV.PDFRenderer(1115): Size: 5.19635 x 6.9433594
+10-28 07:00:34.981: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:35.011: INFO/APV.PDFRenderer(1115): CMD[206]: PDFShapeCmd: ShapeCommand at: 226.03181, 589.2803
+10-28 07:00:35.011: INFO/APV.PDFRenderer(1115): Size: 2.9026184 x 6.7905884
+10-28 07:00:35.011: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:35.021: INFO/APV.PDFRenderer(1115): CMD[207]: PDFShapeCmd: ShapeCommand at: 229.51253, 589.0789
+10-28 07:00:35.021: INFO/APV.PDFRenderer(1115): Size: 4.502716 x 6.9433594
+10-28 07:00:35.021: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:35.021: INFO/APV.PDFRenderer(1115): CMD[208]: PDFShapeCmd: ShapeCommand at: 235.47665, 589.2803
+10-28 07:00:35.021: INFO/APV.PDFRenderer(1115): Size: 0.7781677 x 9.477661
+10-28 07:00:35.021: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:35.061: INFO/APV.PDFRenderer(1115): CMD[209]: PDFShapeCmd: ShapeCommand at: 237.79523, 589.0789
+10-28 07:00:35.061: INFO/APV.PDFRenderer(1115): Size: 5.052429 x 6.9433594
+10-28 07:00:35.061: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:35.091: INFO/APV.PDFRenderer(1115): CMD[210]: PDFShapeCmd: ShapeCommand at: 244.1871, 589.2803
+10-28 07:00:35.091: INFO/APV.PDFRenderer(1115): Size: 4.738678 x 9.477661
+10-28 07:00:35.091: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:35.101: INFO/APV.PDFRenderer(1115): CMD[211]: PDFShapeCmd: ShapeCommand at: 249.87492, 589.1067
+10-28 07:00:35.101: INFO/APV.PDFRenderer(1115): Size: 2.9309387 x 8.797241
+10-28 07:00:35.101: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:35.141: INFO/APV.PDFRenderer(1115): CMD[212]: PDFShapeCmd: ShapeCommand at: 0.0, 0.0
+10-28 07:00:35.141: INFO/APV.PDFRenderer(1115): Size: 0.0 x 0.0
+10-28 07:00:35.141: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:35.141: INFO/APV.PDFRenderer(1115): CMD[213]: PDFShapeCmd: ShapeCommand at: 256.79416, 589.0789
+10-28 07:00:35.141: INFO/APV.PDFRenderer(1115): Size: 4.738678 x 9.206909
+10-28 07:00:35.141: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:35.141: INFO/APV.PDFRenderer(1115): CMD[214]: PDFShapeCmd: ShapeCommand at: 263.43335, 589.0789
+10-28 07:00:35.141: INFO/APV.PDFRenderer(1115): Size: 5.3543396 x 9.679016
+10-28 07:00:35.141: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:35.151: INFO/APV.PDFRenderer(1115): CMD[215]: PDFShapeCmd: ShapeCommand at: 269.9038, 589.0789
+10-28 07:00:35.151: INFO/APV.PDFRenderer(1115): Size: 5.19635 x 6.9433594
+10-28 07:00:35.151: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:35.181: INFO/APV.PDFRenderer(1115): CMD[216]: PDFShapeCmd: ShapeCommand at: 276.59814, 589.2803
+10-28 07:00:35.181: INFO/APV.PDFRenderer(1115): Size: 2.9026184 x 6.7905884
+10-28 07:00:35.181: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:35.181: INFO/APV.PDFRenderer(1115): CMD[217]: PDFShapeCmd: ShapeCommand at: 0.0, 0.0
+10-28 07:00:35.181: INFO/APV.PDFRenderer(1115): Size: 0.0 x 0.0
+10-28 07:00:35.181: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:35.181: INFO/APV.PDFRenderer(1115): CMD[218]: PDFShapeCmd: ShapeCommand at: 282.82324, 589.0789
+10-28 07:00:35.181: INFO/APV.PDFRenderer(1115): Size: 5.361267 x 9.679016
+10-28 07:00:35.181: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:35.191: INFO/APV.PDFRenderer(1115): CMD[219]: PDFShapeCmd: ShapeCommand at: 289.71085, 589.0789
+10-28 07:00:35.191: INFO/APV.PDFRenderer(1115): Size: 5.3534546 x 6.9433594
+10-28 07:00:35.191: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:35.201: INFO/APV.PDFRenderer(1115): CMD[220]: PDFShapeCmd: ShapeCommand at: 295.83322, 589.0789
+10-28 07:00:35.201: INFO/APV.PDFRenderer(1115): Size: 4.502716 x 6.9433594
+10-28 07:00:35.201: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:35.211: INFO/APV.PDFRenderer(1115): CMD[221]: PDFShapeCmd: ShapeCommand at: 0.0, 0.0
+10-28 07:00:35.211: INFO/APV.PDFRenderer(1115): Size: 0.0 x 0.0
+10-28 07:00:35.211: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:35.221: INFO/APV.PDFRenderer(1115): CMD[222]: PDFShapeCmd: ShapeCommand at: 303.80374, 589.2803
+10-28 07:00:35.221: INFO/APV.PDFRenderer(1115): Size: 6.3606873 x 9.477661
+10-28 07:00:35.221: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:35.251: INFO/APV.PDFRenderer(1115): CMD[223]: PDFShapeCmd: ShapeCommand at: 309.5762, 589.0789
+10-28 07:00:35.251: INFO/APV.PDFRenderer(1115): Size: 5.19635 x 6.9433594
+10-28 07:00:35.251: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:35.261: INFO/APV.PDFRenderer(1115): CMD[224]: PDFShapeCmd: ShapeCommand at: 316.29605, 589.2803
+10-28 07:00:35.261: INFO/APV.PDFRenderer(1115): Size: 0.7781677 x 9.477661
+10-28 07:00:35.261: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:35.261: INFO/APV.PDFRenderer(1115): CMD[225]: PDFShapeCmd: ShapeCommand at: 318.61444, 589.0789
+10-28 07:00:35.261: INFO/APV.PDFRenderer(1115): Size: 5.19635 x 6.9433594
+10-28 07:00:35.261: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:35.301: INFO/APV.PDFRenderer(1115): CMD[226]: PDFShapeCmd: ShapeCommand at: 324.5584, 589.2803
+10-28 07:00:35.301: INFO/APV.PDFRenderer(1115): Size: 3.0076294 x 9.692932
+10-28 07:00:35.301: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:35.311: INFO/APV.PDFRenderer(1115): CMD[227]: PDFShapeCmd: ShapeCommand at: 327.9661, 589.0789
+10-28 07:00:35.311: INFO/APV.PDFRenderer(1115): Size: 5.4868164 x 6.9433594
+10-28 07:00:35.311: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:35.364: INFO/APV.PDFRenderer(1115): CMD[228]: PDFShapeCmd: ShapeCommand at: 335.023, 589.2803
+10-28 07:00:35.364: INFO/APV.PDFRenderer(1115): Size: 4.7387085 x 6.7420044
+10-28 07:00:35.364: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:35.402: INFO/APV.PDFRenderer(1115): CMD[229]: PDFShapeCmd: ShapeCommand at: 341.6056, 589.2803
+10-28 07:00:35.402: INFO/APV.PDFRenderer(1115): Size: 0.9642029 x 1.4234009
+10-28 07:00:35.402: INFO/APV.PDFRenderer(1115): Mode: FILL 
+10-28 07:00:35.411: INFO/APV.PDFRenderer(1115): CMD[230]: PDFFillPaintCmd: com.sun.pdfview.PDFFillPaintCmd@4406a278

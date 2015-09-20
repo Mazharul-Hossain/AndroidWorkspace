@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.biz.compandsave"
+	android:debuggable="false"
+	android:versionCode="3"
+	android:versionName="1.02" >
+
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+
+	<uses-sdk
+		android:minSdkVersion="11"
+		android:targetSdkVersion="17" />
+
+	<application
+		android:name="com.biz.compansave.CASGiftBoxApp"
+		android:allowBackup="true"
+		android:icon="@drawable/app_icon"
+		android:label="@string/app_name"
+		android:theme="@style/AppTheme" >
+		<activity
+			android:name="com.biz.compansave.SplashScreenActivity"
+			android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name="com.biz.compansave.Choose_option_activity" >
+			<intent-filter>
+				<action android:name="com.android.compandsave.Choose_option_activity" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity android:name="com.biz.compansave.Thanks_activity" >
+			<intent-filter>
+				<action android:name="com.android.compandsave.Thanks_activity" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity android:name="com.biz.compansave.Before_campaign_activity" >
+			<intent-filter>
+				<action android:name="com.android.compandsave.Before_campaign_activity" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity android:name="com.biz.compansave.After_compaign_activity" >
+			<intent-filter>
+				<action android:name="com.android.compandsave.Before_campaign_activity" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity android:name="com.biz.compansave.Campaign_started_activity" >
+			<intent-filter>
+				<action android:name="com.android.compandsave.Before_campaign_activity" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+
+		<service
+			android:name="com.biz.compansave.AlarmService"
+			android:enabled="true" />
+	</application>
+
+</manifest>

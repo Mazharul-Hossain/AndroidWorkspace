@@ -1,0 +1,32 @@
+up vote
+251
+down vote
+The other answers look good, but I thought I'd wrap everything up into one complete answer.
+
+You need the following in your AndroidManifest.xml file:
+
+1) In your <manifest> element:
+
+<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+2) In your <application> element (be sure to use a fully-qualified [or relative] class name for your BroadcastReceiver):
+
+<receiver android:name="com.example.MyBroadcastReceiver">  
+    <intent-filter>  
+        <action android:name="android.intent.action.BOOT_COMPLETED" />  
+    </intent-filter>  
+</receiver>
+(you don't need the android:enabled, exported, etc., attributes... the Android defaults are correct)
+
+
+In MyBroadcastReceiver.java:
+
+package com.example;
+
+public class MyBroadcastreceiver extends BroadcastReceiver {
+    @Override
+    public void onReceive(Context context, Intent intent) {
+        Intent startServiceIntent = new Intent(context, MyService.class);
+        context.startService(startServiceIntent);
+    }
+}

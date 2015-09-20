@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Dr.Edit</string>
+	<string name="hello_world">Hello world!</string>
+	<string name="menu_settings">Settings</string>
+	<string name="str_scr_first_logo">Have Fun In Note Taking</string>
+	<string name="str_scrren_first_img">First Image</string>
+	<string name="str_scrren_sec_img">Second Image</string>
+	<string name="str_scrren_third_img">Third Image</string>
+	<string name="str_scrren_fourth_img">Fourth Image</string>
+	<string name="app_version_info">Version 1.00\nCopyright @2012 Chellenge Tracker Co.\nALL RIGHTS RESERVED</string>
+	<string name="str_scr_bot_logo">WELCOME TO </string>
+	<string name="str_scr_bottom_logo">Automated Note Taker</string>
+	<string name="opt_scr_1st_img">Give Your Note</string>
+	<string name="opt_scr_2nd_img">My Note</string>
+	<string name="opt_scr_3rd_img">Browsing</string>
+	<string name="opt_scr_4th_img">Help</string>
+	<string name="opt_scr_1st_text">HOME</string>
+	<string name="intro">Press the button to speak!</string>
+	<string name="speech">Speak now!</string>
+	<string name="word_intro">Suggested words…</string>
+	<string name="help">Help Screen</string>
+	<string name="dialog_author_img">Author</string>
+	<string name="dialog_text">You have told the following as your note . Do you want to Save it ? You can correct this
+         if you want .  </string>
+	<string name="dialog_tak_nte_btn">Save Note</string>
+	<string name="dialog_cancel_btn">Cancel</string>
+	<string name="live_folder_name">Notes</string>
+	<string name="title_edit_title">Note title:</string>
+	<string name="title_create">New note</string>
+	<string name="title_edit">Edit: %1$s</string>
+	<string name="title_notes_list">Notes</string>
+	<string name="menu_add">New note</string>
+	<string name="menu_save">Save</string>
+	<string name="menu_delete">Delete</string>
+	<string name="menu_open">Open</string>
+	<string name="menu_revert">Revert changes</string>
+	<string name="menu_copy">Copy</string>
+	<string name="menu_paste">Paste</string>
+	<string name="button_ok">OK</string>
+	<string name="text_title">Title:</string>
+	<string name="resolve_edit">Edit note</string>
+	<string name="resolve_title">Edit title</string>
+	<string name="error_title">Error</string>
+	<string name="error_message">Error loading note</string>
+	<string name="nothing_to_save">There is nothing to save</string>
+	<string name="choose_account_title">Select an account</string>
+	<string name="menu_account">Account</string>
+	<string name="title_preferences">Preferences</string>
+	<string name="selected_account">Selected account</string>
+	<string name="title_sync_frequency">Sync frequency</string>
+	<string name="sync_frequency_default_value">900</string>
+	<string name="menu_preferences">Preferences</string>
+	<string name="summary_preferences">Edit preferences</string>
+	<string name="save_btn">Save Note</string>
+	<string name="sve_nte_text_view">Notes Title:</string>
+	<string name="sve_note_dialog_button">Save Notee</string>
+	<string name="sve_note_dialog_button_cancel">Cancel</string>
+	<string name="browser">Browser</string>
+	<string name="_space">" "</string>
+
+</resources>

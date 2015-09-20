@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#CCCC99">
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    
+    <ImageView
+        android:id="@+id/imgv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/dialog_author_img"
+        android:src="@drawable/ic_list_library_authors" />
+          
+     <TextView
+         android:id="@+id/tv"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dip"
+         android:layout_marginTop="10dip"
+         android:text="@string/dialog_text"
+         android:textColor="#000000"
+         android:textSize="25sp" />
+
+    </LinearLayout>
+    
+    <EditText
+        android:id="@+id/today_note_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text|textCapSentences|textAutoCorrect" >
+
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/import_to_reader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_tak_nte_btn" />
+
+        <Button
+            android:id="@+id/cancel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_cancel_btn" />
+    </LinearLayout>
+    
+</LinearLayout>

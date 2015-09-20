@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/dropshadow_container"
+    android:padding="10dp" >
+
+	<LinearLayout
+		android:id="@+id/layout1"
+		android:layout_width="fill_parent"
+		android:layout_height="40dp"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentTop="true" >
+
+		<TextView
+			android:id="@+id/textViewL"
+			android:layout_width="0dip"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:gravity="center_vertical"
+			android:singleLine="true"
+			android:text="TextView"
+			android:textColor="@color/grid_item_date_color"
+			android:textSize="18sp" />
+
+		<ImageView
+		    android:id="@+id/checkBox1"
+		    android:layout_width="16dp"
+		    android:layout_height="16dp"
+		    android:layout_marginRight="5dp"
+		    android:layout_marginTop="5dp"
+		    android:scaleType="fitXY"
+		    android:src="@drawable/checkbox_empty" />
+
+	</LinearLayout>
+
+	<ImageView
+		android:id="@+id/topImage"
+		android:layout_width="64dp"
+		android:layout_height="64dp"
+		android:layout_below="@+id/layout1"
+		android:layout_centerHorizontal="true"
+		android:src="@drawable/icon"
+		tools:ignore="ContentDescription" />
+
+	<TextView
+		android:id="@+id/textView1"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/topImage"
+		android:layout_centerHorizontal="true"
+		android:ellipsize="marquee"
+		android:gravity="center"
+		android:singleLine="true"
+		android:text="TextView"
+		android:textColor="@color/grid_item_title_color"
+		android:textSize="18sp" />
+
+</RelativeLayout>

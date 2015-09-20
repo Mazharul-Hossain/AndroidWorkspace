@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="bd.org.basis.library.R.id"/>
+<fullyQualifiedTypeName name="java.lang.Double"/>
+<fullyQualifiedTypeName name="android.util.Log"/>
+<fullyQualifiedTypeName name="android.content.Context"/>
+<fullyQualifiedTypeName name="android.database.sqlite.SQLiteDatabase"/>
+<fullyQualifiedTypeName name="android.content.ContentValues"/>
+<fullyQualifiedTypeName name="android.database.Cursor"/>
+<fullyQualifiedTypeName name="bd.org.basis.library.DBHelper"/>
+<fullyQualifiedTypeName name="bd.org.basis.library.DBAdapter"/>
+<fullyQualifiedTypeName name="bd.org.basis.library.Book"/>
+<fullyQualifiedTypeName name="android.widget.Toast"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="bd.basis.example.sharepreferences.R.id"/>
+<fullyQualifiedTypeName name="android.widget.EditText"/>
+<fullyQualifiedTypeName name="android.widget.Button"/>
+<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
+<fullyQualifiedTypeName name="android.content.SharedPreferences"/>
+<fullyQualifiedTypeName name="android.content.SharedPreferences.Editor"/>
+</qualifiedTypeNameHistroy>

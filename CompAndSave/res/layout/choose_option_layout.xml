@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#257D87"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/choose_option_txt_view1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:shadowColor="#000"
+        android:shadowDx="1.0"
+        android:shadowDy="1.0"
+        android:shadowRadius="2.0"
+        android:text="@string/choose_option_txt1"
+        android:textColor="@color/txt_color"
+        android:textSize="20sp" />
+
+    <GridView
+        android:id="@+id/gridView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/RelativeLayout1"
+        android:layout_below="@+id/choose_option_txt_view1"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:horizontalSpacing="10dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="10dp" >
+
+    </GridView>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="#D9224E"
+        android:padding="5dp" >
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:background="#D9224E"
+            android:gravity="center"
+            android:onClick="onButtonClicked"
+            android:text="Save" 
+            android:textColor="@color/txt_color"
+            android:shadowColor="#000"
+        	android:shadowDx="1.0"
+        	android:shadowDy="1.0"
+        	android:shadowRadius="2.0"
+            />
+
+        <Button
+            android:id="@+id/buttonRemindLater"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/buttonSave"
+            android:layout_alignBottom="@+id/buttonSave"
+            android:layout_alignParentRight="true"
+            android:layout_weight="0"
+            android:background="#D9224E"
+            android:onClick="onButtonClicked"
+            android:paddingRight="10sp"
+            android:text="I&apos;ll Choose Later" 
+            android:textColor="@color/txt_color"
+            android:shadowColor="#000"
+        	android:shadowDx="1.0"
+        	android:shadowDy="1.0"
+        	android:shadowRadius="2.0"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

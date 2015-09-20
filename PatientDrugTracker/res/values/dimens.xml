@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_profile_text_view">40sp</dimen>
+     <dimen name="txt_size">20sp</dimen>
+    <dimen name="t_size">10sp</dimen>
+    <dimen name="padd_sze">10sp</dimen>
+</resources>

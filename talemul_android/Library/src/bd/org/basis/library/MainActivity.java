@@ -1,0 +1,127 @@
+package bd.org.basis.library;
+
+import java.util.ArrayList;
+import java.util.concurrent.ExecutionException;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
+
+public class MainActivity extends Activity implements OnClickListener{
+	
+	private EditText etTitle, etAuthor, etCategory, etISBN, etPrice;
+	private Button btnSave, btnView;
+	private DBAdapter dbAdapter;
+	 
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		
+		dbAdapter=new DBAdapter(this);
+		
+		etTitle=(EditText)findViewById(R.id.etTitle);
+		etAuthor=(EditText)findViewById(R.id.etAuthor);
+		etCategory=(EditText)findViewById(R.id.etcategory);
+		etISBN=(EditText)findViewById(R.id.etISBN);
+		etPrice=(EditText)findViewById(R.id.etPrice);
+		
+		btnSave = (Button)findViewById(R.id.btnSave);
+		btnView = (Button)findViewById(R.id.btnView);
+		
+		btnSave.setOnClickListener(this);
+		btnView.setOnClickListener(this);
+		
+		
+		
+	}	
+	
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
+
+
+
+
+
+	@Override
+	public void onClick(View V) {
+		// TODO Auto-generated method stub
+		
+		
+		switch (V.getId())
+		{
+		case R.id.btnView:
+			
+			dbAdapter.open();
+			ArrayList<Book> books = dbAdapter.getAllBooks();
+			dbAdapter.close();
+			for(Book book : books)
+			{
+				Toast.makeText(getApplicationContext(), book.toString(),Toast.LENGTH_LONG ).show();
+				etTitle.setText(book.getTitle());
+				
+			}
+			
+			
+			break;
+			
+		case R.id.btnSave:
+			//open dbAdpter
+		//retrieve book  create book save to db
+			try{
+			//open db. row insert, close
+			String title=etTitle.getText().toString();
+			String author= etAuthor.getText().toString();
+			String category=etCategory.getText().toString();
+			String ISBN=etISBN.getText().toString();
+			double price=Double.parseDouble(etPrice.getText().toString());
+			
+			
+			dbAdapter.open();
+			long inserted=dbAdapter.insertBook(new Book(title, author, category, ISBN, price));
+			dbAdapter.close();
+			
+			if(inserted>=0)
+			{
+				Toast.makeText(getApplicationContext(), "Insert Succesfull", 
+						Toast.LENGTH_LONG).show();
+			}
+			else
+			{
+				
+				Toast.makeText(getApplicationContext(), "Insert unSuccesfull", 
+						Toast.LENGTH_LONG).show();
+			}
+			
+			
+			
+			}
+			catch(Exception e)
+			{
+				
+				
+			}
+			
+			
+				
+				
+			
+			
+			break;
+		default:
+				break;		
+		}
+		
+	}
+
+}

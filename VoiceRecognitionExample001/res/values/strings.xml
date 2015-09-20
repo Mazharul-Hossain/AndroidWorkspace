@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Voice Recognition Example001</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="intro">Press the button to speak!</string>
+    <string name="speech">Speak now!</string>
+    <string name="word_intro">Suggested words…</string>
+
+</resources>

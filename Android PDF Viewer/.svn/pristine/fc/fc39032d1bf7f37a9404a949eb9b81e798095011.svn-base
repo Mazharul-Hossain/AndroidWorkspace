@@ -1,0 +1,274 @@
+08-28 05:57:28.575: INFO/ActivityManager(579): Starting activity: Intent { comp={net.sf.andpdf.pdfviewer/net.sf.andpdf.pdfviewer.PdfViewerActivity} (has extras) }
+08-28 05:57:28.805: INFO/PDFVIEWER(841): Intent { comp={net.sf.andpdf.pdfviewer/net.sf.andpdf.pdfviewer.PdfViewerActivity} (has extras) }
+08-28 05:57:28.835: INFO/PDFVIEWER(841): ST='file '/sdcard/download/User_Manual_T-Mobile_G1_D.pdf' has 14091105 bytes'
+08-28 05:57:30.244: DEBUG/dalvikvm(841): GC freed 5267 objects / 272896 bytes in 168ms
+08-28 05:57:32.784: DEBUG/dalvikvm(841): GC freed 10425 objects / 516464 bytes in 158ms
+08-28 05:57:34.545: DEBUG/dalvikvm(841): GC freed 15002 objects / 543256 bytes in 160ms
+08-28 05:57:36.265: DEBUG/dalvikvm(841): GC freed 14058 objects / 509992 bytes in 179ms
+08-28 05:57:38.004: DEBUG/dalvikvm(841): GC freed 13859 objects / 506960 bytes in 155ms
+08-28 05:57:38.634: WARN/ActivityManager(579): Launch timeout has expired, giving up wake lock!
+08-28 05:57:38.714: WARN/ActivityManager(579): Activity idle timeout for HistoryRecord{435a89f8 {net.sf.andpdf.pdfviewer/net.sf.andpdf.pdfviewer.PdfViewerActivity}}
+08-28 05:57:39.444: INFO/PDFVIEWER(841): ST='Anzahl Seiten:202'
+08-28 05:57:39.614: DEBUG/dalvikvm(841): GC freed 4527 objects / 182704 bytes in 155ms
+08-28 05:57:39.624: INFO/dalvikvm-heap(841): Grow heap (frag case) to 3.412MB for 1256-byte allocation
+08-28 05:57:39.764: DEBUG/dalvikvm(841): GC freed 0 objects / 0 bytes in 135ms
+08-28 05:57:40.214: INFO/System.out(841): **** WARNING! parseObject unknown token! (t.type=10) *************************
+08-28 05:57:40.224: INFO/System.out(841): Command [1]: BDC (stack size is 2:[Span,{MCID=Number: 0.0, Lang=Name: /en-US}])
+08-28 05:57:40.234: INFO/System.out(841): Command [2]: q (stack size is 0:[])
+08-28 05:57:40.254: INFO/System.out(841): Command [3]: re (stack size is 4:[0.0,0.0,360.0,360.0])
+08-28 05:57:40.285: INFO/System.out(841): Command [4]: W (stack size is 0:[])
+08-28 05:57:40.294: INFO/System.out(841): Command [5]: n (stack size is 0:[])
+08-28 05:57:40.314: INFO/System.out(841): Command [6]: k (stack size is 4:[0.0,0.0,0.0,1.0])
+08-28 05:57:40.354: INFO/System.out(841): **** WARNING! Stack not zero! (cmd=k, size=4) *************************
+08-28 05:57:40.385: INFO/ActivityManager(579): Displayed activity net.sf.andpdf.pdfviewer/.PdfViewerActivity: 11802 ms
+08-28 05:57:40.395: INFO/System.out(841): Command [7]: i (stack size is 1:[0.0])
+08-28 05:57:40.405: INFO/System.out(841): Command [8]: ri (stack size is 1:[RelativeColorimetric])
+08-28 05:57:40.415: INFO/System.out(841): **** WARNING! Stack not zero! (cmd=ri, size=1) *************************
+08-28 05:57:40.435: INFO/System.out(841): Command [9]: gs (stack size is 1:[GS0])
+08-28 05:57:40.455: INFO/System.out(841): Command [10]: BT (stack size is 0:[])
+08-28 05:57:40.465: INFO/System.out(841): Command [11]: Tf (stack size is 2:[T1_0,1.0])
+08-28 05:57:40.824: DEBUG/dalvikvm(841): GC freed 2989 objects / 158128 bytes in 148ms
+08-28 05:57:40.854: INFO/System.out(841): Command [12]: Tc (stack size is 1:[0.0])
+08-28 05:57:40.864: INFO/System.out(841): Command [13]: Tw (stack size is 1:[0.0])
+08-28 05:57:40.894: INFO/System.out(841): Command [14]: Ts (stack size is 1:[0.0])
+08-28 05:57:40.904: INFO/System.out(841): Command [15]: Tz (stack size is 1:[100.0])
+08-28 05:57:40.924: INFO/System.out(841): Command [16]: Tr (stack size is 1:[0.0])
+08-28 05:57:40.954: INFO/System.out(841): Command [17]: Tm (stack size is 6:[14.25,0.0,0.0,14.25,317.2455,13.9741])
+08-28 05:57:40.984: INFO/System.out(841): Command [18]: Tj (stack size is 1:[1])
+08-28 05:57:40.994: INFO/System.out(841): Command [19]: ET (stack size is 0:[])
+08-28 05:57:41.015: INFO/System.out(841): Command [20]: EMC (stack size is 0:[])
+08-28 05:57:41.034: INFO/System.out(841): Command [21]: cs (stack size is 1:[CS0])
+08-28 05:57:41.075: INFO/System.out(841): Command [22]: scn (stack size is 1:[1.0])
+08-28 05:57:41.085: WARN/System.err(841): java.util.EmptyStackException
+08-28 05:57:41.095: WARN/System.err(841):     at java.util.Stack.pop(Stack.java:85)
+08-28 05:57:41.105: WARN/System.err(841):     at com.sun.pdfview.PDFParser.popFloat(PDFParser.java:1285)
+08-28 05:57:41.105: WARN/System.err(841):     at com.sun.pdfview.PDFParser.popFloat(PDFParser.java:1305)
+08-28 05:57:41.105: WARN/System.err(841):     at com.sun.pdfview.PDFParser.iterate(PDFParser.java:710)
+08-28 05:57:41.114: WARN/System.err(841):     at com.sun.pdfview.BaseWatchable.run(BaseWatchable.java:101)
+08-28 05:57:41.125: WARN/System.err(841):     at com.sun.pdfview.BaseWatchable.execute(BaseWatchable.java:263)
+08-28 05:57:41.215: WARN/System.err(841):     at com.sun.pdfview.BaseWatchable.go(BaseWatchable.java:197)
+08-28 05:57:41.224: WARN/System.err(841):     at com.sun.pdfview.PDFFile.getPage(PDFFile.java:1358)
+08-28 05:57:41.234: WARN/System.err(841):     at net.sf.andpdf.pdfviewer.PdfViewerActivity.showPage(PdfViewerActivity.java:352)
+08-28 05:57:41.244: WARN/System.err(841):     at net.sf.andpdf.pdfviewer.PdfViewerActivity.access$2(PdfViewerActivity.java:349)
+08-28 05:57:41.244: WARN/System.err(841):     at net.sf.andpdf.pdfviewer.PdfViewerActivity$2.run(PdfViewerActivity.java:135)
+08-28 05:57:41.254: WARN/System.err(841):     at java.lang.Thread.run(Thread.java:1058)
+08-28 05:57:41.267: INFO/PDFVIEWER(841): ST='User_Manual_T-Mobile_G1_D.pdf - 1/202: 360.0x360.0'
+08-28 05:57:41.297: INFO/PDFVIEWER(841): User_Manual_T-Mobile_G1_D.pdf - 1/202: 360.0x360.0
+08-28 05:57:41.345: INFO/APV.PDFRenderer(841): CMD[1]: PDFPushCmd: com.sun.pdfview.PDFPushCmd@437648c0
+08-28 05:57:41.354: INFO/APV.PDFRenderer(841): CMD[2]: PDFShapeCmd: ShapeCommand at: 0.0, 0.0
+08-28 05:57:41.354: INFO/APV.PDFRenderer(841): Size: 360.0 x 360.0
+08-28 05:57:41.354: INFO/APV.PDFRenderer(841): Mode: CLIP
+08-28 05:57:41.367: INFO/APV.PDFRenderer(841): CMD[3]: PDFStrokeAlphaCmd: com.sun.pdfview.PDFStrokeAlphaCmd@4378b640
+08-28 05:57:41.385: INFO/APV.PDFRenderer(841): CMD[4]: PDFFillAlphaCmd: com.sun.pdfview.PDFFillAlphaCmd@4378c140
+08-28 05:57:41.385: INFO/APV.PDFRenderer(841): CMD[5]: PDFShapeCmd: ShapeCommand at: 318.84152, 13.9741
+08-28 05:57:41.385: INFO/APV.PDFRenderer(841): Size: 2.2942505 x 9.504747
+08-28 05:57:41.385: INFO/APV.PDFRenderer(841): Mode: FILL 
+
+
+file 'U:/Android/PDFs/examples/neu/User_Manual_T-Mobile_G1_D.pdf' has 14091105 bytes
+Seite: 1/202
+
+1:360.0x360.0
+**** WARNING! parseObject unknown token! (t.type=10) *************************
+Command: BDC (stack: [Span,{Lang=Name: /en-US, MCID=Number: 0.0}])
+Command: q (stack: [])
+Command: re (stack: [0.0,0.0,360.0,360.0])
+Command: W (stack: [])
+Command: n (stack: [])
+Command: k (stack: [0.0,0.0,0.0,1.0])
+Command: i (stack: [0.0])
+Command: ri (stack: [RelativeColorimetric])
+**** WARNING! Stack not zero! (cmd=ri, size=1) *************************
+Command: gs (stack: [GS0])
+Command: BT (stack: [])
+Command: Tf (stack: [T1_0,1.0])
+Command: Tc (stack: [0.0])
+Command: Tw (stack: [0.0])
+Command: Ts (stack: [0.0])
+Command: Tz (stack: [100.0])
+Command: Tr (stack: [0.0])
+Command: Tm (stack: [14.25,0.0,0.0,14.25,317.2455,13.9741])
+Command: Tj (stack: [1])
+Command: ET (stack: [])
+Command: EMC (stack: [])
+Command: cs (stack: [CS0])
+Command: scn (stack: [1.0])
+Command: gs (stack: [GS1])
+Command: re (stack: [36.0,280.63,288.0,43.37])
+Command: f (stack: [])
+**** WARNING! parseObject unknown token! (t.type=10) *************************
+Command: BDC (stack: [Span,{MCID=Number: 1.0}])
+Command: k (stack: [0.0,0.0,0.0,0.0])
+Command: BT (stack: [])
+Command: Tf (stack: [T1_0,1.0])
+Command: Tm (stack: [14.25,0.0,0.0,14.25,47.385799999999996,304.52509999999995])
+Command: Tj (stack: [A Few Things to Know Before You Get Going])
+Command: ET (stack: [])
+Command: EMC (stack: [])
+**** WARNING! parseObject unknown token! (t.type=10) *************************
+Command: BDC (stack: [Span,{MCID=Number: 2.0}])
+Command: k (stack: [0.0,0.0,0.0,1.0])
+Command: gs (stack: [GS0])
+Command: BT (stack: [])
+Command: Tf (stack: [T1_0,1.0])
+Command: Tm (stack: [8.0,0.0,0.0,8.0,87.0236,264.1334])
+**** WARNING! parseObject unknown token! (t.type=8) *************************
+Command: TJ (stack: [[R,-5.0,e,-5.0,m,-5.0,e,-5.0,m,-5.0,b,-5.0,e,-5.0,r,-5.0, ,-5.0,y,-5.0,o,-5.0,u,-5.0,r,-5.0, ,-5.0,b,-5.0,a,-5.0,t,-5.0,t,-5.0,e,-5.0,r,-5.0,y,-5.0, ,-5.0,d,-5.0,o,-5.0,e,-5.0,s,-5.0,n,-5.0,?,-5.0,t,-5.0, ,-5.0,c,-5.0,o,-5.0,m,-5.0,e,-5.0, ,-5.0,c,-5.0,h,-5.0,a,-5.0,r,-5.0,g,-5.0,e,-5.0,d,-5.0,.]])
+Command: ET (stack: [])
+Command: EMC (stack: [])
+**** WARNING! parseObject unknown token! (t.type=10) *************************
+Command: BDC (stack: [Span,{MCID=Number: 3.0}])
+Command: BT (stack: [])
+Command: Tf (stack: [T1_0,1.0])
+Command: Tm (stack: [8.0,0.0,0.0,8.0,87.0236,252.1712])
+**** WARNING! parseObject unknown token! (t.type=8) *************************
+Command: TJ (stack: [[M,-5.0,a,-5.0,k,-5.0,e,-5.0, ,-5.0,s,-5.0,u,-5.0,r,-5.0,e,-5.0, ,-5.0,y,-5.0,o,-5.0,u,-5.0, ,-5.0,d,-5.0,o,-5.0,n,-5.0,?,-5.0,t,-5.0, ,-5.0,r,-5.0,e,-5.0,m,-5.0,o,-5.0,v,-5.0,e,-5.0, ,-5.0,t,-5.0,h,-5.0,e,-5.0, ,-5.0,b,-5.0,a,-5.0,t,-5.0,t,-5.0,e,-5.0,r,-5.0,y,-5.0, ,-5.0,p,-5.0,a,-5.0,c,-5.0,k,-5.0, ,-5.0,w,-5.0,h,-5.0,e,-5.0,n,-5.0, ,-5.0,y,-5.0,o,-5.0,u,-5.0,r,-5.0, ,-5.0,p,-5.0,h,-5.0,o,-5.0,n,-5.0,e,-5.0, ,-5.0,i,-5.0,s,-5.0, ,-5.0,c,-5.0,h,-5.0,a,-5.0,r,-5.0,g,-5.0,i,-5.0,n,-5.0,g,-5.0,.]])
+Command: ET (stack: [])
+Command: EMC (stack: [])
+**** WARNING! parseObject unknown token! (t.type=10) *************************
+Command: BDC (stack: [Span,{MCID=Number: 4.0}])
+Command: BT (stack: [])
+Command: Tf (stack: [T1_0,1.0])
+Command: Tm (stack: [8.0,0.0,0.0,8.0,87.0236,240.20899999999997])
+**** WARNING! parseObject unknown token! (t.type=8) *************************
+Command: TJ (stack: [[Y,-5.0,o,-5.0,u,-5.0,r,-5.0, ,-5.0,w,-5.0,a,-5.0,r,-5.0,r,-5.0,a,-5.0,n,-5.0,t,-5.0,y,-5.0, ,-5.0,i,-5.0,s,-5.0, ,-5.0,i,-5.0,n,-5.0,v,-5.0,a,-5.0,l,-5.0,i,-5.0,d,-5.0,a,-5.0,t,-5.0,e,-5.0,d,-5.0, ,-5.0,i,-5.0,f,-5.0, ,-5.0,y,-5.0,o,-5.0,u,-5.0, ,-5.0,o,-5.0,p,-5.0,e,-5.0,n,-5.0, ,-5.0,o,-5.0,r,-5.0, ,-5.0,t,-5.0,a,-5.0,m,-5.0,p,-5.0,e,-5.0,r,-5.0, ,-5.0,w,-5.0,i,-5.0,t,-5.0,h,-5.0, ,-5.0,y,-5.0,o,-5.0,u,-5.0,r,-5.0, ,-5.0,p,-5.0,h,-5.0,o,-5.0,n,-5.0,e,-5.0,?,-5.0,s,-5.0, ,-5.0,o,-5.0,u,-5.0,t,-5.0,e,-5.0,r,-5.0, ,-5.0,c,-5.0,a,-5.0,s,-5.0,i,-5.0,n,-5.0,g,-5.0,.]])
+Command: ET (stack: [])
+Command: EMC (stack: [])
+**** WARNING! parseObject unknown token! (t.type=10) *************************
+Command: BDC (stack: [Span,{MCID=Number: 5.0}])
+Command: BT (stack: [])
+Command: Tf (stack: [T1_1,1.0])
+Command: Tm (stack: [8.0,0.0,0.0,8.0,87.0236,225.4122])
+**** WARNING! parseObject unknown token! (t.type=8) *************************
+Command: TJ (stack: [[P,-5.0,r,-5.0,i,-5.0,v,-5.0,a,-5.0,c,-5.0,y,-5.0, ,-5.0,R,-5.0,e,-5.0,s,-5.0,t,-5.0,r,-5.0,i,-5.0,c,-5.0,t,-5.0,i,-5.0,o,-5.0,n,-5.0,s]])
+Command: ET (stack: [])
+Command: EMC (stack: [])
+**** WARNING! parseObject unknown token! (t.type=10) *************************
+Command: BDC (stack: [Span,{MCID=Number: 6.0}])
+Command: BT (stack: [])
+Command: Tf (stack: [T1_0,1.0])
+Command: Tm (stack: [8.0,0.0,0.0,8.0,87.0236,216.28459999999998])
+**** WARNING! parseObject unknown token! (t.type=8) *************************
+Command: TJ (stack: [[S,-5.0,o,-5.0,m,-5.0,e,-5.0, ,-5.0,c,-5.0,o,-5.0,u,-5.0,n,-5.0,t,-5.0,r,-5.0,i,-5.0,e,-5.0,s,-5.0, ,-5.0,r,-5.0,e,-5.0,q,-5.0,u,-5.0,i,-5.0,r,-5.0,e,-5.0, ,-5.0,f,-5.0,u,-5.0,l,-5.0,l,-5.0, ,-5.0,d,-5.0,i,-5.0,s,-5.0,c,-5.0,l,-5.0,o,-5.0,s,-5.0,u,-5.0,r,-5.0,e,-5.0, ,-5.0,o,-5.0,f,-5.0, ,-5.0,r,-5.0,e,-5.0,c,-5.0,o,-5.0,r,-5.0,d,-5.0,e,-5.0,d,-5.0, ,-5.0,t,-5.0,e,-5.0,l,-5.0,e,-5.0,p,-5.0,h,-5.0,o,-5.0,n,-5.0,e,-5.0, ,-5.0,c,-5.0,o,-5.0,n,-5.0,v,-5.0,e,-5.0,r,-5.0,s,-5.0,a,-5.0,t,-5.0,i,-5.0,o,-5.0,n,-5.0,s,-5.0,,,-5.0, ,-5.0,a,-5.0,n,-5.0,d ]])
+Command: ET (stack: [])
+Command: EMC (stack: [])
+**** WARNING! parseObject unknown token! (t.type=10) *************************
+Command: BDC (stack: [Span,{MCID=Number: 7.0}])
+Command: BT (stack: [])
+Command: Tf (stack: [T1_0,1.0])
+Command: Tm (stack: [8.0,0.0,0.0,8.0,87.0236,207.157])
+**** WARNING! parseObject unknown token! (t.type=8) *************************
+Command: TJ (stack: [[s,-5.0,t,-5.0,i,-5.0,p,-5.0,u,-5.0,l,-5.0,a,-5.0,t,-5.0,e,-5.0, ,-5.0,t,-5.0,h,-5.0,a,-5.0,t,-5.0, ,-5.0,y,-5.0,o,-5.0,u,-5.0, ,-5.0,m,-5.0,u,-5.0,s,-5.0,t,-5.0, ,-5.0,i,-5.0,n,-5.0,f,-5.0,o,-5.0,r,-5.0,m,-5.0, ,-5.0,t,-5.0,h,-5.0,e,-5.0, ,-5.0,p,-5.0,e,-5.0,r,-5.0,s,-5.0,o,-5.0,n,-5.0, ,-5.0,w,-5.0,i,-5.0,t,-5.0,h,-5.0, ,-5.0,w,-5.0,h,-5.0,o,-5.0,m,-5.0, ,-5.0,y,-5.0,o,-5.0,u,-5.0, ,-5.0,a,-5.0,r,-5.0,e,-5.0, ,-5.0,s,-5.0,p,-5.0,e,-5.0,a,-5.0,k,-5.0,i,-5.0,n,-5.0,g,-5.0, ,-5.0,t,-5.0,h,-5.0,a,-5.0,t,-5.0, ,-5.0,t,-5.0,h,-5.0,e ]])
+Command: ET (stack: [])
+Command: EMC (stack: [])
+**** WARNING! parseObject unknown token! (t.type=10) *************************
+Command: BDC (stack: [Span,{MCID=Number: 8.0}])
+Command: BT (stack: [])
+Command: Tf (stack: [T1_0,1.0])
+Command: Tm (stack: [8.0,0.0,0.0,8.0,87.0236,198.02949999999998])
+**** WARNING! parseObject unknown token! (t.type=8) *************************
+Command: TJ (stack: [[c,-5.0,o,-5.0,n,-5.0,v,-5.0,e,-5.0,r,-5.0,s,-5.0,a,-5.0,t,-5.0,i,-5.0,o,-5.0,n,-5.0, ,-5.0,i,-5.0,s,-5.0, ,-5.0,b,-5.0,e,-5.0,i,-5.0,n,-5.0,g,-5.0, ,-5.0,r,-5.0,e,-5.0,c,-5.0,o,-5.0,r,-5.0,d,-5.0,e,-5.0,d,-5.0,.,-5.0, ,-5.0,A,-5.0,l,-5.0,w,-5.0,a,-5.0,y,-5.0,s,-5.0, ,-5.0,o,-5.0,b,-5.0,e,-5.0,y,-5.0, ,-5.0,t,-5.0,h,-5.0,e,-5.0, ,-5.0,r,-5.0,e,-5.0,l,-5.0,e,4.0,v,-5.0,a,-5.0,n,-5.0,t,-5.0, ,-5.0,l,-5.0,a,-5.0,w,-5.0,s,-5.0, ,-5.0,a,-5.0,n,-5.0,d,-5.0, ,-5.0,r,-5.0,e,-5.0,g,-5.0,u,-5.0,l,-5.0,a,-5.0,t,-5.0,i,-5.0,o,-5.0,n,-5.0,s,-5.0, ,-5.0,o,-5.0,f ]])
+Command: ET (stack: [])
+Command: EMC (stack: [])
+**** WARNING! parseObject unknown token! (t.type=10) *************************
+Command: BDC (stack: [Span,{MCID=Number: 9.0}])
+Command: BT (stack: [])
+Command: Tf (stack: [T1_0,1.0])
+Command: Tm (stack: [8.0,0.0,0.0,8.0,87.0236,188.9019])
+**** WARNING! parseObject unknown token! (t.type=8) *************************
+Command: TJ (stack: [[y,-5.0,o,-5.0,u,-5.0,r,-5.0, ,-5.0,c,-5.0,o,-5.0,u,-5.0,n,-5.0,t,-5.0,r,-5.0,y,-5.0, ,-5.0,w,-5.0,h,-5.0,e,-5.0,n,-5.0, ,-5.0,u,-5.0,s,-5.0,i,-5.0,n,-5.0,g,-5.0, ,-5.0,t,-5.0,h,-5.0,e,-5.0, ,-5.0,r,-5.0,e,-5.0,c,-5.0,o,-5.0,r,-5.0,d,-5.0,i,-5.0,n,-5.0,g,-5.0, ,-5.0,f,-5.0,e,-5.0,a,-5.0,t,-5.0,u,-5.0,r,-5.0,e,-5.0, ,-5.0,o,-5.0,f,-5.0, ,-5.0,y,-5.0,o,-5.0,u,-5.0,r,-5.0, ,-5.0,p,-5.0,h,-5.0,o,-5.0,n,-5.0,e,-5.0,.]])
+Command: ET (stack: [])
+Command: EMC (stack: [])
+**** WARNING! parseObject unknown token! (t.type=10) *************************
+Command: BDC (stack: [Span,{MCID=Number: 10.0}])
+Command: BT (stack: [])
+Command: Tf (stack: [T1_1,1.0])
+Command: Tm (stack: [8.0,0.0,0.0,8.0,87.0236,173.6326])
+**** WARNING! parseObject unknown token! (t.type=8) *************************
+Command: TJ (stack: [[I,-5.0,n,-5.0,t,-5.0,e,-5.0,l,-5.0,l,-5.0,e,-5.0,c,-5.0,t,-5.0,u,-5.0,a,-5.0,l,-5.0, ,-5.0,P,-5.0,r,-5.0,o,-5.0,p,-5.0,e,-5.0,r,-5.0,t,-5.0,y,-5.0, ,-5.0,R,-5.0,i,-5.0,g,-5.0,h,-5.0,t,-5.0, ,-5.0,I,-5.0,n,-5.0,f,-5.0,o,-5.0,r,-5.0,m,-5.0,a,-5.0,t,-5.0,i,-5.0,o,-5.0,n]])
+Command: ET (stack: [])
+Command: EMC (stack: [])
+**** WARNING! parseObject unknown token! (t.type=10) *************************
+Command: BDC (stack: [Span,{MCID=Number: 11.0}])
+Command: BT (stack: [])
+Command: Tf (stack: [T1_0,1.0])
+Command: Tm (stack: [8.0,0.0,0.0,8.0,87.0236,164.5051])
+**** WARNING! parseObject unknown token! (t.type=8) *************************
+Command: TJ (stack: [[C,-5.0,o,-5.0,p,-5.0,y,-5.0,r,-5.0,i,-5.0,g,-5.0,h,-5.0,t,-5.0, ,-5.0,?,-5.0, ,-5.0,2,-5.0,0,-5.0,0,-5.0,8,-5.0, ,-5.0,H,-5.0,T,-5.0,C,-5.0, ,-5.0,C,-5.0,o,-5.0,r,-5.0,p,-5.0,o,-5.0,r,-5.0,a,-5.0,t,-5.0,i,-5.0,o,-5.0,n,-5.0,.,-5.0, ,-5.0,A,-5.0,l,-5.0,l,-5.0, ,-5.0,R,-5.0,i,-5.0,g,-5.0,h,-5.0,t,-5.0,s,-5.0, ,-5.0,R,-5.0,e,-5.0,s,-5.0,e,-5.0,r,-5.0,v,-5.0,e,-5.0,d,-5.0,.]])
+Command: ET (stack: [])
+Command: EMC (stack: [])
+**** WARNING! parseObject unknown token! (t.type=10) *************************
+Command: BDC (stack: [Span,{MCID=Number: 12.0}])
+Command: BT (stack: [])
+Command: Tf (stack: [T1_0,1.0])
+Command: Tm (stack: [8.0,0.0,0.0,8.0,87.0236,152.5429])
+**** WARNING! parseObject unknown token! (t.type=8) *************************
+Command: TJ (stack: [[H,-5.0,T,-5.0,C,-5.0,,,-5.0, ,-5.0,t,-5.0,h,-5.0,e,-5.0, ,-5.0,H,-5.0,T,-5.0,C,-5.0, ,-5.0,l,-5.0,o,-5.0,g,-5.0,o,-5.0,,,-5.0, ,-5.0,H,-5.0,T,-5.0,C,-5.0, ,-5.0,I,-5.0,n,-5.0,n,-5.0,o,-5.0,v,-5.0,a,-5.0,t,-5.0,i,-5.0,o,-5.0,n,-5.0,,,-5.0, ,-5.0,E,-5.0,x,-5.0,t,-5.0,U,-5.0,S,-5.0,B,-5.0,,,-5.0, ,-5.0,a,-5.0,n,-5.0,d,-5.0, ,-5.0,H,-5.0,T,-5.0,C,-5.0, ,-5.0,C,-5.0,a,-5.0,r,-5.0,e,-5.0, ,-5.0,a,-5.0,r,-5.0,e,-5.0, ,-5.0,t,-5.0,r,-5.0,a,-5.0,d,-5.0,e,-5.0,m,-5.0,a,-5.0,r,-5.0,k,-5.0,s ]])
+Command: ET (stack: [])
+Command: EMC (stack: [])
+**** WARNING! parseObject unknown token! (t.type=10) *************************
+Command: BDC (stack: [Span,{MCID=Number: 13.0}])
+Command: BT (stack: [])
+Command: Tf (stack: [T1_0,1.0])
+Command: Tm (stack: [8.0,0.0,0.0,8.0,87.0236,143.4153])
+**** WARNING! parseObject unknown token! (t.type=8) *************************
+Command: TJ (stack: [[a,-5.0,n,-5.0,d,-5.0,/,35.0,o,-5.0,r,-5.0, ,-5.0,s,-5.0,e,-5.0,r,-5.0,v,-5.0,i,-5.0,c,-5.0,e,-5.0, ,-5.0,m,-5.0,a,-5.0,r,-5.0,k,-5.0,s,-5.0, ,-5.0,o,-5.0,f,-5.0, ,-5.0,H,-5.0,T,-5.0,C,-5.0, ,-5.0,C,-5.0,o,-5.0,r,-5.0,p,-5.0,o,-5.0,r,-5.0,a,-5.0,t,-5.0,i,-5.0,o,-5.0,n,-5.0,.]])
+Command: ET (stack: [])
+Command: EMC (stack: [])
+**** WARNING! parseObject unknown token! (t.type=10) *************************
+Command: BDC (stack: [Span,{MCID=Number: 14.0}])
+Command: BT (stack: [])
+Command: Tf (stack: [T1_0,1.0])
+Command: Tm (stack: [8.0,0.0,0.0,8.0,87.0236,131.4531])
+**** WARNING! parseObject unknown token! (t.type=8) *************************
+Command: TJ (stack: [[B,-5.0,l,-5.0,u,-5.0,e,-5.0,t,-5.0,o,-5.0,o,-5.0,t,-5.0,h,-5.0, ,-5.0,a,-5.0,n,-5.0,d,-5.0, ,-5.0,t,-5.0,h,-5.0,e,-5.0, ,-5.0,B,-5.0,l,-5.0,u,-5.0,e,-5.0,t,-5.0,o,-5.0,o,-5.0,t,-5.0,h,-5.0, ,-5.0,l,-5.0,o,-5.0,g,-5.0,o,-5.0, ,-5.0,a,-5.0,r,-5.0,e,-5.0, ,-5.0,t,-5.0,r,-5.0,a,-5.0,d,-5.0,e,-5.0,m,-5.0,a,-5.0,r,-5.0,k,-5.0,s,-5.0, ,-5.0,o,-5.0,w,-5.0,n,-5.0,e,-5.0,d,-5.0, ,-5.0,b,-5.0,y,-5.0, ,-5.0,B,-5.0,l,-5.0,u,-5.0,e,-5.0,t,-5.0,o,-5.0,o,-5.0,t,-5.0,h,-5.0, ,-5.0,S,-5.0,I,-5.0,G,-5.0,,,-5.0, ,-5.0,I,-5.0,n,-5.0,c,-5.0,.]])
+Command: ET (stack: [])
+Command: EMC (stack: [])
+**** WARNING! parseObject unknown token! (t.type=10) *************************
+Command: BDC (stack: [Span,{MCID=Number: 15.0}])
+Command: BT (stack: [])
+Command: Tf (stack: [T1_0,1.0])
+Command: Tm (stack: [8.0,0.0,0.0,8.0,87.0236,119.49090000000001])
+**** WARNING! parseObject unknown token! (t.type=8) *************************
+Command: TJ (stack: [[J,-5.0,a,-5.0,v,-5.0,a,-5.0,,,-5.0, ,-5.0,J,-5.0,2,-5.0,M,-5.0,E,-5.0, ,-5.0,a,-5.0,n,-5.0,d,-5.0, ,-5.0,a,-5.0,l,-5.0,l,-5.0, ,-5.0,o,-5.0,t,-5.0,h,-5.0,e,-5.0,r,-5.0, ,-5.0,J,-5.0,a,-5.0,v,-5.0,a,-5.0,-,-5.0,b,-5.0,a,-5.0,s,-5.0,e,-5.0,d,-5.0, ,-5.0,m,-5.0,a,-5.0,r,-5.0,k,-5.0,s,-5.0, ,-5.0,a,-5.0,r,-5.0,e,-5.0, ,-5.0,t,-5.0,r,-5.0,a,-5.0,d,-5.0,e,-5.0,m,-5.0,a,-5.0,r,-5.0,k,-5.0,s,-5.0, ,-5.0,o,-5.0,r,-5.0, ,-5.0,r,-5.0,e,-5.0,g,-5.0,i,-5.0,s,-5.0,t,-5.0,e,-5.0,r,-5.0,e,-5.0,d ]])
+Command: ET (stack: [])
+Command: EMC (stack: [])
+**** WARNING! parseObject unknown token! (t.type=10) *************************
+Command: BDC (stack: [Span,{MCID=Number: 16.0}])
+Command: BT (stack: [])
+Command: Tf (stack: [T1_0,1.0])
+Command: Tm (stack: [8.0,0.0,0.0,8.0,87.0236,110.3633])
+**** WARNING! parseObject unknown token! (t.type=8) *************************
+Command: TJ (stack: [[t,-5.0,r,-5.0,a,-5.0,d,-5.0,e,-5.0,m,-5.0,a,-5.0,r,-5.0,k,-5.0,s,-5.0, ,-5.0,o,-5.0,f,-5.0, ,-5.0,S,-5.0,u,-5.0,n,-5.0, ,-5.0,M,-5.0,i,-5.0,c,-5.0,r,-5.0,o,-5.0,s,-5.0,y,-5.0,s,-5.0,t,-5.0,e,-5.0,m,-5.0,s,-5.0,,,-5.0, ,-5.0,I,-5.0,n,-5.0,c,-5.0,.,-5.0, ,-5.0,i,-5.0,n,-5.0, ,-5.0,t,-5.0,h,-5.0,e,-5.0, ,-5.0,U,-5.0,n,-5.0,i,-5.0,t,-5.0,e,-5.0,d,-5.0, ,-5.0,S,-5.0,t,-5.0,a,-5.0,t,-5.0,e,-5.0,s,-5.0, ,-5.0,a,-5.0,n,-5.0,d,-5.0, ,-5.0,o,-5.0,t,-5.0,h,-5.0,e,-5.0,r,-5.0, ,-5.0,c,-5.0,o,-5.0,u,-5.0,n,-5.0,t,-5.0,r,-5.0,i,-5.0,e,-5.0,s,-5.0,.]])
+Command: ET (stack: [])
+Command: EMC (stack: [])
+**** WARNING! parseObject unknown token! (t.type=10) *************************
+Command: BDC (stack: [Span,{Lang=Name: /en-US, MCID=Number: 17.0}])
+Command: BT (stack: [])
+Command: Tf (stack: [T1_0,1.0])
+Command: Tm (stack: [8.0,0.0,0.0,8.0,87.0236,98.40110000000001])
+**** WARNING! parseObject unknown token! (t.type=8) *************************
+Command: TJ (stack: [[G,-5.0,o,-5.0,o,-5.0,g,-5.0,l,-5.0,e,-5.0, ,-5.0,i,-5.0,s,-5.0, ,-5.0,a,-5.0, ,-5.0,r,-5.0,e,-5.0,g,-5.0,i,-5.0,s,-5.0,t,-5.0,e,-5.0,r,-5.0,e,-5.0,d,-5.0, ,-5.0,t,-5.0,r,-5.0,a,-5.0,d,-5.0,e,-5.0,m,-5.0,a,-5.0,r,-5.0,k,-5.0, ,-5.0,a,-5.0,n,-5.0,d,-5.0, ,-5.0,G,-5.0,o,-5.0,o,-5.0,g,-5.0,l,-5.0,e,-5.0, ,-5.0,M,-5.0,a,-5.0,p,-5.0,s,-5.0, ,-5.0,i,-5.0,s,-5.0, ,-5.0,a,-5.0, ,-5.0,t,-5.0,r,-5.0,a,-5.0,d,-5.0,e,-5.0,m,-5.0,a,-5.0,r,-5.0,k,-5.0, ,-5.0,o,-5.0,f,-5.0, ,-5.0,G,-5.0,o,-5.0,o,-5.0,g,-5.0,l,-5.0,e,-5.0,,,-5.0, ,-5.0,I,-5.0,n,-5.0,c,-5.0,. ]])
+Command: ET (stack: [])
+Command: EMC (stack: [])
+**** WARNING! parseObject unknown token! (t.type=10) *************************
+Command: BDC (stack: [Span,{Lang=Name: /en-US, MCID=Number: 18.0}])
+Command: BT (stack: [])
+Command: Tf (stack: [T1_0,1.0])
+Command: Tm (stack: [8.0,0.0,0.0,8.0,87.0236,89.2736])
+**** WARNING! parseObject unknown token! (t.type=8) *************************
+Command: TJ (stack: [[i,-5.0,n,-5.0, ,-5.0,t,-5.0,h,-5.0,e,-5.0, ,-5.0,U,-5.0,n,-5.0,i,-5.0,t,-5.0,e,-5.0,d,-5.0, ,-5.0,S,-5.0,t,-5.0,a,-5.0,t,-5.0,e,-5.0,s,-5.0, ,-5.0,a,-5.0,n,-5.0,d,-5.0, ,-5.0,o,-5.0,t,-5.0,h,-5.0,e,-5.0,r,-5.0, ,-5.0,c,-5.0,o,-5.0,u,-5.0,n,-5.0,t,-5.0,r,-5.0,i,-5.0,e,-5.0,s,-5.0,.]])
+Command: ET (stack: [])
+Command: EMC (stack: [])
+**** WARNING! parseObject unknown token! (t.type=10) *************************
+Command: BDC (stack: [Span,{MCID=Number: 19.0}])
+Command: BT (stack: [])
+Command: Tf (stack: [T1_0,1.0])
+Command: Tm (stack: [8.0,0.0,0.0,8.0,87.0236,77.3114])
+**** WARNING! parseObject unknown token! (t.type=8) *************************
+Command: TJ (stack: [[Y,-5.0,o,-5.0,u,-5.0,T,-5.0,u,-5.0,b,-5.0,e,-5.0, ,-5.0,i,-5.0,s,-5.0, ,-5.0,a,-5.0, ,-5.0,t,-5.0,r,-5.0,a,-5.0,d,-5.0,e,-5.0,m,-5.0,a,-5.0,r,-5.0,k,-5.0, ,-5.0,o,-5.0,f,-5.0, ,-5.0,G,-5.0,o,-5.0,o,-5.0,g,-5.0,l,-5.0,e,-5.0,,,-5.0, ,-5.0,I,-5.0,n,-5.0,c,-5.0,.]])
+Command: ET (stack: [])
+Command: EMC (stack: [])
+Command: Q (stack: [])
+**** WARNING! parseObject unknown token! (t.type=-1) *************************
+waiting

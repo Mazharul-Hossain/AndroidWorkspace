@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:background="#1C1C1C"
+  android:orientation="horizontal">
+  
+    <ImageView
+    android:src="@drawable/icon"
+    android:layout_width="wrap_content"
+    android:id="@+id/icon_app_install"
+    android:layout_height="fill_parent">
+    </ImageView>
+    
+    <LinearLayout
+    android:id="@+id/linearLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+ 	android:orientation="vertical">
+        
+	    <TextView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:paddingTop="5dip"
+	    android:paddingBottom="5dip"
+	    android:textSize="20dip"
+	    android:paddingLeft="10dip"
+	    android:text="Book Name"
+	    android:id="@+id/install_app_title" android:textColor="#FFFFFF">
+	    </TextView>
+	    
+	    <TextView
+	    android:id="@+id/package_name_apps"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Package Name:"
+	    android:textSize="13dip"
+	    android:layout_marginLeft="15dip" android:textColor="#FFFFFF">
+	    </TextView>
+	    
+	    <TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" 
+	    android:text="Size :"
+	    android:layout_marginLeft="15dip"
+	    android:textSize="13dip"
+	    android:id="@+id/size_of_install_app" android:textColor="#FFFFFF">
+	    </TextView>
+	
+	</LinearLayout>
+    
+</LinearLayout>

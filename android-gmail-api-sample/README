@@ -1,0 +1,3 @@
+This sample app targets API level 8 (Froyo) and requires the Android Support Package to build
+(http://developer.android.com/sdk/compatibility-library.html).
+

@@ -1,0 +1,39 @@
+package bd.org.basis.library;
+
+import java.util.ArrayList;
+
+public class DBAdapter {
+	private DBHelper dbHelper;
+	private Context context;
+	
+	
+	public DBAdapter()
+	{
+		
+		
+	}
+	
+	public void open()
+	{
+		
+		
+	}
+	
+	public void close()
+	{
+		
+		
+	}
+	public long insertBook(Book book)
+	{
+		
+		return 0;
+	}
+	public ArrayList<book> getAllBooks()
+	{
+		
+		return null;
+		
+	}
+
+}

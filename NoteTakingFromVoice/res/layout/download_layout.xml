@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical" >
+
+	<RelativeLayout
+		android:id="@+id/relativeLayout1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="0.0"
+		android:background="@drawable/ash_bck" >
+
+		<TextView
+			android:id="@+id/textView1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_centerInParent="true"
+			android:text="@string/browser"
+			android:textColor="#FFFFFF"
+			android:textSize="30sp" >
+		</TextView>
+	</RelativeLayout>
+
+	<AutoCompleteTextView
+		android:id="@+id/autoCompleteTextView1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="0.0"
+		android:ems="10"
+		android:text="@string/_space" >
+
+		<requestFocus />
+	</AutoCompleteTextView>
+
+	<WebView
+		android:id="@+id/mainwebview"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1.0" >
+	</WebView>
+
+	<ImageView
+		android:id="@+id/imageView3"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="0.0"
+		android:background="@drawable/ash_bck"
+		android:scaleType="fitEnd"
+		tools:ignore="ContentDescription" >
+	</ImageView>
+
+</LinearLayout>

@@ -1,0 +1,172 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+    
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:background="@drawable/ash_bck"  >
+       
+        
+        
+        <TextView 
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content" 
+        android:id="@+id/read_screen_logo_top_center" 
+        android:gravity="center" 
+         android:layout_alignParentTop="true" 
+         android:textColor="#FFFFFF" 
+         android:textSize="30sp"
+         android:text="Content Choosing"
+         android:layout_centerInParent="true">
+        </TextView>
+        
+        
+   
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.8" >
+    
+	<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        
+    		 <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="0.5" >
+
+    		     <ImageView
+    		         android:id="@+id/iegc_income"
+    		         android:layout_width="wrap_content"
+    		         android:layout_height="wrap_content"
+    		         android:layout_gravity="center"
+    		         android:src="@drawable/dollars" />
+
+		         	<TextView
+		         	    android:id="@+id/textView1"
+		         	    android:layout_width="wrap_content"
+		         	    android:layout_height="wrap_content"
+		         	    android:text="Income"
+	               		android:layout_gravity="center"
+		         	    android:textAppearance="?android:attr/textAppearanceLarge" />
+         
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="0.5" >
+
+		         	<ImageView
+		             android:id="@+id/iegc_expense"
+		             android:layout_width="wrap_content"
+		             android:layout_height="wrap_content"
+    		         android:layout_gravity="center"
+    		         android:paddingTop="20sp"
+       				 android:scaleType="fitCenter" 
+        		        android:src="@drawable/expense"/>
+			
+	    	       <TextView
+	                android:id="@+id/textView1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="Expense"
+	                android:paddingTop="10sp"
+	                android:layout_gravity="center"
+	                android:textAppearance="?android:attr/textAppearanceLarge" />
+         
+        </LinearLayout>
+    		 
+
+            
+
+        </LinearLayout>
+        
+	
+	<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20sp" >
+        
+    		 <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+            android:layout_weight="0.5">
+
+		         	<ImageView
+		             android:id="@+id/iegc_ticket"
+		             android:layout_width="wrap_content"
+		             android:layout_height="wrap_content"
+    		         android:layout_gravity="center"
+		             android:src="@drawable/ticket" />
+			
+	    	       <TextView
+	                android:id="@+id/textView1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="Ticket"
+	                android:layout_gravity="center"
+	                android:textAppearance="?android:attr/textAppearanceLarge" />
+         
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+            android:layout_weight="0.5">
+
+		         	<ImageView
+		             android:id="@+id/iegc_chart"
+		             android:layout_width="wrap_content"
+		             android:layout_height="wrap_content"
+    		         android:layout_gravity="center"
+    		         android:padding="10sp"
+		             android:src="@drawable/line_chart" />
+			
+	    	       <TextView
+	                android:id="@+id/textView1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="Graph"
+	                android:layout_gravity="center"
+	                android:textAppearance="?android:attr/textAppearanceLarge" />
+         
+        </LinearLayout>
+    		 
+
+            
+
+        </LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="bottom"
+        android:layout_weight="0.1"
+        android:orientation="vertical" >
+
+       
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:src="@drawable/ash_bck" />
+    </LinearLayout>
+ 	
+</LinearLayout> 

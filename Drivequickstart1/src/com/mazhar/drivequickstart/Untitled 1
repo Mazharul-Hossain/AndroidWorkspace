@@ -1,0 +1,90 @@
+public class ActivityMain extends Activity implements DialogInterface.OnClickListener {
+
+    private static final String AUTH_TOKEN_TYPE = "oauth2:https://www.googleapis.com/auth/drive";
+    private static final String CLIENT_ID = "737447877362.apps.googleusercontent.com";
+
+    private AccountManager accountManager;
+    private Account[] accounts;
+    private String authName;
+    private String authToken;
+
+    @Override
+    public void onClick(final DialogInterface dialogInterface, final int item) {
+
+        processAccountSelected(accounts[item]);
+    }
+
+    @Override
+    public void onCreate(final Bundle bundle) {
+        super.onCreate(bundle);
+
+        setContentView(R.layout.activitymain);
+
+        accountManager = AccountManager.get(this);
+        accounts = accountManager.getAccountsByType("com.google");
+
+        if (accounts == null || accounts.length == 0) {
+            // TODO
+        } else if (accounts.length == 1) {
+            processAccountSelected(accounts[0]);
+        } else if (accounts.length > 1) {
+            showDialog(MyConstants.DIALOG_ACCOUNTCHOSER);
+        }
+    }
+
+    @Override
+    protected Dialog onCreateDialog(final int id) {
+        switch (id) {
+            case MyConstants.DIALOG_ACCOUNTCHOSER:
+                AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
+
+                String[] names = new String[accounts.length];
+
+                for (int i = 0; i < accounts.length; i++) {
+                    names[i] = accounts[i].name;
+                }
+
+                alertDialogBuilder.setItems(names, this);
+                alertDialogBuilder.setTitle("Select a Google account");
+                return alertDialogBuilder.create();
+        }
+
+        return null;
+    }
+
+    private void processAccountSelected(final Account account) {
+        if (account != null) {
+            authName = account.name.toString();
+            if (!Tools.isEmpty(authName)) {
+                Toast.makeText(this, authName, Toast.LENGTH_LONG).show();
+
+                accountManager.getAuthToken(account, AUTH_TOKEN_TYPE, null, this,
+                        new AccountManagerCallback<Bundle>() {
+
+                            public void run(final AccountManagerFuture<Bundle> future) {
+                                try {
+                                    authToken = future.getResult().getString(
+                                            AccountManager.KEY_AUTHTOKEN);
+                                    processTokenReceived();
+                                } catch (OperationCanceledException exception) {
+                                    // TODO
+                                } catch (Exception exception) {
+                                    Log.d(this.getClass().getName(), exception.getMessage());
+                                }
+                            }
+                        }, null);
+            }
+        }
+    }
+
+    private void processTokenReceived() {
+        if (!Tools.isEmpty(authToken)) {
+            HttpTransport transport = AndroidHttp.newCompatibleTransport();
+            AccessProtectedResource accessProtectedResource = new GoogleAccessProtectedResource(
+                    accessToken);
+            Tasks service = new Tasks(transport, accessProtectedResource, new JacksonFactory());
+            service.accessKey = CLIENT_ID;
+            service.setApplicationName("Google-DriveSample/1.0");
+        }
+    }
+}

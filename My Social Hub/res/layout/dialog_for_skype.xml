@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#CCCC99">
+    
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+     
+        <TextView
+            android:id="@+id/expense_data_d_issues_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_for_skype_test"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+    	<EditText
+        android:id="@+id/skype_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" 
+        android:singleLine="true"/>
+
+    	<TextView
+    	    android:id="@+id/textView1"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:text="Please select type of call"
+    	    android:textAppearance="?android:attr/textAppearanceLarge" />
+    	
+    	<RadioGroup
+                android:id="@+id/radio_call_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+         
+                <RadioButton
+                    android:id="@+id/audio_call"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Audio call"
+                    android:checked="true" />
+         
+                <RadioButton
+                    android:id="@+id/video_call"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Video call" />
+         
+            </RadioGroup>
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+     
+     <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Call this skype user"
+          android:layout_weight="0.5"
+          android:id="@+id/call_skype_user"/>
+     
+     <Button
+          android:id="@+id/skype_cancel"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+          android:text=" Cancel "/>
+    </LinearLayout>
+
+    
+ 
+    
+</LinearLayout>

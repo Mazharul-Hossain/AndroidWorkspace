@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/email_screen_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Address!"
+        android:layout_weight="0.1"
+        android:inputType="textEmailAddress" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/email_screen_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:hint="Subject!" />
+
+    <EditText
+        android:id="@+id/email_screen_mail_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.7"
+        android:hint="Type Your email"
+        android:gravity="center"
+        android:inputType="textPostalAddress" />
+
+    <Button
+        android:id="@+id/email_screen_send_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.1"
+        android:text="Send Email Wih Excel Sheet" />
+
+</LinearLayout>

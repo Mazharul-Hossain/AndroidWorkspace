@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0" >
+
+        <TableLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/TableLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <RelativeLayout
+                    android:id="@+id/relativeLayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/wood_bck" >
+
+                    <ImageView
+                        android:id="@+id/store_screen_logo_home"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/home_icon" />
+
+                    <TextView
+                        android:id="@+id/read_screen_logo_top_center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/read_screen_logo_1"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"
+                        android:text="STORE"
+                        android:textColor="#FFFFFF"
+                        android:textSize="30dip" />
+
+                    <ImageView
+                        android:id="@+id/read_screen_logo_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/store_screen_logo_home"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/search_icon" />
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="25dp" >
+
+                <ImageButton
+                    android:id="@+id/reload_page_imageButton"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/reload_icon"
+                    android:contentDescription="reload the page"
+                    android:onClick="listener" />
+
+                <ImageButton
+                    android:id="@+id/home_imageButton"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/home_icon"
+                    android:contentDescription="Your home"
+                    android:onClick="listener" />
+
+                <ImageButton
+                    android:id="@+id/login_imageButton"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/login_icon"
+                    android:contentDescription="login to your account"
+                    android:onClick="listener" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/search"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_vertical"
+                    android:layout_weight="1"
+                    android:inputType="none" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" >
+
+                <Spinner
+                    android:id="@+id/searchItem_spinner"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1" />
+
+                <Spinner
+                    android:id="@+id/searchItem_spinner1"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:id="@+id/search_imageButton"
+                    android:layout_width="20dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/search_icon"
+                    android:contentDescription="search a product"
+                    android:onClick="listener" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/search_error_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="search_error" />
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <RelativeLayout
+                    android:id="@+id/relativeLayout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0" >
+
+                    <ListView
+                        android:id="@android:id/list"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp" >
+                    </ListView>
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/prev_search_page_textView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:gravity="right"
+                    android:onClick="listener"
+                    android:text="prev_page" />
+
+                <TextView
+                    android:id="@+id/next_search_page_textView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:gravity="left"
+                    android:onClick="listener"
+                    android:text="next_page" />
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+
+</LinearLayout>

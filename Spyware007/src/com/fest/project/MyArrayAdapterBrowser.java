@@ -1,0 +1,70 @@
+package com.fest.project;
+
+import android.app.Activity;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+public class MyArrayAdapterBrowser extends ArrayAdapter<String> {
+	private final Activity context;
+	private final String[] names;
+
+	// private final String[] path;
+
+	public MyArrayAdapterBrowser(Activity context, String[] names) {
+		super(context, R.layout.row_layout_photo, names);
+		this.context = context;
+		this.names = names;
+		// this.path = path;
+	}
+
+	@Override
+	public String getItem(int position) {
+		return names[position];
+	}
+
+	static class ViewHolder {
+		public ImageView imageview;
+		public TextView textView;
+	}
+
+	@Override
+	public View getView(int position, View convertView, ViewGroup parent) {
+		ViewHolder holder;
+		View row_view = convertView;
+
+		if (row_view == null) {
+			LayoutInflater inflater = context.getLayoutInflater();
+			row_view = inflater.inflate(R.layout.row_layout_photo, null, true);
+			holder = new ViewHolder();
+			holder.textView = (TextView) row_view
+					.findViewById(R.id.textView_sd_list_view);
+			holder.imageview = (ImageView) row_view
+					.findViewById(R.id.image_sd_list_view);
+			row_view.setTag(holder);
+		} else
+			holder = (ViewHolder) row_view.getTag();
+
+		holder.textView.setText(names[position]);
+
+		/*
+		 * File file = new File(path[position]); if( file.isDirectory() ) {
+		 * 
+		 * holder.imageview.setImageResource(R.drawable.folder_icon_sd_list_view)
+		 * ; } else { String temp = GetFileExtension( path[position] ); if(
+		 * temp.equalsIgnoreCase("PDF") )
+		 * holder.imageview.setImageResource(R.drawable.fil_icon_sd_list_view);
+		 * else if( temp.equalsIgnoreCase("EPUB") )
+		 * holder.imageview.setImageResource
+		 * (R.drawable.fil_icon_sd_list_view_for_epub); else if(
+		 * temp.equalsIgnoreCase("txt") )
+		 * holder.imageview.setImageResource(R.drawable
+		 * .fil_icon_sd_list_view_for_epub); }
+		 */
+		return row_view;
+
+	}
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, AndroidDownloadManagerActivity!</string>
+    <string name="app_name">Android Download Manager</string>
+    <string name="start_download">Start Download</string>
+    <string name="view_downloads">View Downloads</string>
+    <string name="image_to_see">Image to see</string>
+
+</resources>

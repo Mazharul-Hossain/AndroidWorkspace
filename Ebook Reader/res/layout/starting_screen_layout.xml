@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="@drawable/bkgrnd">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TextViewTopTitle"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:gravity="top|center"
+        android:text="HAVE FUN WITH READING"
+        android:textSize="25dip" android:textColor="#FA9EAF">
+    </TextView>
+    
+    <TableLayout
+        android:id="@+id/Table_Layout_starting_screen"
+        android:stretchColumns="*"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+        <TableRow
+            android:id="@+id/TableRow01"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:layout_gravity="center_vertical|center_horizontal" 
+            android:paddingTop="10dip">
+       
+            <ImageView
+                android:id="@+id/ImageView2_Left"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:src="@drawable/logo_for_starting_1">
+            </ImageView>
+            
+            <ImageView
+                android:id="@+id/ImageView2_Right"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical|center_horizontal" 
+                android:src="@drawable/logo_for_starting_2">
+            </ImageView>
+       
+        </TableRow>
+       
+        <TableRow
+            android:id="@+id/TableRow02"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:layout_gravity="center_vertical|center_horizontal" 
+            android:paddingTop="10dip">
+       
+            <ImageView
+                android:id="@+id/ImageView3_Left"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:paddingTop="10dip" android:src="@drawable/logo_starting_3">
+            </ImageView>
+       
+            <ImageView
+                android:id="@+id/ImageView3_Right"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:paddingTop="10dip" android:src="@drawable/logo_for_starting_4">
+            </ImageView>
+        
+        </TableRow>
+    
+    </TableLayout>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/starting_logo_welcome"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:gravity="top|left"
+        android:text="WELCOME TO " 
+        android:textSize="25dip"
+        android:textColor="#AEFEA0" android:paddingLeft="10dip" android:paddingTop="10dip">
+    </TextView>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/starting_logo_EBook"
+        android:gravity="top|right"
+        android:text="EBOOK READER" 
+        android:textSize="25dip" 
+        android:textColor="#AEFEFE" 
+        android:paddingRight="10dip" 
+        android:paddingTop="5dip">
+    </TextView>
+    
+    
+	<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TextViewBottomTitle"
+        android:gravity="center"
+        android:text="        " 
+        android:textSize="25dip" />
+	</LinearLayout> 
+    
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+   		<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/TextViewBottomTitle"
+        android:gravity="center"
+        android:text="@string/starting_scrren" 
+        android:background="@color/starting_version_bkgrd">
+    </TextView>
+	</LinearLayout>  
+	
+	 
+</LinearLayout>

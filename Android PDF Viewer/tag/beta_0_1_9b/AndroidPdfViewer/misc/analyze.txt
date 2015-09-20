@@ -1,0 +1,114 @@
+ORIG:
+06-14 23:27:31.342: INFO/System.out(1684): Command: TJ (stack size is 1:[[Ljava.lang.Object;@438511f0])
+06-14 23:27:31.413: INFO/[TF](1684): cur=androwt.geom.AffineTransform[[0.9994099736213684, 0.0, 0.0], [0.0, 1.0, 831.2000122070313]]
+06-14 23:27:31.464: INFO/[TF](1684): scale=androwt.geom.AffineTransform[[12.0, 0.0, 0.0], [0.0, 12.0, 0.0]]
+06-14 23:27:31.503: INFO/[TF](1684): at=androwt.geom.AffineTransform[[11.992919683456421, 0.0, 0.0], [0.0, 12.0, 831.2000122070313]]
+06-14 23:27:31.533: INFO/[TF](1684): shape_bounds=[0.017000000923871994,0.0,0.5760000348091125,0.6620000600814819]
+
+06-14 23:27:31.872: INFO/[TF](1684): cur=androwt.geom.AffineTransform[[0.9994099736213684, 0.0, 7.319999074762226], [0.0, 1.0, 831.2000122070313]]
+06-14 23:27:31.914: INFO/[TF](1684): scale=androwt.geom.AffineTransform[[12.0, 0.0, 0.0], [0.0, 12.0, 0.0]]
+06-14 23:27:31.952: INFO/[TF](1684): at=androwt.geom.AffineTransform[[11.992919683456421, 0.0, 7.319999074762226], [0.0, 12.0, 831.2000122070313]]
+06-14 23:27:31.992: INFO/[TF](1684): shape_bounds=[0.012000000104308128,0.0,0.5849999785423279,0.6620000600814819]
+
+06-14 23:27:32.103: INFO/[TF](1684): cur=androwt.geom.AffineTransform[[0.9994099736213684, 0.0, 14.639998149524452], [0.0, 1.0, 831.2000122070313]]
+06-14 23:27:32.133: INFO/[TF](1684): scale=androwt.geom.AffineTransform[[12.0, 0.0, 0.0], [0.0, 12.0, 0.0]]
+06-14 23:27:32.163: INFO/[TF](1684): at=androwt.geom.AffineTransform[[11.992919683456421, 0.0, 14.639998149524452], [0.0, 12.0, 831.2000122070313]]
+06-14 23:27:32.192: INFO/[TF](1684): shape_bounds=[0.04200000315904617,-0.014000000432133675,0.4490000307559967,0.690000057220459]
+
+06-14 23:27:32.262: INFO/[TF](1684): cur=androwt.geom.AffineTransform[[0.9994099736213684, 0.0, 21.359997482496325], [0.0, 1.0, 831.2000122070313]]
+06-14 23:27:32.302: INFO/[TF](1684): scale=androwt.geom.AffineTransform[[12.0, 0.0, 0.0], [0.0, 12.0, 0.0]]
+06-14 23:27:32.337: INFO/[TF](1684): at=androwt.geom.AffineTransform[[11.992919683456421, 0.0, 21.359997482496325], [0.0, 12.0, 831.2000122070313]]
+06-14 23:27:32.502: INFO/[TF](1684): shape_bounds=[0.017000000923871994,0.0,0.5760000348091125,0.6620000600814819]
+
+06-14 23:27:32.803: INFO/[TF](1684): cur=androwt.geom.AffineTransform[[0.9994099736213684, 0.0, 28.679999327239205], [0.0, 1.0, 831.2000122070313]]
+06-14 23:27:32.882: INFO/[TF](1684): scale=androwt.geom.AffineTransform[[12.0, 0.0, 0.0], [0.0, 12.0, 0.0]]
+06-14 23:27:32.962: INFO/[TF](1684): at=androwt.geom.AffineTransform[[11.992919683456421, 0.0, 28.679999327239205], [0.0, 12.0, 831.2000122070313]]
+06-14 23:27:33.023: INFO/[TF](1684): shape_bounds=[0.0,0.0,0.0,0.0]
+
+AND:
+06-14 22:54:36.123: INFO/System.out(1670): Command: TJ (stack size is 1:[[Ljava.lang.Object;@437779d8])
+06-14 22:54:36.223: INFO/[TF](1670): cur=Matrix{[0.99941, 0.0, 0.0][0.0, 1.0, 831.2][0.0, 0.0, 1.0]}
+06-14 22:54:36.262: INFO/[TF](1670): scale=Matrix{[12.0, 0.0, 0.0][0.0, 12.0, 0.0][0.0, 0.0, 1.0]}
+06-14 22:54:36.302: INFO/[TF](1670): precct=Matrix{[11.99292, 0.0, 0.0][0.0, 12.0, 831.2][0.0, 0.0, 1.0]}
+06-14 22:54:36.332: INFO/[TF](1670): shape_bounds=RectF(0.017, 0.0, 0.59300005, 0.66200006)
+
+06-14 22:54:36.493: INFO/[TF](1670): cur=Matrix{[1.0, 0.0, 7.3243203][0.0, 1.0, 0.0][0.0, 0.0, 1.0]}
+06-14 22:54:36.563: INFO/[TF](1670): scale=Matrix{[12.0, 0.0, 0.0][0.0, 12.0, 0.0][0.0, 0.0, 1.0]}
+06-14 22:54:36.617: INFO/[TF](1670): precct=Matrix{[12.0, 0.0, 7.3243203][0.0, 12.0, 0.0][0.0, 0.0, 1.0]}
+06-14 22:54:36.652: INFO/[TF](1670): shape_bounds=RectF(0.012, 0.0, 0.597, 0.66200006)
+
+06-14 22:54:36.722: INFO/[TF](1670): cur=Matrix{[1.0, 0.0, 7.3243203][0.0, 1.0, 0.0][0.0, 0.0, 1.0]}
+06-14 22:54:36.763: INFO/[TF](1670): scale=Matrix{[12.0, 0.0, 0.0][0.0, 12.0, 0.0][0.0, 0.0, 1.0]}
+06-14 22:54:36.813: INFO/[TF](1670): precct=Matrix{[12.0, 0.0, 7.3243203][0.0, 12.0, 0.0][0.0, 0.0, 1.0]}
+06-14 22:54:36.843: INFO/[TF](1670): shape_bounds=RectF(0.042000003, -0.014, 0.49100003, 0.67600006)
+
+06-14 22:54:36.892: INFO/[TF](1670): cur=Matrix{[1.0, 0.0, 6.7239666][0.0, 1.0, 0.0][0.0, 0.0, 1.0]}
+06-14 22:54:36.932: INFO/[TF](1670): scale=Matrix{[12.0, 0.0, 0.0][0.0, 12.0, 0.0][0.0, 0.0, 1.0]}
+06-14 22:54:36.982: INFO/[TF](1670): precct=Matrix{[12.0, 0.0, 6.7239666][0.0, 12.0, 0.0][0.0, 0.0, 1.0]}
+06-14 22:54:37.012: INFO/[TF](1670): shape_bounds=RectF(0.017, 0.0, 0.59300005, 0.66200006)
+
+06-14 22:54:37.073: INFO/[TF](1670): cur=Matrix{[1.0, 0.0, 7.324323][0.0, 1.0, 0.0][0.0, 0.0, 1.0]}
+06-14 22:54:37.123: INFO/[TF](1670): scale=Matrix{[12.0, 0.0, 0.0][0.0, 12.0, 0.0][0.0, 0.0, 1.0]}
+06-14 22:54:37.163: INFO/[TF](1670): precct=Matrix{[12.0, 0.0, 7.324323][0.0, 12.0, 0.0][0.0, 0.0, 1.0]}
+06-14 22:54:37.192: INFO/[TF](1670): shape_bounds=RectF(0.0, 0.0, 0.0, 0.0)
+
+
+
+
+06-14 13:29:57.992: INFO/System.out(1262): Command: TJ (stack size is 1:[[Ljava.lang.Object;@436b23e0])
+06-14 13:29:58.072: INFO/[TF](1262): cur=androwt.geom.AffineTransform[[0.9994099736213684, 0.0, 0.0], [0.0, 1.0, 831.2000122070313]]
+06-14 13:29:58.107: INFO/[TF](1262): scale=androwt.geom.AffineTransform[[12.0, 0.0, 0.0], [0.0, 12.0, 0.0]]
+06-14 13:29:58.142: INFO/[TF](1262): at=androwt.geom.AffineTransform[[11.992919683456421, 0.0, 0.0], [0.0, 12.0, 831.2000122070313]]
+06-14 13:29:58.173: INFO/[TF](1262): shape_bounds=[0.017000000923871994,0.0,0.5760000348091125,0.6620000600814819]
+06-14 13:29:58.462: INFO/[TF](1262): cur=androwt.geom.AffineTransform[[0.9994099736213684, 0.0, 7.319999529910257], [0.0, 1.0, 831.2000122070313]]
+06-14 13:29:58.493: INFO/[TF](1262): scale=androwt.geom.AffineTransform[[12.0, 0.0, 0.0], [0.0, 12.0, 0.0]]
+06-14 13:29:58.543: INFO/[TF](1262): at=androwt.geom.AffineTransform[[11.992919683456421, 0.0, 7.319999529910257], [0.0, 12.0, 831.2000122070313]]
+06-14 13:29:58.563: INFO/[TF](1262): shape_bounds=[0.0,0.0,0.0,0.0]
+
+06-14 13:26:24.703: INFO/System.out(1223): Command: TJ (stack size is 1:[[Ljava.lang.Object;@435d9030])
+06-14 13:26:24.795: INFO/[TF](1223): cur=Matrix{[0.99941, 0.0, 0.0][0.0, 1.0, 831.2][0.0, 0.0, 0.0]}
+06-14 13:26:24.852: INFO/[TF](1223): scale=Matrix{[12.0, 0.0, 0.0][0.0, 12.0, 0.0][0.0, 0.0, 0.0]}
+06-14 13:26:24.912: INFO/[TF](1223): at=Matrix{[11.99292, 0.0, 0.0][0.0, 12.0, 0.0][0.0, 0.0, 0.0]}
+06-14 13:26:24.932: INFO/[TF](1223): shape_bounds=RectF(0.0, 0.0, 0.0, 0.0)
+06-14 13:26:29.153: DEBUG/dalvikvm(623): GC freed 124 objects / 5352 bytes in 185ms
+06-14 13:27:02.792: DEBUG/dalvikvm(579): threadid=17: bogus mon 1+0>0; adjusting
+06-14 13:27:06.292: INFO/[TF](1223): cur=Matrix{[1.0, 0.0, 7.324321][0.0, 1.0, 0.0][0.0, 0.0, 1.0]}
+06-14 13:27:06.433: INFO/[TF](1223): scale=Matrix{[12.0, 0.0, 0.0][0.0, 12.0, 0.0][0.0, 0.0, 0.0]}
+06-14 13:27:06.483: INFO/[TF](1223): at=Matrix{[12.0, 0.0, 0.0][0.0, 12.0, 0.0][0.0, 0.0, 0.0]}
+06-14 13:27:06.506: INFO/[TF](1223): shape_bounds=RectF(0.0, 0.0, 0.0, 0.0)
+
+
+
+
+06-14 12:54:15.443: INFO/awtPanDroFid(1127): executing command PDFPushCmd: com.sun.pdfview.PDFPushCmd@4381d350
+06-14 12:54:15.542: INFO/awtPanDroFid(1127): executing command PDFXformCmd: PDFXformCommand: 
+06-14 12:54:15.542: INFO/awtPanDroFid(1127): androwt.geom.AffineTransform[[0.11999999731779099, 0.0, 0.0], [0.0, 0.11999999731779099, 0.0]]
+06-14 12:54:15.573: INFO/awtPanDroFid(1127): executing command PDFStrokePaintCmd: com.sun.pdfview.PDFStrokePaintCmd@43824230
+06-14 12:54:15.622: INFO/awtPanDroFid(1127): executing command PDFFillPaintCmd: com.sun.pdfview.PDFFillPaintCmd@43825bb8
+06-14 12:54:15.632: INFO/awtPanDroFid(1127): executing command PDFPushCmd: com.sun.pdfview.PDFPushCmd@43826138
+06-14 12:54:15.692: INFO/awtPanDroFid(1127): executing command PDFXformCmd: PDFXformCommand: 
+06-14 12:54:15.692: INFO/awtPanDroFid(1127): androwt.geom.AffineTransform[[8.333330154418945, 0.0, 0.0], [0.0, 8.333330154418945, 0.0]]
+06-14 12:54:15.772: INFO/awtPanDroFid(1127): executing command PDFShapeCmd: ShapeCommand at: 0.20387963950634003, 831.2000122070313
+06-14 12:54:15.772: INFO/awtPanDroFid(1127): Size: 6.907922267913818 x 7.94403076171875
+06-14 12:54:15.772: INFO/awtPanDroFid(1127): Mode: FILL 
+06-14 12:54:16.223: INFO/awtPanDroFid(1127): executing command PDFShapeCmd: ShapeCommand at: 0.0, 0.0
+06-14 12:54:16.223: INFO/awtPanDroFid(1127): Size: 0.0 x 0.0
+06-14 12:54:16.223: INFO/awtPanDroFid(1127): Mode: FILL 
+06-14 12:54:16.292: INFO/awtPanDroFid(1127): executing command PDFPopCmd: com.sun.pdfview.PDFPopCmd@4384e028
+06-14 12:54:16.322: INFO/awtPanDroFid(1127): executing command PDFPopCmd: com.sun.pdfview.PDFPopCmd@4384e440
+
+
+06-14 13:02:36.272: INFO/APV.PDFRenderer(1171): executing command PDFPushCmd: com.sun.pdfview.PDFPushCmd@435ae798
+06-14 13:02:36.363: INFO/APV.PDFRenderer(1171): executing command PDFXformCmd: PDFXformCommand: 
+06-14 13:02:36.363: INFO/APV.PDFRenderer(1171): Matrix{[0.12, 0.0, 0.0][0.0, 0.12, 0.0][0.0, 0.0, 0.0]}
+06-14 13:02:36.372: INFO/APV.PDFRenderer(1171): executing command PDFPushCmd: com.sun.pdfview.PDFPushCmd@435b6fb0
+06-14 13:02:36.384: INFO/APV.PDFRenderer(1171): executing command PDFXformCmd: PDFXformCommand: 
+06-14 13:02:36.384: INFO/APV.PDFRenderer(1171): Matrix{[8.33333, 0.0, 0.0][0.0, 8.33333, 0.0][0.0, 0.0, 0.0]}
+06-14 13:02:36.392: INFO/APV.PDFRenderer(1171): executing command PDFShapeCmd: ShapeCommand at: 0.0, 0.0
+06-14 13:02:36.392: INFO/APV.PDFRenderer(1171): Size: 0.0 x 0.0
+06-14 13:02:36.392: INFO/APV.PDFRenderer(1171): Mode: FILL 
+06-14 13:02:36.463: INFO/APV.PDFRenderer(1171): executing command PDFShapeCmd: ShapeCommand at: 0.0, 0.0
+06-14 13:02:36.463: INFO/APV.PDFRenderer(1171): Size: 0.0 x 0.0
+06-14 13:02:36.463: INFO/APV.PDFRenderer(1171): Mode: FILL 
+06-14 13:02:36.483: INFO/APV.PDFRenderer(1171): executing command PDFPopCmd: com.sun.pdfview.PDFPopCmd@435db1f8
+06-14 13:02:36.512: INFO/APV.PDFRenderer(1171): executing command PDFPopCmd: com.sun.pdfview.PDFPopCmd@435db610

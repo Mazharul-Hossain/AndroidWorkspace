@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#CCCC99">
+    
+     
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+     
+        
+        <TextView
+        android:id="@+id/input_data_name_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+    	<EditText
+        android:id="@+id/input_data_name_etext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+    
+    </LinearLayout>
+    
+    
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+     
+        <TextView
+    	    android:id="@+id/input_data_budget_label"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content" 
+    	    android:text="Budget"
+    	    android:textAppearance="?android:attr/textAppearanceLarge" />
+     
+    	<EditText
+    	    android:id="@+id/input_data_budget_etext"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:layout_weight="1" />
+    </LinearLayout>
+    
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+     
+        <TextView
+    	    android:id="@+id/input_data_actual_label"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content" 
+    	    android:text="Actual"
+    	    android:textAppearance="?android:attr/textAppearanceLarge" />
+     
+    	<EditText
+    	    android:id="@+id/input_data_act_etext"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:layout_weight="1" />
+    </LinearLayout>
+    
+	 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+     
+     <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="ADD and Save this row"
+          android:layout_weight="0.5"
+          android:id="@+id/add_and_save"/>
+     
+     <Button
+          android:id="@+id/cancel_btn"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+          android:text=" Cancel "/>
+    </LinearLayout>
+
+    
+ 
+    
+</LinearLayout>

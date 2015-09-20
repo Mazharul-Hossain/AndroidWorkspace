@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_thanks_layout">10dp</dimen>
+    <dimen name="before_campaign_txt1_dim">22dp</dimen>
+    <dimen name="before_campaign_txt2_dim">20dp</dimen>
+    <dimen name="before_campaign_btn2_dim">8dp</dimen>
+    <dimen name="before_campaign_btn1_dim">5dp</dimen>
+    <dimen name="before_campaign_txt3_dim">15dp</dimen>
+    <dimen name="thanks_layout_text1">20sp</dimen>
+    <dimen name="campaign_textview_sz">25sp</dimen>
+    <dimen name="after_compaign_btn_str_sze">20sp</dimen>
+</resources>

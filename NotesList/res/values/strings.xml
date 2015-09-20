@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License..
+-->
+
+<resources>
+
+    <string name="app_name" translatable="false">DrEdit</string>
+    <string name="live_folder_name" translatable="false">Notes</string>
+    <string name="title_edit_title" translatable="false">Note title:</string>
+    <string name="title_create" translatable="false">New note</string>
+    <string name="title_edit" translatable="false">Edit: %1$s</string>
+    <string name="title_notes_list" translatable="false">Notes</string>
+    <string name="menu_add" translatable="false">New note</string>
+    <string name="menu_save" translatable="false">Save</string>
+    <string name="menu_delete" translatable="false">Delete</string>
+    <string name="menu_open" translatable="false">Open</string>
+    <string name="menu_revert" translatable="false">Revert changes</string>
+    <string name="menu_copy" translatable="false">Copy</string>
+    <string name="menu_paste" translatable="false">Paste</string>
+    <string name="button_ok" translatable="false">OK</string>
+    <string name="text_title" translatable="false">Title:</string>
+    <string name="resolve_edit" translatable="false">Edit note</string>
+    <string name="resolve_title" translatable="false">Edit title</string>
+    <string name="error_title" translatable="false">Error</string>
+    <string name="error_message" translatable="false">Error loading note</string>
+    <string name="nothing_to_save" translatable="false">There is nothing to save</string>
+    <string name="choose_account_title" translatable="false">Select an account</string>
+    <string name="menu_account" translatable="false">Account</string>
+    <string name="title_preferences" translatable="false">Preferences</string>
+    <string name="selected_account" translatable="false">Selected account</string>
+    <string name="title_sync_frequency" translatable="false">Sync frequency</string>
+    <string name="sync_frequency_default_value" translatable="false">900</string>
+    <string name="menu_preferences" translatable="false">Preferences</string>
+    <string name="summary_preferences" translatable="false">Edit preferences</string>
+
+</resources>

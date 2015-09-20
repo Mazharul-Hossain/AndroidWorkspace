@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content">
+        
+        <LinearLayout 
+            
+            android:id="@+id/linearLayout1" 
+            android:layout_width="match_parent" 
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <TextView
+        android:id="@+id/fname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Patient Name"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+    <EditText
+        android:id="@+id/ename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:singleLine="true">
+
+
+        <requestFocus />
+    </EditText>
+
+
+    <TextView
+        android:id="@+id/pat_proff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profession"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+    <EditText
+        android:id="@+id/eproof"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:singleLine="true"/>
+    
+    <TextView
+        android:id="@+id/runame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+         android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+    <EditText
+        android:id="@+id/reuname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+         android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+
+
+    <TextView
+        android:id="@+id/rpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+         android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+    <EditText
+        android:id="@+id/repass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword" 
+         android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+
+
+    <TextView
+        android:id="@+id/again_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retype password"
+         android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+    <EditText
+        android:id="@+id/ag_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword" 
+         android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+
+    
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+         <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit" 
+         android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel" 
+        android:layout_toRightOf="@id/submit"/>
+    
+    </RelativeLayout>
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <TextView
+        android:id="@+id/reg_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+</LinearLayout>
+   </ScrollView>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical" >
+
+	<TextView
+		android:id="@+id/TextViewTopTitle"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical|center_horizontal"
+		android:gravity="top|center"
+		android:paddingTop="5sp"
+		android:text="@string/str_scr_first_logo"
+		android:textColor="#FA9EAF"
+		android:textSize="25sp" >
+	</TextView>
+
+	<TableLayout
+		android:id="@+id/TableLayout01"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:stretchColumns="*" >
+
+		<TableRow
+			android:id="@+id/TableRow01"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_vertical|center_horizontal"
+			android:paddingBottom="10sp"
+			android:paddingTop="15sp" >
+
+			<ImageView
+				android:id="@+id/ImageView2_Left"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical|center_horizontal"
+				android:contentDescription="@string/str_scrren_first_img"
+				android:src="@drawable/logo_for_starting_1" >
+			</ImageView>
+
+			<ImageView
+				android:id="@+id/ImageView2_Right"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical|center_horizontal"
+				android:contentDescription="@string/str_scrren_sec_img"
+				android:src="@drawable/logo_for_starting_2" >
+			</ImageView>
+		</TableRow>
+
+		<TableRow
+			android:id="@+id/TableRow02"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_vertical|center_horizontal"
+			android:paddingTop="30sp" >
+
+			<ImageView
+				android:id="@+id/ImageView3_Left"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical|center_horizontal"
+				android:contentDescription="@string/str_scrren_third_img"
+				android:src="@drawable/logo_starting_3" >
+			</ImageView>
+
+			<ImageView
+				android:id="@+id/ImageView3_Right"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical|center_horizontal"
+				android:contentDescription="@string/str_scrren_fourth_img"
+				android:src="@drawable/logo_for_starting_4" >
+			</ImageView>
+		</TableRow>
+	</TableLayout>
+
+	<TextView
+		android:id="@+id/starting_lo_welcome"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical|center_horizontal"
+		android:gravity="top|center"
+		android:paddingLeft="10dip"
+		android:paddingTop="10dip"
+		android:text="@string/str_scr_bot_logo"
+		android:textColor="#AEFEA0"
+		android:textSize="25sp" >
+	</TextView>
+
+	<TextView
+		android:id="@+id/TextViewBottomTitle"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="top|right"
+		android:paddingBottom="10dip"
+		android:paddingRight="10dip"
+		android:paddingTop="5dip"
+		android:text="@string/str_scr_bottom_logo"
+		android:textColor="#AEFEFE"
+		android:textSize="30sp" >
+	</TextView>
+
+	<TextView
+		android:id="@+id/TextViewBottomVersion"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_gravity="center_vertical|center_horizontal"
+		android:background="#1a1a48"
+		android:gravity="center"
+		android:lineSpacingExtra="3pt"
+		android:text="@string/app_version_info"
+		android:textColor="#f0f0f0"
+		android:textSize="5pt" >
+	</TextView>
+
+</LinearLayout>

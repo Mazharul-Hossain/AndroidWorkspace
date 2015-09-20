@@ -1,0 +1,12 @@
+0.1.2:
+------
+support rgb-images 
+
+0.1.1:
+------
+support rgb-collor and fill
+
+0.1.0:
+------
+first release
+

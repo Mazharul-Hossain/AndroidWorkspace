@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/etpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/etpasscon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etpass"
+          android:hint="Conform password"
+              android:ems="10"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/etto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etpasscon"
+        android:ems="10" 
+        android:hint="Receiver email"/>
+
+    <EditText
+        android:id="@+id/etsender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etto"
+        android:hint="Sender gmail id"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/etspass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etsender"
+        android:hint="Gmail password"
+        android:ems="10" />
+    
+        <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/etspass"
+    
+             android:text="Submit" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnsubmit"
+            android:layout_marginTop="61dp"
+            android:layout_marginLeft="20dp"
+            android:text="Warning :If sender gmail id and password is wrong,then there will not send any email."
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+</RelativeLayout>

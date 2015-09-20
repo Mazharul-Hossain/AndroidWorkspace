@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/TableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="25dp" >
+
+            <Button
+                android:id="@+id/backward_view_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="listener"
+                android:text="@string/back" />
+
+            <Button
+                android:id="@+id/forward_view_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="listener"
+                android:text="@string/next" />
+
+            <Button
+                android:id="@+id/reload_view_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="listener"
+                android:text="@string/back" />
+
+            <Button
+                android:id="@+id/home_view_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="listener"
+                android:text="@string/next" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/search"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_vertical"
+                android:layout_weight="1"
+                android:inputType="none" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" >
+
+            <Spinner
+                android:id="@+id/searchItem"
+                android:layout_width="144dp"
+                android:layout_height="50dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/searchButton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/gloss_button1"
+                android:text="@string/search" />
+        </TableRow>
+
+        <TextView
+            android:id="@+id/search_error_textView"
+            style="@style/default_style.red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search_error" />
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/prev_page_textView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/prev_page" />
+
+            <TextView
+                android:id="@+id/next_page_textView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/next_page" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

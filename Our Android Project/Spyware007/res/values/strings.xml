@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, asd!</string>
+    <string name="app_name">tab</string>
+    <string name="title_tab">Applications</string>
+     <string name="starting_scrren">Version 1.00\nCopyright @2012 Chellenge Tracker Co.\nALL RIGHTS RESERVED</string>
+    
+</resources>

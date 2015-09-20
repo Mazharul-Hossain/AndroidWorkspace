@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.TermProject.EbookReader"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="10" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+
+    <application
+        android:name=".store.MyAppMyState"
+        android:icon="@drawable/main_icon_for_project"
+        android:label="@string/application_name" >
+        <activity
+            android:name="Starting_Screen"
+            android:label="@string/application_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="option_selectore" >
+        </activity>
+        <activity android:name="Screen_for_developer" >
+        </activity>
+        <activity android:name="Screen_for_download" >
+        </activity>
+        <activity android:name="Screen_for_help" >
+        </activity>
+        <activity android:name="Screen_for_read_book" >
+        </activity>
+        <activity android:name="Screen_SD_card" >
+        </activity>
+        <activity android:name="Screen_for_last_read_book" >
+        </activity>
+        <activity android:name="Tag_tab_activity" >
+        </activity>
+        <activity android:name="Collection_tab_activity" >
+        </activity>
+        <activity android:name="ArrayAdapterForTabViewBookTab" >
+        </activity>
+        <activity android:name="Author_Tab_Activity" >
+        </activity>
+        <activity android:name="Book_Tab_Activity" >
+        </activity>
+        <activity android:name="Screen_for_list_tab" >
+        </activity>
+        <activity android:name="MyArrayAdapter" >
+        </activity>
+        <activity android:name="screen_for_self_view" >
+        </activity>
+        <activity android:name=".store.List_Avtivity_Store" />
+        <activity android:name=".store.Login" />
+        <activity android:name=".store.Register" />
+        <activity android:name=".store.profileRecovery" />
+    </application>
+
+</manifest>

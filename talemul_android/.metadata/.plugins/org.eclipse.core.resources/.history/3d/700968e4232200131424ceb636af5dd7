@@ -1,0 +1,5 @@
+package bd.org.basis.library;
+
+public class Book {
+
+}

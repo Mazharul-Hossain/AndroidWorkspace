@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#257D87"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/before_campaign_tV1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/before_campaign_text1"
+        android:textColor="#E6E0D2"
+        android:textSize="@dimen/before_campaign_txt1_dim" />
+
+    <TextView
+        android:id="@+id/before_campaign_tV2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/before_campaign_timer"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/before_campaign_tV1"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="0.75"
+        android:gravity="center"
+        android:text="@string/before_campaign_text2"
+        android:textColor="#E6E0D2"
+        android:textSize="@dimen/before_campaign_txt2_dim" />
+
+    <TextView
+        android:id="@+id/before_campaign_timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/before_campaign_tV3"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/before_campaign_time_text"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/before_campaign_txt1_dim" />
+
+    <TextView
+        android:id="@+id/before_campaign_tV3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/before_campaign_tV4"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="@string/before_campaign_desc_text"
+        android:textColor="#ED1847"
+        android:textSize="@dimen/before_campaign_txt2_dim" />
+
+    <TextView
+        android:id="@+id/before_campaign_tV4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/before_campaign_btn1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="to go "
+        android:textColor="#E6E0D2"
+        android:textSize="@dimen/before_campaign_txt3_dim" />
+
+    <Button
+        android:id="@+id/before_campaign_btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/before_campaign_btn2"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="#BF9A54"
+        android:paddingLeft="@dimen/before_campaign_btn1_dim"
+        android:paddingRight="@dimen/before_campaign_btn1_dim"
+        android:text="@string/before_campaign_button1"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/before_campaign_btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView1"
+        android:layout_alignLeft="@+id/before_campaign_btn1"
+        android:layout_alignRight="@+id/before_campaign_btn1"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:background="#BF9A54"
+        android:gravity="center"
+        android:paddingLeft="@dimen/before_campaign_btn2_dim"
+        android:paddingRight="@dimen/before_campaign_btn2_dim"
+        android:text="@string/before_campaign_button2"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_weight="4" />
+
+</RelativeLayout>

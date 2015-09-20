@@ -1,0 +1,12 @@
+package bd.org.basis.library;
+
+public class DBAdapter {
+	
+	
+	public DBAdapter()
+	{
+		
+		
+	}
+
+}

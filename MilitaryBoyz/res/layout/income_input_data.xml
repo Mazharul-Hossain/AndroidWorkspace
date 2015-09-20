@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen" >
+
+    <TextView
+        android:id="@+id/income_input_data_MISC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Misc : "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/back_to_main_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="46dp"
+        android:text="Back To Main Menu" />
+
+    <TextView
+        android:id="@+id/incme_inpt_dta_tk_sl_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="77dp"
+        android:text="Ticket Sales"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

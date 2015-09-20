@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#CCCC99">
+    
+    
+    <ImageView
+        android:src="@android:drawable/divider_horizontal_dim_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+     
+    	<EditText
+        android:id="@+id/choose_pat_name_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/choose_pat_name" />
+     
+    	<EditText
+    	    android:id="@+id/choose_pat_proof_edit"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:layout_weight="1"
+    	    android:hint="@string/choose_pat_proff" />
+    
+    </LinearLayout>
+    
+     
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+     
+     <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Add Patient"
+          android:layout_weight="1"
+          android:id="@+id/btn_add_pat"/>
+     <Button
+          android:id="@+id/btn_cancel_add_pat"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+        android:layout_weight="1"
+          android:text=" Cancel"/>
+    </LinearLayout>
+    
+    
+    
+</LinearLayout>

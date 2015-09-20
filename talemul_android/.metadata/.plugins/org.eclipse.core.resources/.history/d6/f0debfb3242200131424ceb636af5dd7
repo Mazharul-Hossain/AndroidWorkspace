@@ -1,0 +1,11 @@
+package bd.org.basis.library;
+
+public class Book {
+	
+	private String title;
+	private String author ;
+	private String category;
+	private String iSBN;
+	private String price;
+
+}

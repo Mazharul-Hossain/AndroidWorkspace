@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">" Patient Drug Tracker"</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="choose_pat_name"> Name Of Patient</string>
+    <string name="choose_pat_proff">Profeesion Of Patient</string>
+	 
+    <string name="take_med__1st_text">Reason for \n take</string>
+    <string name="med_diag">This is the time \n to take your medicine</string>
+    <string name="login_str">Login</string>
+</resources>

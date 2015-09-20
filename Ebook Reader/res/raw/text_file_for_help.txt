@@ -1,0 +1,35 @@
+EBook Readers Instruction
+
+This EBook Reader has an excellent , neat and clean user interface, complete with rich features and useful controls for you to read ebooks comfortably on your mobile devices.
+
+It's highly customizable to suit your preferences. Other than tapping the one-touch day/night mode, you can fine-tune the screen brightness to suit your eyes by sliding your finger 
+along the left edge of the screen. In visual options, you can set font type, size and color, page flip animation, and save your settings as a theme. In control options, you can change
+key press and multi-touch gestures to your liking too.
+
+Other features include bookmark, highlight, annotation, dictionary, share, online backup and restore via Dropbox, sync reading positions between phones and tablets.
+
+Beside reading books saved in your Android, you can also search and get thousands of ebooks for free with this app which supports online ebook libraries. The very basic rules for 
+using this software is as follow:
+
+        1. This software is made to ensure the minimization of piracy . So you can not use a file that is irated .
+        2. Please follow all the rules that is provided when you are given a file .
+        3. Do not try to send a copy of pirated pdf ,music , video  
+ 
+Hope you will enjoy this software . If you face a problem in using this software , then please feel free to remember a while at the following email address :
+	interested_to_programming@yahoo.com            
+
+<TBD>
+
+SUPPORT INFORMATION
+
+"Been There, Done That!" was developed by Sultan Ahmed Sagor. 
+
+Phone: 01920888973
+Email: sultan_ahmed_buet@yahoo.com	
+Website: www.application.com 
+Address: D-4,F-17,Noorjahan Road,
+Mohammadpur Housing Estate , Dhaka-1207 
+
+Version 1.00
+Copyright @2012 Chellenge Tracker Co.
+ALL RIGHTS RESERVED

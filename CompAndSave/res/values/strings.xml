@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CAS Giftbox</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="thanks_layout_btn1_msg">Go to Campaign page</string>
+    <string name="thanks_layout_btn2_msg">Edit gift choices</string>
+    <string name="thanks_layout_btn3_msg">Exit</string>
+    <string name="before_campaign_text1">Thank You For Choosing\nYour Favourite Gife Items(s)!</string>
+    <string name="before_campaign_text2">You will be reminded to enter the giveaway when those items are available.Check the campaign page for latest news and updates.</string>
+    <string name="before_campaign_button1">Go to Campaign page</string>
+    <string name="before_campaign_button2">Edit gift choices</string>
+    <string name="before_campaign_time_text">21    12     2     0</string>
+    <string name="before_campaign_desc_text">days  hours  mins  sec</string>
+    <string name="choose_option_txt1">"Choose your favourite gifts to get a remainder to shop on that day "</string>
+    <string name="thank_layout_textView1">"Thank you For Choosing Your Favourite Gifts"</string>
+    
+    <string name="thank_layout_textView2">You will be reminded to enter the giveaway when these items are available.Check the CompAndSave Giveaway Page for the latest news and updates.</string>
+    <string name="campaign_string_text1">"Order ink today to win "</string>
+    <string name="after_complaign_text1">Thank you for participating\n in our holiday giveaway!</string>
+    <string name="after_compaign_button_str">Go to CompAndSave.Com</string>
+    <string name="fter_campaign_txt2">"Find your complimentary\n cupon code below to get\n 10% off on your ink order\n until the end of this month "</string>
+</resources>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:layout_weight="1" >
+        
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:text="Reason For Take"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:text="" >
+ 
+        </AutoCompleteTextView>
+	
+        </LinearLayout>
+        
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"  
+            android:layout_weight="1">
+        
+        <TextView
+            android:id="@+id/take_med_interval1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Interval"
+            android:layout_weight="0.1"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+         <TextView
+            android:id="@+id/take_med_interval2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Every day"
+            android:layout_weight="0.9"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"  
+            android:layout_weight="1">
+        
+        <TextView
+            android:id="@+id/take_medicine_timeschedule_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05"
+            android:text="Time Schedule"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+			
+        <TextView
+            android:id="@+id/take_medicine_timeschedule_text_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.95"
+            android:text="2 AM , 4 PM"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        
+	
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:layout_weight="1" >
+        
+        <TextView
+            android:id="@+id/take_med_start_day_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Day"
+            android:layout_weight="0.1"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+       <TextView
+            android:id="@+id/take_med_start_day_text_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:text="15/12/2013"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+           
+	
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"  
+            android:layout_weight="1">
+        
+        <TextView
+            android:id="@+id/take_medicine_dur_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Duration"
+            android:layout_weight="0.1"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+       <TextView
+            android:id="@+id/take_medicine_dur_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3 Weeks"
+            android:layout_weight="0.9"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"  
+            android:layout_weight="1">
+        
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doctor     "
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:text="" >
+ 
+        </AutoCompleteTextView>
+	
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:gravity="center" 
+            android:layout_weight="4">
+        
+            <Button
+            android:id="@+id/take_med_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Take This Medicine" />
+	
+        </LinearLayout>
+        
+    </LinearLayout>
+     

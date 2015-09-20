@@ -1,0 +1,24 @@
+package bd.org.basis.library;
+
+public class Book {
+	
+	private String title;
+	private String author ;
+	private String category;
+	private String ISBN;
+	private double price;
+	
+	
+	public String toString()
+	{
+		
+	return "["+title+"  "+author+"  "+category+"  "+ISBN+"  "+price1+ "  ]";
+	}
+
+
+}
+
+
+
+
+

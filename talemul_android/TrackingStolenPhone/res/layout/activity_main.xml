@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" 
+        android:text=""
+        
+        tools:context=".MainActivity" />
+
+    <TextView
+        android:id="@+id/loc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/button1"
+        android:layout_below="@+id/distance"
+        android:layout_marginTop="79dp"
+        android:text="" />
+
+   
+
+    <EditText
+        android:id="@+id/etloginpass"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Enter pasword"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
+    
+    
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="This project is created by Talemul"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etloginpass"
+        android:layout_centerHorizontal="true"
+        android:text="login" />
+
+</RelativeLayout>
+    

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical" >
+
+	<Button
+		android:id="@+id/authorize"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Authorization" />
+
+	<EditText
+		android:id="@+id/message"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Test writing on the wall" />
+
+	<Button
+		android:id="@+id/post"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Submit an Entry on the wall" />
+
+	<Button
+		android:id="@+id/logout"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="exit" />
+
+</LinearLayout>

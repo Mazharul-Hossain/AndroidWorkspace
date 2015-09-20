@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Firstandroid</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="ref">this is reference </string>
+    <string name="add">Your total is Zero</string>
+    <string name="Add1">Add one</string>
+    <string name="Subtract1">Subtract One</string>
+    <string name="signin">SignIn</string>
+    <string name="cancel">Cancel</string>
+   
+
+</resources>

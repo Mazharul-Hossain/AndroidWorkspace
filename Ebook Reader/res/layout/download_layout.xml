@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#FFFFFF">
+    
+    <RelativeLayout
+    android:id="@+id/relativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight = "0.0" 
+    android:background="@drawable/wood_bck">
+    
+    	<ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/download_logo_top_left"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" 
+        android:src="@drawable/home_icon">
+        </ImageView>
+        
+        <TextView 
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_alignParentTop="true" 
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="SD CARD"
+        android:textColor="#FFFFFF"
+        android:textSize="30dip">
+        </TextView>
+        
+        <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" 
+        android:id="@+id/download_logo_top_right"
+        android:layout_alignParentRight="true" 
+        android:src="@drawable/store">
+        </ImageView>
+    
+    </RelativeLayout>
+    
+      <WebView
+      android:layout_width="match_parent"
+      android:layout_weight = "1.0"
+      android:layout_height="match_parent"
+      android:id="@+id/mainwebview">
+      </WebView>
+    
+      
+      <ImageView
+      android:id="@+id/imageView3"
+      android:layout_height="wrap_content"
+      android:layout_width="match_parent"
+      android:layout_weight = "0.0"
+      android:scaleType="fitEnd"
+      android:background="@drawable/wood_bck">
+      </ImageView>  
+</LinearLayout>

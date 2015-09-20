@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#FFFFFF">
+    
+    <RelativeLayout
+    android:id="@+id/relativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:layout_weight="0.0"
+    android:background="#B2C2B9">
+    
+    	  
+        <TextView 
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_alignParentTop="true" 
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Choose Patient"
+        android:textColor="#FFFFFF"
+        android:textSize="30dip">
+        </TextView>
+     
+    </RelativeLayout>
+     
+    
+      <ListView
+      android:id="@+id/listView_choose_patient"
+      android:layout_height="wrap_content"
+      android:layout_width="match_parent"
+      android:layout_weight="1.0">
+      </ListView>
+      
+      <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="#D9224E"
+        android:padding="5dp" >
+
+        <Button
+            android:id="@+id/add_patient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:background="#D9224E"
+            android:gravity="center"
+            android:onClick="onButtonClicked"
+            android:text="Add New Patient" 
+            android:textColor="@color/txt_color"
+            android:shadowColor="#000"
+        	android:shadowDx="1.0"
+        	android:shadowDy="1.0"
+        	android:shadowRadius="2.0"
+            />
+
+    </RelativeLayout>  
+</LinearLayout>

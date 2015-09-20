@@ -1,0 +1,19 @@
+Graphics2D         -> Canvas
+ .transform()          .concat()
+
+AffineTransform    -> Matrix
+ .concatenate()        .preConcat
+ .getScaleX()          .getValues(values);scaleX=values[Matrix.MSCALE_X];
+
+ 
+Shape              -> Path
+ 
+Image              -> Bitmap
+ .flush()              .recycle()
+
+
+GeneralPath        -> Path
+ .setWindingRule()     .setFillType()
+ .closePath()          .close()
+ .curveTo()            .cubicTo()
+ .getCurrentPoint()    - fehlt -

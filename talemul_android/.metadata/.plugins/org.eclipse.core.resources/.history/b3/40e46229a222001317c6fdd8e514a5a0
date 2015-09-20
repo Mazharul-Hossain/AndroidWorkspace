@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/etVal1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:ems="10" >
+
+    
+    </EditText>
+
+    <EditText
+        android:id="@+id/etVal2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    
+        android:layout_below="@+id/etVal1"
+     
+        android:ems="10" />
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+         android:layout_below="@+id/etVal2" 
+        >
+ 
+
+     <Button
+         android:id="@+id/button2"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/etval2"
+         android:layout_weight="1"
+         android:text="GET" />
+
+     <Button
+         android:id="@+id/btnSet"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+    
+         android:layout_below="@+id/etval2"
+        
+         android:layout_weight="1"
+         android:text="Set" />
+
+        </LinearLayout>
+</RelativeLayout>

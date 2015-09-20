@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, GridViewExampleActivity!</string>
+    <string name="app_name">GridViewExample</string>
+    <string name="dates_reminded">Choose your favoirite gift(s) and dates to be reminded</string>
+</resources>

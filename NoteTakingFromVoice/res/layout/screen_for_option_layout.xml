@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#EFECE5">
+    
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.0"
+        android:background="@drawable/ash_bck"
+        android:contentDescription="@string/opt_scr_1st_img" >
+       
+        
+        
+        <TextView 
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content" 
+        android:id="@+id/read_screen_logo_top_center" 
+        android:gravity="center" 
+         android:layout_alignParentTop="true" 
+         android:textColor="#FFFFFF" 
+         android:textSize="30sp"
+         android:text="@string/opt_scr_1st_text"
+         android:layout_centerInParent="true">
+        </TextView>
+        
+        
+   
+    </RelativeLayout>
+    
+    	<TableLayout 
+    	android:layout_width="fill_parent" 
+    	android:id="@+id/tableLayout1"
+    	android:layout_height="fill_parent"
+    	android:layout_weight="1">
+    
+        	<TableRow
+        	    android:id="@+id/tableRow1"
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="fill_parent"
+        	    android:layout_weight="0.5"
+        	    android:contentDescription="@string/opt_scr_2nd_img" >
+
+        		    <ImageView
+        		        android:id="@+id/option_scr_note_taker"
+        		        android:layout_width="wrap_content"
+        		        android:layout_height="wrap_content"
+        		        android:layout_gravity="center_vertical|center_horizontal"
+        		        android:layout_weight="1"
+        		        android:contentDescription="@string/opt_scr_1st_img"
+        		        android:src="@drawable/ic_launcher" >
+
+                   </ImageView>
+        		
+	               <ImageView
+	                   android:id="@+id/option_scr_Take_note"
+	                   android:layout_width="wrap_content"
+	                   android:layout_height="wrap_content"
+	                   android:layout_gravity="center_vertical|center_horizontal"
+	                   android:layout_weight="1"
+	                   android:contentDescription="@string/opt_scr_2nd_img"
+	                   android:src="@drawable/notes" >
+
+	                </ImageView>
+	            
+            
+        	</TableRow>
+             	
+        	<TableRow 
+        	android:id="@+id/tableRow2" 
+        	android:layout_weight="0.5"
+        	android:layout_width="fill_parent" 
+        	android:layout_height="fill_parent">
+        	
+        	 <ImageView
+        	     android:id="@+id/option_scr_browser"
+        	     android:layout_width="wrap_content"
+        	     android:layout_height="wrap_content"
+        	     android:layout_gravity="center_vertical|center_horizontal"
+        	     android:layout_weight="1"
+        	     android:contentDescription="@string/opt_scr_3rd_img"
+        	     android:src="@drawable/service_manager" >
+
+              </ImageView>
+            
+            <ImageView
+                android:id="@+id/option_scr_help"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_weight="1"
+                android:contentDescription="@string/opt_scr_4th_img"
+                android:src="@drawable/help" >
+
+            </ImageView>
+        	
+        	</TableRow>
+
+        	
+
+        	</TableLayout>
+        
+    	  <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:layout_weight="0.0" >
+       	
+    	       <ImageView
+    	           android:id="@+id/imageView1"
+    	           android:layout_width="wrap_content"
+    	           android:layout_height="wrap_content"
+    	           android:contentDescription="@string/opt_scr_4th_img"
+    	           android:scaleType="fitEnd"
+    	           android:src="@drawable/ash_bck" >
+
+		        </ImageView>
+        	
+        	</LinearLayout> 	
+    	
+</LinearLayout>

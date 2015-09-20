@@ -1,0 +1,176 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+    
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:background="@drawable/ash_bck"  >
+       
+        
+        
+        <TextView 
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content" 
+        android:id="@+id/read_screen_logo_top_center" 
+        android:gravity="center"  
+         android:textColor="#FFFFFF" 
+         android:textSize="30sp"
+         android:text="Option Choose"
+         android:layout_centerInParent="true">
+        </TextView>
+        
+        
+   
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.8" >
+    
+			<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:weightSum="2"
+            android:layout_weight="0.5">
+        
+		    		 <LinearLayout
+		            android:layout_width="match_parent"
+		            android:layout_height="match_parent"
+		            android:orientation="vertical"
+		            android:layout_weight="1" >
+
+	    		    	 <ImageView
+	    		         android:id="@+id/option_excel_image"
+	    		         android:layout_width="match_parent"
+	    		         android:layout_height="wrap_content"
+	    		         android:layout_gravity="center"
+	    		         android:paddingTop="10sp"
+	    		         android:layout_weight="0.9"
+			             android:src="@drawable/excel" />
+
+		         		<TextView
+		         	    android:id="@+id/option_excel_text"
+		         	    android:layout_width="match_parent"
+		         	    android:layout_height="wrap_content"
+		         	    android:layout_weight="0.1"
+		         	    android:layout_gravity="center"
+		         	    android:gravity="center"
+		                android:text="Create New Sheet" 
+						android:textSize="20sp" />
+         
+       			 </LinearLayout>
+
+        		<LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:orientation="vertical"
+	            android:layout_weight="1" >
+
+		         	<ImageView
+		             android:id="@+id/option_data_image"
+		             android:layout_width="match_parent"
+		             android:layout_height="wrap_content"
+    		         android:layout_gravity="center" 
+    		         android:paddingTop="10sp"
+       				 android:scaleType="fitCenter" 
+        		     android:layout_weight="0.9"
+		             android:src="@drawable/insert_data"/>
+			
+	    	       <TextView
+	                android:id="@+id/option_data_text"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:text="Insert Data" 
+	                android:layout_weight="0.1"
+		            android:layout_gravity="center"
+		            android:gravity="center"
+	                android:textAppearance="?android:attr/textAppearanceLarge" />
+         
+       		 </LinearLayout>
+    		 
+        </LinearLayout>
+        
+			<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:weightSum="2"
+            android:layout_weight="0.5">
+        
+		    		 <LinearLayout
+		            android:layout_width="match_parent"
+		            android:layout_height="match_parent"
+		            android:orientation="vertical"
+		            android:layout_weight="1" >
+
+	    		    	 <ImageView
+	    		         android:id="@+id/option_mail_image"
+	    		         android:layout_width="match_parent"
+	    		         android:layout_height="wrap_content"
+	    		         android:layout_gravity="center"
+	    		         android:paddingTop="10sp"
+	    		         android:layout_weight="0.9"
+			             android:src="@drawable/mail_icon" />
+
+		         		<TextView
+		         	    android:id="@+id/option_mail_text"
+		         	    android:layout_width="match_parent"
+		         	    android:layout_height="wrap_content"
+		         	    android:layout_weight="0.1"
+		         	    android:layout_gravity="center"
+		         	    android:gravity="center"
+		                android:text="Create-Email Sheet" 
+						android:textSize="20sp" />
+         
+       			 </LinearLayout>
+
+        		<LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:orientation="vertical"
+	            android:layout_weight="1" >
+
+		         	<ImageView
+		             android:id="@+id/option_help_image"
+		             android:layout_width="match_parent"
+		             android:layout_height="wrap_content"
+    		         android:layout_gravity="center" 
+    		         android:paddingTop="10sp"
+       				 android:scaleType="fitCenter" 
+        		     android:layout_weight="0.9"
+		             android:src="@drawable/help"/>
+			
+	    	       <TextView
+	                android:id="@+id/option_help_text"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:text="Help" 
+	                android:layout_weight="0.1"
+		            android:layout_gravity="center"
+		            android:gravity="center"
+	                android:textAppearance="?android:attr/textAppearanceLarge" />
+         
+       		 </LinearLayout>
+    		 
+        </LinearLayout> 
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="bottom"
+        android:layout_weight="0.1"
+        android:background="@drawable/ash_bck"
+        android:orientation="vertical" >
+
+       
+    </LinearLayout>
+ 	
+</LinearLayout> 

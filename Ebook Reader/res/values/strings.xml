@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="application_name">EBOOK READER </string>
+   
+    <string name="starting_scrren">Version 1.00\nCopyright @2012 Chellenge Tracker Co.\nALL RIGHTS RESERVED</string>
+    
+    
+    <string name="empty_string">  </string>
+    <string name="text_menu_option_Book">Read Book</string>
+    <string name="text_menu_option_Download">Download Book</string>
+    <string name="text_menu_option_Help">Help</string>
+    <string name="text_menu_option_About">About Us</string>
+    
+    <string name="starting__text_read">This is Book Reading Screen</string>
+    
+    
+    
+    <string name="starting__text_downloads">This is Book Download Screen</string>
+    
+    
+    <string name="starting__text_Help">This is Help Screen</string>
+    
+    
+    <string name="starting__text_About">This is About Us Screen</string>
+    
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      android:versionName="1.0.0" package="net.sf.andpdf.pdfviewer" android:versionCode="100">
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:debuggable="false">
+		<supports-screens
+			android:smallScreens="true"
+			android:normalScreens="true"
+			android:largeScreens="true"
+			android:anyDensity="true"
+		/>
+        <activity android:name=".PdfViewerActivity" />
+        <!--
+        <activity android:name=".PdfFastViewerActivity" android:label="PDF Viewer\n(faster)">
+        	<intent-filter>
+        		<action android:name="android.intent.action.VIEW" />
+        		<category android:name="android.intent.category.DEFAULT" />
+        		<data android:mimeType="application/pdf"/>
+			</intent-filter> 
+        </activity>
+        -->
+        <activity android:name=".PdfSlowViewerActivity" android:label="PDF Viewer">
+        	<intent-filter>
+        		<action android:name="android.intent.action.VIEW" />
+        		<category android:name="android.intent.category.DEFAULT" />
+        		<data android:mimeType="application/pdf" />
+			</intent-filter> 
+        </activity>
+        <activity android:name=".PdfFileSelectActivity" android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-sdk android:minSdkVersion="3" android:targetSdkVersion="4"/>
+</manifest> 

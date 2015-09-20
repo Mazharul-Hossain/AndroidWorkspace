@@ -1,0 +1,18 @@
+Are you tired of taking notes in Pages ? 
+Have a fresh air to forget that . 
+
+" Automated Note Taker " is an apps dedicated to those people who loves to use technology for their daily purpose . It helps a man to save note without typing any info , rather by speaking . The note will be saved on google documents .  So it will never be lost . Share your experiences and compete with your friends. 
+
+
+<TBD>
+
+SUPPORT INFORMATION
+
+"Automated Note Taker!" has been developed by Challenge Tracker Co, Inc. 
+Owner: Sultan Ahmed Sagor
+Phone: +8801920888973
+Email: interested_to_programming@yahoo.com
+Website: http://www.facebook.com/sultan.ahmed.cse 
+Address: 1060 West Addison Street, Chicago, IL 60613
+COPYRIGHT ©2009,Challenge Tracker Co., Inc. 
+All rights reserved.
